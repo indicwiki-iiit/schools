@@ -1,0 +1,5 @@
+This directory contains code for generating wikipedia articles on schools in indian languages. Jinja templating engine is being used and its templates are in the "template" directory.  In the "data"  directory, we have the data of schools stored as pickles and excel sheets along with some python scripts. The dirctory titled "pre_jinja" contains codebase of a previous model which has the template infused in the python code and attempts of a model which generates articles by parsing an independent simple template file. 
+
+
+
+

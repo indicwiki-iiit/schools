@@ -1,0 +1,29 @@
++Handle transliteration of abbreviations
++Improve template to 
+	- accomodate School Management
+	- New sentece for Rural/Urban
+	- More categories
++Create lists of lists
+
+
++Requirements for deeptranslit and anuvaad
+	$ source ../schEnv/bin/activate
+	$ pip install keras==2.2.4 tensorflow==1.15 h5py==2.10.0
+	$ pip install transformers==4.0.0rc1 pydload torch==1.5.0 sentencepiece
+
+	$ pip install --upgrade deeptranslit
+	$ pip install --upgrade anuvaad
+	
++ Categories
+	[[వర్గం:పాఠశాల]]
+	[[వర్గం:భారతదేశం పాఠశాల]]
+	[[వర్గం:తెలంగాణ పాఠశాల]]
+	1.pathasalalu
+	2. village lo pathasalalu
+	3. district, block and state pathasalalu
+	4. ZPHS pathalalu
+	5. Identify global categories
+	6. check lists of lists
+	
+	In python, send a list of prefixes (for categories) 
+	

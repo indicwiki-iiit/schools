@@ -1,0 +1,100 @@
+1. Intro
+	+This school is located in {village} village. This village is in {block} block of {district} district. 
+	+This school is located in {village} village. In {block} block under {district} district, this village is situated. 
+	+In {district} district's {block} block's {village} village, this school is located.
+	+This school is located in {district} district's {block} block's {village} village.
+
+2. Code
+	+This school's UNIFIED DISTRICT INFORMATION SYSTEM for EDUCATION ([http://udise.in/ U-DISE]) code is {code}. 
+
+3. Management
+	+Under {management} management, this school runs.
+	+It runs under {management} management.
+
+4. Classes
+	- from 1st
+		+Here students get education till {hi} standard/class.
+		+From {lo} standard/class till {hi} standard/class are taught here. 
+
+5. Medium
+	+In {medium} medium lessons are taught here.
+	+Here, in {medium} medium lessons are taught.
+	+In {medium} medium classes are conducted.
+	+Here, in {medium} medium classes are conducted.
+
+6. Students
+
+	- co-ed
+		- description
+			+This is a co-educational school. 
+		- counts
+			+Here, {bcount} boys and {gcount} girls and a total of {total} students study.
+			+ In this school there are a total of {total} students. Out of which {bcount} boys and {gcout} girls are present.
+			+Out of total {total} students, {bcount} boys and {gcount} girls are studying in this school. 
+
+	- boys
+		- description
+			+This is a boys school.
+			+Here only boys are allowed to enter.
+			+Only boys are allowed to study here.
+		- counts
+			+The number of boys studying here are {sp-bcount}.
+			+Here {bcount} boys are studying.
+			+{bcount} boys are studying here.
+	
+	- girls
+		- description
+			+This is a girls school.
+			+Here only girls are allowed to enter.
+			+Only girls are allowed to study here.
+		- counts
+			+The number of girls studying here are {sp-gcount}.
+			+Here {gcount} girls are studying.
+			+{gcount} girls are studying here.
+		
+7. Teachers
+
+	- One Male
+		+This school has only one teacher. A master/sir is there. 
+	- Only Male
+		+Here {mcount} masters/sirs are there.
+	- One Female
+		+This is a single teacher school. One ma'am is present. 
+	- Only Female
+		+Here {fcount} teachers are there, all of them are ma'am.
+
+	- Both
+		+Here {mcount} masters/sirs and {fcount} ma'ams are there, a total of {total} teachers.
+		+There are a total of {total} teachers here. Out of this {mcount} masters/sirs and {fcount} ma'ams are there. 
+		+Total {total} teachers, out of which {mcount} masters/sirs and {fcount} ma'ams are here. 
+
+8. Source
+	+These details are from the 2011-12 survey conducted by National University of Educational Planning and Administration ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA])
+
+9. Abbrv Line
+	- Pvt.Aided
+		+This is a Private Aided school.
+	- Pvt.Unaided
+		+This is a Private school. 
+	- KGBV
+		+This is a Kasturba Gandhi Balika Vidyalaya (KGBV). 
+	- MPPS
+		+This is a Mandal Parishad Primary School (MPPS). 
+	- MPUPS
+		+This is a Mandal Parishad Upper Primary School (MPUPS). 
+	- ZPPS
+		+This is a Zilla Parishad Primary School (ZPPS). 
+	- ZPHS
+		+This is a Mandal Parishad High School (ZPHS).   
+
+10. Abbrv Title
+	- KGBV
+		+Kasturba Gandhi Balika Vidyalaya (KGBV)
+	- MPPS
+		+Mandal Parishad Primary School (MPPS)
+	- MPUPS
+		+Mandal Parishad Upper Primary School (MPUPS)
+	- ZPPS
+		+Zilla Parishad Primary School (ZPPS)
+	- ZPHS
+		+Mandal Parishad High School (ZPHS)
