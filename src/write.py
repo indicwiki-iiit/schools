@@ -6,6 +6,7 @@ from help import getData, class_nums, numToTelugu
 
 from jinja2 import Environment, FileSystemLoader
 
+# For teluguTitle.j2
 def getSchName(name):
 	data ={}
 	data['enName']=name
@@ -24,8 +25,9 @@ def getGrades(desc):
 
 	return lo, hi
 
+# For teluguText.j2
 def getData(details, title):
-	name =details[4].strip()
+	names = getSchName(details[4].strip())
 	enMgnt =details[6].strip()
 	teMgnt =transtelugu(details[6].strip(), 0)
 
@@ -39,10 +41,11 @@ def getData(details, title):
 	medium = transtelugu(details[7].strip(), 0)
 
 	sType =details[9].lower()
+	bInt, gInt =details[11], details[12]
 	bCount =numToTelugu(details[11])
 	gCount =numToTelugu(details[12])
-	spBCount =numToTelugu(details[11], 0)
-	spGCount =numToTelugu(details[12], 0)
+	endBCount =numToTelugu(details[11], 0)
+	endGCount =numToTelugu(details[12], 0)
 	totalStudents =numToTelugu(details[13])
 
 	fInt =int(details[15])
@@ -53,7 +56,7 @@ def getData(details, title):
 
 	data = {
 		"title": title,
-		"name": name,
+		"enName": names['enName'],
 		"village": village,
 		"district": district,
 		"block": block,
@@ -72,10 +75,9 @@ def getData(details, title):
 		
 		'sType': sType,
 		'totalStudents': totalStudents,
-		'bCount': bCount,
-		'spBCount': spBCount,
-		'gCount': gCount,
-		'spGCount': spGCount,
+		'bInt': bInt, 'gInt': gInt,
+		'bCount': bCount, 'endBCount': endBCount,
+		'gCount': gCount, 'endGCount': endGCount,
 
 		'mInt': mInt,
 		'mCount': mCount,
@@ -91,7 +93,8 @@ def getData(details, title):
 def getWikiText(details, titleTemplate, textTemplate):
 	title =titleTemplate.render(getSchName(details[4].strip()))
 	# print("Title:", details[4].strip(), title)
-	wikiText = textTemplate.render(getData(details, title))
+	data = getData(details, title)
+	wikiText = textTemplate.render(data)
 	print(wikiText, "\n")
 
 	return title, wikiText

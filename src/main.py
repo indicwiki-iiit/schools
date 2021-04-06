@@ -1,6 +1,5 @@
 #coding: utf-8
 
-
 import re
 import string
 import pickle
@@ -9,7 +8,6 @@ from hashlib import sha1
 from write import getWikiText
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
-
 
 
 ## indicwiki's and tewiki's xml headers ##
@@ -88,7 +86,7 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 
 
 ## Change the below global variables ##
-page_id =300000
+page_id =300011
 
 user_id ="57"
 username ="Harshapamidipalli"
@@ -137,19 +135,13 @@ def addPage(title, wikiText, pages):
 
 	return pages
 
-def main():
-	# Load school's templates
-	file_loader = FileSystemLoader('template')
-	env = Environment(loader=file_loader)
-	textTemplate = env.get_template('teluguText.j2')
-	titleTemplate = env.get_template('teluguTitle.j2')
-
-	# Load school's data
-	oneKB =pickle.load(open('./data/oneKB.pkl', 'rb'))
+#This writes articles and then generates an xml page which 
+#can be directly imported in mediawiki (tewiki)
+def xmlGenerator(titleTemplate, textTemplate, oneKB):
 	codes =oneKB['School Code'].tolist()
 	# codes =random.sample(codes, 10)
-	codes = [28162400403, 28204700620, 28210800903, 28203190221, 28142801102, 28140307302, 28212800505, 28144000805, 28173301206, 28161790898]
-
+	# codes = [28162400403, 28204700620, 28210800903, 28203190221, 28142801102, 28140307302, 28212800505, 28144000805, 28173301206, 28161790898]
+	codes = [28210800903]
 	print(len(codes), codes)
 	# Generate XML Page
 	pages = ""
@@ -163,12 +155,66 @@ def main():
 		page_id +=1
 
 	xmlpage = tewiki +pages +'</metadata>'
-	fobj = open("autoXml.xml", "w")
+	fobj = open("autoXml3.xml", "w")
 	fobj.write(xmlpage)
 	fobj.close()
 
 	print("stopped before",page_id)
 
+#This writes articles and then creates a dataframe based on it
+def dataframeGenerator(titleTemplate, textTemplate, oneKB):
+	##################
+	### For Multiple codes ###
+	##################
+	# codes =oneKB['School Code'].tolist()
+	# # codes =random.sample(codes, 10)
+	# # codes = [28162400403, 28204700620, 28210800903, 28203190221, 28142801102, 28140307302, 28212800505, 28144000805, 28173301206, 28161790898]
+	# print(len(codes), codes)
+	
+	# # Dictionary
+	# newPages ={}
+
+	# global page_id
+	# for code in codes:
+	# 	print(code)
+	# 	details =oneKB.loc[oneKB['School Code']==code].values.tolist()[0]
+	# 	title, wikiText=getWikiText(details, titleTemplate, textTemplate)
+	# 	process wikiText (split based on <$> and save to dataframe)
+	# 	page_id +=1
+
+	# print("stopped before",page_id)
+
+	##################
+	### For ONE code ###
+	##################
+	details =oneKB.loc[oneKB['School Code']==28210800903].values.tolist()[0]
+	title, wikiText=getWikiText(details, titleTemplate, textTemplate)
+	labels = ['infobox', 'intro', 'details', 'counts', 'ending', 'references']
+	for part in wikiText.split('<$>'):
+		print("\n")
+		print(part)
+
+def main():
+	# Load school's templates
+	file_loader = FileSystemLoader('template')
+	env = Environment(loader=file_loader)
+	titleTemplate = env.get_template('teluguTitle.j2')
+	dfTextTemplate =env.get_template('teluguDFtext.j2')
+	xmlTextTemplate = env.get_template('teluguXMLtext.j2')
+
+	# Load school's data
+	oneKB =pickle.load(open('./data/oneKB.pkl', 'rb'))
+
+	# Generate xml 
+	# xmlGenerator(tewiki, titleTemplate, xmlTextTemplate, oneKB)
+	
+	# Generate Dataframe
+	dataframeGenerator(titleTemplate, dfTextTemplate, oneKB)
+	# dataframe columns:
+		#                                           1          2         3        4       5            6
+		# pageid, code, title, infobox, location, details, counts, misc, ending, references, order (default 123456)
+
 
 if __name__ == "__main__":
-	main()
+	main() #This writes articles to xmlpages
+	# saveToDF() #This saves articles in a dataframe
