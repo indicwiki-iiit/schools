@@ -30,6 +30,17 @@ def process(phrase):
 			
 	return phr.strip()
 
+
+def handleExceptions(pred, anuTelugu):
+	#Take care of అమ్మాయిలు and అబ్బాయిలు
+	pred =re.sub('అమ్మాయిలు', 'బాలికలు', pred)
+	pred =re.sub('అబ్బాయిలు', 'బాలురు', pred)
+
+	anuTelugu =re.sub('అమ్మాయిలు', 'బాలికలు', anuTelugu)
+	anuTelugu =re.sub('అబ్బాయిలు', 'బాలురు', anuTelugu)
+
+	return pred, anuTelugu
+
 def translate(phrase):
 	telugu = ''
 
@@ -51,12 +62,15 @@ def transtelugu(phrase, sch_name):
 
 	anuTelugu =translate(phrase)
 
-	if sch_name:
-		return anuTelugu
-
 	deep =trans(phrase)[0]
 	pred =deep['pred']
 	prob =float(deep['prob'])
+
+	pred, anuTelugu =handleExceptions(pred, anuTelugu)
+	
+	if sch_name:
+		return anuTelugu
+
 	if prob >= threshold:
 		return pred+' '
 	

@@ -27,3 +27,5 @@
 	
 	In python, send a list of prefixes (for categories) 
 	
++Take care of spCounts [help.py, teluguText.j2]
+	
