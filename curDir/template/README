@@ -1,0 +1,8 @@
+This folder contains all the jinja2 template files !
+
++teluguTitle.js
+	This file generates the title for a given school.
+
++telugu.j2
+	This file contains the tempalte to generate the wikitext of a given school's data.
+

@@ -1,0 +1,155 @@
+/* HOME */
+.homeSpace {
+	margin-top: 20px;
+	justify-items: center;
+
+	width: 60%;
+}
+
+.allCards{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: rgb(0, 123, 255);
+}
+
+.Item{
+	/* flex:1; */
+	width: 200px;
+	margin: .5em;
+	box-sizing: border-box;
+	background-color: white;
+}
+.card{
+	width: 100%;
+}
+.cardHead{
+	text-align: right;
+}
+.cardTitle{
+	padding: 5px;
+}
+
+.Item:hover{
+	transform: scale(1.05);
+	color: rgb(0, 123, 255);
+}
+
+a:link, a:visited {
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+/* OTHER */
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-flow: nowrap column;
+	overflow:hidden;
+}
+
+.header{
+	font: italic bolder;
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	background-color: rgb(0,123,255);
+	border: solid white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.body {
+	flex-grow: 1;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+}
+div {
+	white-space: pre-wrap;
+}
+
+.sideContent {
+	display: flex;
+	/* background:rgb(0,123,255); */
+	/* padding: 5px; */
+	margin: 10px;
+	min-width: 30vw;
+	max-width: 50vw;
+	max-height: 70vh;
+	overflow-x: auto;
+	/* text-align: center; */
+	flex-grow: 1;
+}
+
+.sideContent div{
+	flex: 1;
+	margin-bottom: 5px;
+}
+
+.article{
+	margin: 10px;
+	padding-left: 10px;
+	/* padding: 15px; */
+	/* text-align: justify; */
+	
+	font-size: 150%;
+	overflow-x: auto;
+	max-height: 70vh;
+	max-width: 70vw;
+	flex-grow: 1;
+	/* border: thick dashed red; */
+}
+
+.alert{
+	max-width: 30vw;
+}
+.alertsArea{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* border: thin dashed red; */
+}
+
+.otherHeading{
+	font-size: 130%;
+	color: rgb(0, 123, 255);
+}
+.refHeading{
+	font-size: 130%;
+	color: black;
+}
+
+.pageNums{
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+.keepRight{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 5px;
+}
+
+.footButtons{
+	display: flex;
+	justify-content: space-between;
+
+	padding: 10px 50px 10px 50px;
+}
+
+.editArea{
+	font-size: 120%;
+	min-height: 15vh;
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}

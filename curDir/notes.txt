@@ -1,0 +1,12 @@
++Dataframe
+	'articleParts.pkl' is the name of the dataframe. 
+
+
+
++Requirements for deeptranslit and anuvaad
+	$ source ../schEnv/bin/activate
+	$ pip install keras==2.2.4 tensorflow==1.15 h5py==2.10.0
+	$ pip install transformers==4.0.0rc1 pydload torch==1.5.0 sentencepiece
+
+	$ pip install --upgrade deeptranslit
+	$ pip install --upgrade anuvaad

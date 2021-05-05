@@ -1,83 +1,141 @@
-import React from 'react';
-// import {useForm} from "react-hook-form";
+import React, { useEffect, useState } from 'react';
+import {useForm} from "react-hook-form";
 import { Draggable } from "react-beautiful-dnd";
+// import { ReactTransliterate } from "react-transliterate";
 import { Accordion, Button, Card, Form, useAccordionToggle } from "react-bootstrap";
 
-const CategoryList = ({curSchool, setCurSchool, defaultKey, setDefaultKey}) =>{
+import ModalEdit from './ModalEdit';
 
-	// const {register, handleSubmit} = useForm();
+import '../css/Components.css';
+// import "react-transliterate/dist/index.css";
 
-	const modify = (index, event) => {
-		event.preventDefault();
-		const values = [...curSchool];
-		
-		values[index][1] = event.target.value;
+const CategoryList = ({schoolCats, setSchoolCats, generateArticle}) =>{
+	const {register, handleSubmit} = useForm();
+	const [modalShow, setModalShow] =useState(false);
 	
-		setCurSchool(values);
+	// const toggleModal =(index, bool)=>{
+	// 	let newModal = [...modalShow];
+	// 	newModal[index]=bool;
+	// 	setModalShow(newModal);
+	// }
+
+	useEffect(() => {
+		generateArticle(schoolCats)
+   }, [schoolCats]);
+
+	const modify = (data) => {
+		var values = [...schoolCats];
+		values.map((pair, index) =>{	
+			if(index!==11){
+				values[index][1] = data[pair[0]]
+			}
+		})
+		console.log('@modify updated values:', values)
+
+		setSchoolCats(values);
 	};
 
-	const CustomToggle =({children, eventKey}) =>{
+	const modalUpdate =(i, value) =>{
+		let values = [...schoolCats];
+		values[i][1] =value;
+		console.log("mUpdate:", values[i][1])
+		setSchoolCats(values);
+	}
+
+	const CustomToggle =({children, eventKey, className}) =>{
 		const decoratedOnClick =useAccordionToggle(eventKey, ()=>
 			console.log('decoratedOnClick @', eventKey),
 		);
-
-		setDefaultKey(eventKey);
-
 		return (
 			<Accordion.Toggle as={Card.Header} eventKey={eventKey}
-				onClick={decoratedOnClick}>
+				onClick={decoratedOnClick} className={className}>
 				{children}
 			</Accordion.Toggle>
 		);
 	};
-
+	
 	const Category =({pair, index}) =>{
-		if(['code', 'title'].includes(pair[0])){
-			return (<></>);
-		} else {
-			const curKey=index.toString()+pair[0];
-			return (
-				<Draggable draggableId={pair[0]} index={index}>
-					{provided => (
-						<Card ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
-							<CustomToggle eventKey={pair[0]}>{pair[0]}</CustomToggle>
-							<Accordion.Collapse eventKey={pair[0]}>
-								{/* <Form.Control as="textarea" rows={3}
-									id={curKey}
-									name={curKey}
-									aria-describedby={curKey}
-									
-									placeholder="Feel free to add any relevant details"
-									value={pair[1]}
-									onChange={(event) => modify(index, event)}			
-								/> */}
-								<Form onSubmit={event=>modify(index, event)}>
-									<Form.Control as="textarea" rows={3}
-														name={curKey}
-														aria-describedby={curKey} 
-														defaultValue={pair[1]}
-														placeholder="Feel free to add any relevant details"
-														// onChange={event=>modify(index, event)}
-									/>
-									<div className="KeepRight">
-										<Button size="sm" type="submit">Apply Changes !</Button>
-									</div>
-								</Form>
+		const curKey=(index.toString()+pair[0]).toString();
+		return (
+			<Draggable draggableId={pair[0]} index={index}>
+				{provided => (
+					<Card ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
+						<CustomToggle eventKey={pair[0]} className='otherHeading'>{pair[0]}</CustomToggle>
+						<Accordion.Collapse eventKey={pair[0]}>
 
-							</Accordion.Collapse>
-						</Card>
-					)}
-				</Draggable>
-			);
-		}
+							<Form onSubmit={handleSubmit(modify)}>
+								<Form.Control size="lg" as="textarea" rows={3}
+													index ={index}
+													name={curKey}
+													{...register(pair[0])}
+													aria-describedby={curKey} 
+													defaultValue={pair[1]}
+													placeholder={`Please add some details about the school's ${pair[0]}`}
+													// onChange={e=>update(e, index)}
+
+													style={{fontSize:'140%'}}
+								/>
+								<div className="keepRight">
+									<Button type="submit">Apply Changes !</Button>
+								</div>
+							</Form>
+						</Accordion.Collapse>
+					</Card>
+				)}
+			</Draggable>
+		);
+	};
+
+	const References =({pair, index}) =>{
+		const curKey=(index.toString()+pair[0]).toString();
+		return (
+			<Card>
+				<CustomToggle eventKey={pair[0]} className='refHeading'>{pair[0]}</CustomToggle>
+				<Accordion.Collapse eventKey={pair[0]}>
+					<>
+						<Form>
+							<Form.Control size="lg" as="textarea" rows={3}
+												readOnly
+												index ={index}
+												name={curKey}
+												aria-describedby={curKey} 
+												defaultValue={pair[1]}
+												placeholder={`Please add some details about the school's ${pair[0]}`}
+												// onChange={event=>modify(index, event)}
+							/>
+							<div className="keepRight">
+								<Button onClick={()=>setModalShow(true)}>Edit</Button>
+							</div>
+						</Form>
+
+						<ModalEdit
+							pair ={pair}
+							index={index}
+							show ={modalShow}
+							modalUpdate={modalUpdate}
+							setModalShow ={setModalShow}
+						/>
+					</>
+				</Accordion.Collapse>
+			</Card>
+				
+		);
 	};
 
 	return(
-		<Accordion defaultActiveKey={defaultKey}>
-			{curSchool.map((pair, index) => (
-				<Category pair={pair} index={index} key={`${index}-${pair[0]}`} />
-			))}
-		</Accordion>
+		<div style={{padding:'15px', backgroundColor:'lightgray'}}>
+			<Accordion>
+				{schoolCats.map((pair, index) => (
+					<>
+						{pair[0]!=='References' &&
+						<Category pair={pair} index={index} key={`${index}-${pair[0]}`} />}
+						
+						{pair[0]==='References' &&
+						<References pair={pair} index={index} key={`${index}-${pair[0]}`} /> }
+					</>
+				))}
+			</Accordion>
+		</div>
 	);
 };
 
