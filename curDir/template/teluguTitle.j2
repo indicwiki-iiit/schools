@@ -1,0 +1,20 @@
+{%- macro schTitle(enName, teName) -%}
+	
+	{%- if 'KGBV' in enName -%}
+		{%- set phrase='కస్తూర్బా గాంధీ బాలికా విద్యాలయ (KGBV) ' -%}
+	{%- elif 'MPPS' in enName -%}
+		{%- set phrase='మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ' -%}
+	{%- elif 'MPUPS' in enName -%}
+		{%- set phrase='మండల ప్రజా పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) ' -%}
+	{%- elif 'ZPPS' in enName -%}
+		{%- set phrase='జిల్లా పరిషత్ ప్రాథమిక పాఠశాల (ZPPS) ' -%}
+	{%- elif 'ZPHS' in enName -%}
+		{%- set phrase='జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) ' -%}
+	{%- else -%}
+		{%- set phrase='' -%}
+	{%- endif -%}
+
+	{{phrase}} {{teName}}
+{%- endmacro -%}
+
+{{schTitle(enName, teName)}}

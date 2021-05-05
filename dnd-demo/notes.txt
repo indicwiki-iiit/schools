@@ -1,0 +1,8 @@
+enable telugu typing in place
+
+some icon to show the category is empty or too short (maybe red block)
+update success alert to a success modal
+
+deploy the app ! and link to tewiki home page
+
+think of speech to text
