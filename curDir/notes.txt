@@ -10,3 +10,55 @@
 
 	$ pip install --upgrade deeptranslit
 	$ pip install --upgrade anuvaad
+	
+	Debugging errors:
+	
+	+ JSONDecodeError
+		Check the contents of the file tokenizer_config.json in the .Anuvaad_en-te folder.
+		$ cat ~/.Anuvaad_en-te/tokenizer_config.json
+		
+		If the output of the above command is 'Not Found'
+		Please copy the following text into the respective files and save it.
+		
+		1) config.json
+		
+		{
+		  "_name_or_path": "google/mt5-base",
+		  "architectures": [
+		    "MT5ForConditionalGeneration"
+		  ],
+		  "d_ff": 2048,
+		  "d_kv": 64,
+		  "d_model": 768,
+		  "decoder_start_token_id": 0,
+		  "dropout_rate": 0.1,
+		  "eos_token_id": 1,
+		  "feed_forward_proj": "gated-gelu",
+		  "initializer_factor": 1.0,
+		  "is_encoder_decoder": true,
+		  "layer_norm_epsilon": 1e-06,
+		  "model_type": "mt5",
+		  "num_decoder_layers": 12,
+		  "num_heads": 12,
+		  "num_layers": 12,
+		  "output_past": true,
+		  "pad_token_id": 0,
+		  "relative_attention_num_buckets": 32,
+		  "save_step": 28,
+		  "tie_word_embeddings": false,
+		  "tokenizer_class": "T5Tokenizer",
+		  "vocab_size": 250112
+		}
+		
+		2) special_tokens_map.json
+		
+		{"eos_token": "</s>", "unk_token": "<unk>", "pad_token": "<pad>"}
+		
+		3) tokenizer_config.json
+		
+		{"eos_token": "</s>", "unk_token": "<unk>", "pad_token": "<pad>", "extra_ids": 0, "additional_special_tokens": null, "special_tokens_map_file": "/home/patrick/.cache/torch/transformers/685ac0ca8568ec593a48b61b0a3c272beee9bc194a3c7241d15dcadb5f875e53.f76030f3ec1b96a8199b2593390c610e76ca8028ef3d24680000619ffb646276", "name_or_path": "google/mt5-base"}
+		
+		Hope this helps. Don't forget to activate the virtualenv before using Anuvaad or Deeptranslit
+		
+		
+	
