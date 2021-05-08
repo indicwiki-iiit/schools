@@ -6,6 +6,8 @@ import { Accordion, Button, Card, Form, useAccordionToggle } from "react-bootstr
 
 import ModalEdit from './ModalEdit';
 
+import exclamation from '../data/exclamation.png';
+
 import '../css/Components.css';
 // import "react-transliterate/dist/index.css";
 
@@ -50,11 +52,13 @@ const CategoryList = ({schoolCats, setSchoolCats, generateArticle}) =>{
 			<Accordion.Toggle as={Card.Header} eventKey={eventKey}
 				onClick={decoratedOnClick} className={className}>
 				{children}
+
 			</Accordion.Toggle>
 		);
 	};
 	
 	const Category =({pair, index}) =>{
+		{console.log(pair[0], pair[1].length)}
 		const curKey=(index.toString()+pair[0]).toString();
 		return (
 			<Draggable draggableId={pair[0]} index={index}>
@@ -62,7 +66,6 @@ const CategoryList = ({schoolCats, setSchoolCats, generateArticle}) =>{
 					<Card ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
 						<CustomToggle eventKey={pair[0]} className='otherHeading'>{pair[0]}</CustomToggle>
 						<Accordion.Collapse eventKey={pair[0]}>
-
 							<Form onSubmit={handleSubmit(modify)}>
 								<Form.Control size="lg" as="textarea" rows={3}
 													index ={index}

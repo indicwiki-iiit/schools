@@ -1,0 +1,430 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
+	<siteinfo>
+		<sitename>tewiki</sitename>
+		<dbname>indicwiki</dbname>
+		<base>https://tewiki.iiit.ac.in/index.php/%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<generator>MediaWiki 1.34.0</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">మీడియా</namespace>
+			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">చర్చ</namespace>
+			<namespace key="2" case="first-letter">వాడుకరి</namespace>
+			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
+			<namespace key="4" case="first-letter">Project</namespace>
+			<namespace key="5" case="first-letter">Project చర్చ</namespace>
+			<namespace key="6" case="first-letter">దస్త్రం</namespace>
+			<namespace key="7" case="first-letter">దస్త్రంపై చర్చ</namespace>
+			<namespace key="8" case="first-letter">మీడియావికీ</namespace>
+			<namespace key="9" case="first-letter">మీడియావికీ చర్చ</namespace>
+			<namespace key="10" case="first-letter">మూస</namespace>
+			<namespace key="11" case="first-letter">మూస చర్చ</namespace>
+			<namespace key="12" case="first-letter">సహాయం</namespace>
+			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
+			<namespace key="14" case="first-letter">వర్గం</namespace>
+			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
+			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
+			<namespace key="2300" case="first-letter">Gadget</namespace>
+			<namespace key="2301" case="first-letter">Gadget talk</namespace>
+			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+			<namespace key="2600" case="first-letter">Topic</namespace>
+		</namespaces>
+	</siteinfo>
+	<page>
+		<title>Dummy</title>
+		<ns>0</ns>
+		<id>182379</id>
+		<revision>
+			<id>274649</id>
+			<timestamp>2021-05-06T15:51:00Z</timestamp>
+			<contributor>
+				<username>Harshapamidipalli</username>
+				<id>57</id>
+			</contributor>
+			<comment>dummy page</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="73">Creating a dummy page to check the xml dump of this page. Please ignore !</text>
+			<sha1>ohsbi6lweqh5t2yyyz3h8ws5t3ify5x</sha1>
+		</revision>
+	</page>
+	<page>
+		<title>Test</title>
+		<ns>0</ns>
+		<id>176552</id>
+		<revision>
+			<id>260559</id>
+			<parentid>260558</parentid>
+			<timestamp>2021-04-08T18:19:32Z</timestamp>
+			<contributor>
+				<username>Tazuddin</username>
+				<id>17764</id>
+			</contributor>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="22">testing after updating</text>
+			<sha1>hluiy8e8bjg743m6ymvz5p4of17mi2y</sha1>
+		</revision>
+	</page>
+	<page>
+		<title>Test3</title>
+		<ns>0</ns>
+		<id>140218</id>
+		<revision>
+			<id>141054</id>
+			<parentid>141053</parentid>
+			<timestamp>2019-12-09T17:41:19Z</timestamp>
+			<contributor>
+				<ip>10.4.21.75</ip>
+			</contributor>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="8380">&lt;div id="mainpage"&gt;&lt;/div&gt;&lt;!--
+
+
+------------------------------Banner across top of page ------------------------------&gt;
+{| style="width:100%; background:#fcfcfc; margin-top:1.2em; border:1px solid #ccc;"
+|style="width:56%; color:#000"| &lt;!--
+
+
+
+
+-----------"Welcome to Wikipedia" and article count----------&gt;
+{| style="width:280px; border:solid 0px; background:none;"
+|style="width:50%; text-align:center; white-space:nowrap; color:#000;"|
+&lt;div style="font-size:162%; border:none; margin:0; padding:.3em; color:#000;"&gt;'''[[తెలుగు వికీపీడియా|వికీపీడియా]]'''కు [[స్వాగతము!]]&lt;/div&gt;
+&lt;div style="top:+0.2em; font-size:95%;"&gt;వికీపీడియా [[వికీపీడియా:గురించి|ఎవరైనా&amp;nbsp;రాయదగిన]] స్వేచ్ఛా విజ్ఞాన సర్వస్వము. &lt;br /&gt;ఇక్కడ సమాచారాన్ని వాడుకోవటమే కాదు, ఉన్న సమాచారంలో అవసరమైన మార్పుచేర్పులు చెయ్యవచ్చు, కొత్త సమాచారాన్ని చేర్చవచ్చు.&lt;/div&gt;
+&lt;div id="articlecount" style="width:100%; text-align:center; font-size:85%;"&gt; ప్రస్తుతం తెలుగు వికీపీడియాలో {{NUMBEROFARTICLES}} వ్యాసాలున్నాయి. [[Special:Statistics|పూర్తి గణాంకాలు]] చూడండి.&lt;/div&gt;
+|}&lt;!--
+
+
+------------Portal list on righthand side----------&gt;
+|style="width:11%; font-size:95%; color:#000;"|
+*[[అకౌంటు ఎందుకు సృష్టించుకోవాలి?]]
+*[[Special:Userlogin|లాగిన్ పేజీ]]
+*[[సముదాయ పందిరి]]
+|style="width:11%; font-size:95%;"|
+*[[ప్రయోగశాల]]
+*'''[[సహాయ కేంద్రం]]'''
+*[[మూస:ఈ నాటి చిట్కా|రోజుకొక చిట్కా]]
+|}&lt;!--
+
+
+----- -----Strapline immediately below banner----------&gt;
+{|style="width:100%; background:none; margin:-.8em 0 -.7em 0;"
+|style="font-size:95%; padding:10px 0; margin:0px; text-align:left; white-space:nowrap; color:#000;"| [[పరిచయము]] '''•'''  [[అన్వేషణ]] '''•''' [[దిద్దుబాట్లు ఎలా చెయ్యాలి]] '''•''' [[సహాయ కేంద్రం]] '''•''' [[సూచిక]]''' •'''[[టైపింగు సహాయం]]'''
+&lt;!-- Right-side --&gt;
+|style="font-size:95%; padding:10px 0; margin:0px; text-align: right; white-space:nowrap; color:#000;"|
+[[వికీపీడియా:వర్గీకరణ సూచిక|విహరణ]] '''•''' [[వికీపీడియా:విశేష వ్యాసాలు|విశేష వ్యాసాలు]] '''•''' [[వికీపీడియా:అక్షరానుసార సూచీ|అ&amp;ndash;ఱ సూచీ]]
+|}
+
+
+
+
+__NOTOC__  __NOEDITSECTION__
+{| class="wikitable"
+|-
+|{{మార్గదర్శిని}}
+||
+
+&lt;div class="infobox" style="width:190px; border: 1px solid #B8C7D9; background-color:#F5FAFF; padding:1em;" align="center"&gt;
+&lt;h2&gt;త్వరిత లింకులు&lt;/h2&gt;
+[[:వర్గం:వర్గాలు|అన్నిటికంటే పైన ఉండే వర్గం]]&lt;br&gt;
+[[ప్రత్యేక:Categories|అన్ని వర్గాల చిట్టా]]&lt;br&gt;
+[[వికీపీడియా:వర్గీకరణ|వికీపీడియాలోని వర్గాల గురించి]]&lt;br&gt;
+[[సహాయం:వర్గం|వర్గాలపై సహాయం]]&lt;br&gt;
+[[ప్రత్యేక:Random/వర్గం|యాదృచ్చిక వర్గం]]&lt;br&gt;
+
+&lt;h4&gt;[[వికీపీడియా:త్వరిత వర్గం సూచిక|వర్గాల సూచిక]]&lt;/h4&gt;
+&lt;div style="font-weight:bold;font-family:monospace"&gt;
+[[ప్రత్యేక:Allpages/వర్గం:!|!]]
+[[ప్రత్యేక:Allpages/వర్గం:0|0-9]]
+[[ప్రత్యేక:Allpages/వర్గం:అ|అ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఆ|ఆ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఇ|ఇ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఈ|ఈ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఉ|ఉ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఊ|ఊ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఋ|ఋ]]
+[[ప్రత్యేక:Allpages/వర్గం:ౠ|ౠ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఌ|ఌ]]
+[[ప్రత్యేక:Allpages/వర్గం:ౡ|ౡ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఎ|ఎ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఏ|ఏ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఐ|ఐ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఒ|ఒ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఓ|ఓ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఔ|ఔ]]
+[[ప్రత్యేక:Allpages/వర్గం:అం|అం]]
+[[ప్రత్యేక:Allpages/వర్గం:అః|అః]]
+[[ప్రత్యేక:Allpages/వర్గం:అఁ|అఁ]]
+
+[[ప్రత్యేక:Allpages/వర్గం:క|క]]
+[[ప్రత్యేక:Allpages/వర్గం:ఖ|ఖ]]
+[[ప్రత్యేక:Allpages/వర్గం:గ|గ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఘ|ఘ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఙ|ఙ]]
+[[ప్రత్యేక:Allpages/వర్గం:చ|చ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఛ|ఛ]]
+[[ప్రత్యేక:Allpages/వర్గం:జ|జ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఝ|ఝ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఞ|ఞ]]
+[[ప్రత్యేక:Allpages/వర్గం:ట|ట]]
+[[ప్రత్యేక:Allpages/వర్గం:ఠ|ఠ]]
+[[ప్రత్యేక:Allpages/వర్గం:డ|డ]]
+[[ప్రత్యేక:Allpages/వర్గం:ఢ|ఢ]]
+[[ప్రత్యేక:Allpages/వర్గం:ణ|ణ]]
+[[ప్రత్యేక:Allpages/వర్గం:త|త]]
+[[ప్రత్యేక:Allpages/వర్గం:థ|థ]]
+[[ప్రత్యేక:Allpages/వర్గం:ద|ద]]
+[[ప్రత్యేక:Allpages/వర్గం:ధ|ధ]]
+[[ప్రత్యేక:Allpages/వర్గం:న|న]]
+[[ప్రత్యేక:Allpages/వర్గం:ప|ప]]
+[[ప్రత్యేక:Allpages/వర్గం:ఫ|ఫ]]
+[[ప్రత్యేక:Allpages/వర్గం:బ|బ]]
+[[ప్రత్యేక:Allpages/వర్గం:భ|భ]]
+[[ప్రత్యేక:Allpages/వర్గం:మ|మ]]
+[[ప్రత్యేక:Allpages/వర్గం:య|య]]
+[[ప్రత్యేక:Allpages/వర్గం:ర|ర]]
+[[ప్రత్యేక:Allpages/వర్గం:ల|ల]]
+[[ప్రత్యేక:Allpages/వర్గం:వ|వ]]
+[[ప్రత్యేక:Allpages/వర్గం:శ|శ]]
+[[ప్రత్యేక:Allpages/వర్గం:ష|ష]]
+[[ప్రత్యేక:Allpages/వర్గం:స|స]]
+[[ప్రత్యేక:Allpages/వర్గం:హ|హ]]
+[[ప్రత్యేక:Allpages/వర్గం:ళ|ళ]]
+[[ప్రత్యేక:Allpages/వర్గం:క్ష|క్ష]]
+[[ప్రత్యేక:Allpages/వర్గం:ఱ|ఱ]]
+&lt;/div&gt;
+&lt;/div&gt;
+|-
+|}
+
+
+&lt;!--ఇతర భాషలలో--&gt;
+[[en:Wikipedia:Categorical index]]
+[[ang:Wikipedia:Scéawian be clíewene]]
+[[ar:ويكيبيديا:تصفح]]
+[[bs:Wikipedia:Kategorije]]
+[[da:Kategorier]]
+[[de:Portal:Wikipedia nach Themen]]
+[[es:Wikipedia:Cómo explorar Wikipedia]]
+[[fi:Wikipedia:Selaa luokittain]]
+[[fr:Wikipédia:Catégories]]
+[[he:ויקיפדיה:קטגוריות]]
+[[ms:Wikipedia:Tinjau]]
+[[no:Wikipedia:Kategorier]]
+[[pl:Wikipedia:Kategorie Główne]]
+[[pt:Wikipedia:Navegue]]
+[[ro:Wikipedia:Răsfoire]]
+[[sl:Wikipedija:Brskanje]]
+[[sr:Википедија:Садржај]]
+[[su:Wikipedia:Kategori]]
+[[th:วิกิพีเดีย:ค้นหา]]
+[[tr:Vikipedi:Gözat]]
+[[zh:Wikipedia:按分类浏览]]
+[[zh-classical:Wikipedia:各類一覽]]</text>
+			<sha1>f8twi4jupyzone660f9rvzyt5e8lqoa</sha1>
+		</revision>
+	</page>
+	<page>
+		<title>మూస:·</title>
+		<ns>10</ns>
+		<id>32204</id>
+		<revision>
+			<id>32205</id>
+			<timestamp>2017-01-28T08:06:44Z</timestamp>
+			<contributor>
+				<username>imported&gt;Chaduvari</username>
+				<id>0</id>
+			</contributor>
+			<minor/>
+			<comment>[[:en:Template:·]] నుండి 4 కూర్పులు</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="139">&amp;nbsp;&lt;b&gt;&amp;middot;&lt;/b&gt;&amp;#32;&lt;noinclude&gt;
+
+{{documentation}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+			<sha1>m6es8khirlfrhpczjy4j6v6cxs2jadq</sha1>
+		</revision>
+	</page>
+	<page>
+		<title>మూస:క్లిక్</title>
+		<ns>10</ns>
+		<id>6582</id>
+		<revision>
+			<id>6583</id>
+			<timestamp>2013-08-01T23:08:44Z</timestamp>
+			<contributor>
+				<username>imported&gt;Addbot</username>
+				<id>0</id>
+			</contributor>
+			<minor/>
+			<comment>[[User:addbot|Bot]]: Migrating interwiki links, now provided by [[d:|Wikidata]] on [[d:q5614190]]</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="524">&lt;includeonly&gt;&lt;div style="position:relative; width:{{{width}}}; height:{{{height}}}; overflow:hidden;"&gt;&lt;div style="position:absolute; font-size:{{{height}}}; overflow:hidden; line-height:{{{height}}}; letter-spacing:{{{width}}};"&gt;[[{{{link}}}|&lt;span title="{{{title|{{{link}}}}}}" style="text-decoration:none;"&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;]]&lt;/div&gt;[[Image:{{{image}}}|{{{width}}}|{{{title|{{{link}}}}}}]]&lt;/div&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+{{template doc}}
+&lt;!-- Add categories and interwikis to the /doc subpage, not here! --&gt;
+&lt;/noinclude&gt;</text>
+			<sha1>fzs0ksy0b0yv43rh8trvt89ikifg9zl</sha1>
+		</revision>
+	</page>
+	<page>
+		<title>మూస:మార్గదర్శిని</title>
+		<ns>10</ns>
+		<id>1367</id>
+		<revision>
+			<id>169229</id>
+			<parentid>1368</parentid>
+			<timestamp>2020-07-28T05:19:38Z</timestamp>
+			<contributor>
+				<username>imported&gt;Arjunaraoc</username>
+				<id>0</id>
+			</contributor>
+			<minor/>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="10979">{| class="nomobile"
+|
+{|width="90%" border="0" cellspacing="0" cellpadding="5" style="background:transparent" 
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Ap-districts.png|width=55px|height=55px|link=వేదిక:ఆంధ్ర ప్రదేశ్|text=ఆంధ్రప్రదేశ్}}
+|'''[[వేదిక:ఆంధ్ర ప్రదేశ్|ఆంధ్రప్రదేశ్]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:ఆంధ్రప్రదేశ్ పుణ్యక్షేత్రాలు|పుణ్యక్షేత్రాలు]]
+{{·}}[[ఆంధ్రప్రదేశ్ దర్శనీయ స్థలాలు|దర్శనీయ స్థలాలు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ జిల్లాలు|జిల్లాలు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ మండలాలు|మండలాలు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ గ్రామాలు|గ్రామాలు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ నదులు|నదులు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ జానపద కళారూపాలు|జానపద కళారూపాలు]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ చరిత్ర|చరిత్ర]]
+{{·}}[[:వర్గం:ఆంధ్రప్రదేశ్ వ్యక్తులు|వ్యక్తులు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=India topo big.jpg|width=55px|height=55px|link=:వర్గం:భారత దేశము|text=వర్గం:భారత దేశం}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[:వర్గం:భారతదేశం|భారతదేశం]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:భారతదేశ రాష్ట్రాలు, ప్రాంతాలు|రాష్ట్రాలు, ప్రాంతాలు]]
+{{·}}[[:వర్గం:భారతదేశ చరిత్ర|చరిత్ర]]
+{{·}}[[:వర్గం:భారతీయ భాషలు|భారతీయ భాషలు]]
+{{·}}[[:వర్గం:భారతీయ నృత్యరీతులు|భారతీయ నృత్యరీతులు]]
+{{·}}[[:వర్గం:భారతీయులు|భారతీయులు]]
+{{·}}[[:వర్గం:భారతదేశపు పర్యాటక ప్రదేశాలు| భారతదేశపు పర్యాటక ప్రదేశాలు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Sciences exactes.svg|width=55px|height=55px|link=వేదిక:విజ్ఞానశాస్త్రము|text=విజ్ఞాన శాస్త్రము}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[వేదిక:విజ్ఞానశాస్త్రము|విజ్ఞానం]] ,  [[:వర్గం:కంప్యూటర్|సాంకేతికం]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:జీవ శాస్త్రము|జీవ శాస్త్రము]]
+{{·}}[[:వర్గం:వృక్ష శాస్త్రము|వృక్ష శాస్త్రం]]
+{{·}}[[:వర్గం:జంతు శాస్త్రము|జంతు శాస్త్రం]]
+{{·}}[[:వర్గం:శరీర నిర్మాణ శాస్త్రము|శరీర నిర్మాణ శాస్త్రం]]
+{{·}}[[:వర్గం:వైద్య శాస్త్రము|వైద్య శాస్త్రం]]
+{{·}}[[:వర్గం:భౌతిక శాస్త్రము|భౌతిక శాస్త్రం]]
+{{·}}[[:వర్గం:రసాయన శాస్త్రము|రసాయన శాస్త్రం]]
+{{·}}[[:వర్గం:ఖగోళ శాస్త్రము|ఖగోళ శాస్త్రం]]
+{{·}}[[:వర్గం:గణిత శాస్త్రము|గణితం]]
+{{·}}[[:వర్గం:కంప్యూటర్|కంప్యూటరు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Religious symbols.png|width=55px|height=55px|link=:వర్గం:సామాజిక శాస్త్రాలు|వర్గం:సామాజిక శాస్త్రాలు}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[:వర్గం:తెలుగు భాష|భాష]] ,  [[:వర్గం:సమాజం|సమాజం]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:తెలుగు భాష|భాష]]
+{{·}}[[:వర్గం: కులాలు‎  | కులాలు‎ ]]
+{{·}}[[:వర్గం: తెగలు‎| తెగలు‎]]
+{{·}}[[:వర్గం:మతాలు|మతాలు]]
+{{·}}[[:వర్గం: ప్రాచీన నాగరికతలు‎ | ప్రాచీన నాగరికతలు‎ ]]
+{{·}}[[:వర్గం: రాజకీయం‎ | రాజకీయం‎ ]]
+{{·}}[[:వర్గం: ప్రజా ఉద్యమాలు‎| ప్రజా ఉద్యమాలు‎]]
+{{·}}[[:వర్గం: విద్య‎ ‎  | విద్య‎ ‎ ]]
+{{·}}[[:వర్గం:  వృత్తులు‎‎|  వృత్తులు‎]]
+{{·}}[[:వర్గం:సామాజిక సిద్ధాంతాలు‎ |సామాజిక సిద్ధాంతాలు‎ ]]
+&lt;/div&gt;
+|}
+&lt;!-- ________________________________________ --&gt;
+|| 
+{|width="90%" border="0" cellspacing="0" cellpadding="5" style="background:transparent"
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=TG-districts-te.svg|width=55px|height=55px|link=వేదిక:తెలంగాణ|text=తెలంగాణ}}
+|'''[[వేదిక:తెలంగాణ|తెలంగాణ]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:తెలంగాణ పుణ్యక్షేత్రాలు|పుణ్యక్షేత్రాలు]]
+{{·}}[[:వర్గం:తెలంగాణ పర్యాటక ప్రదేశాలు|దర్శనీయ స్థలాలు]]
+{{·}}[[:వర్గం:తెలంగాణ జిల్లాలు|జిల్లాలు]]
+{{·}}[[:వర్గం:తెలంగాణ మండలాలు|మండలాలు]]
+{{·}}[[:వర్గం:తెలంగాణ గ్రామాలు|గ్రామాలు]]
+{{·}}[[:వర్గం:తెలంగాణ నదులు|నదులు]]
+{{·}}[[:వర్గం:తెలంగాణా జానపద కళారూపాలు|జానపద కళారూపాలు]]
+{{·}}[[:వర్గం:తెలంగాణ చరిత్ర|చరిత్ర]]
+{{·}}[[:వర్గం:తెలంగాణ వ్యక్తులు|వ్యక్తులు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Sciences de la terre.svg|width=55px|height=55px|link=:వర్గం:ప్రపంచ దేశాలు|text=వర్గం:ప్రపంచ దేశాలు}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[:వర్గం:ప్రపంచం|ప్రపంచం]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం: ప్రపంచ దేశాలు|దేశాలు]]
+{{·}}[[:వర్గం: ప్రపంచ వారసత్వ ప్రదేశాలు|వారసత్వ ప్రదేశాలు]]
+{{·}}[[:వర్గం: ప్రపంచ ప్రసిద్ధులు|ప్రపంచ ప్రసిద్ధులు]]
+{{·}}[[దేశాల జాబితాల జాబితా|దేశాల జాబితాలు]]
+{{·}}[[:వర్గం:ప్రపంచ పర్యాటక ప్రదేశాలు|ప్రపంచ పర్యాటక ప్రదేశాలు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Exquisite-xine.png|width=55px|height=55px|link=:వర్గం:కళలు|text=వర్గం:కళలు}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[:వర్గం:కళలు|క‌ళలు]] , [[:వర్గం:ఆటలు|ఆటలు]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:కళలు|కళలు]]
+{{·}}[[:వర్గం:సినిమా‎ |సినిమా]]
+{{·}}[[:వర్గం:చిత్రలేఖనం‎|చిత్రలేఖనం]]
+{{·}}[[:వర్గం: నటన‎| నటన]]
+{{·}}[[:వర్గం:నృత్యం‎ |నృత్యం]]
+{{·}}[[:వర్గం: సంగీతం‎ | సంగీతం]]
+{{·}}[[:వర్గం: సాహిత్యం‎ | సాహిత్యం]]
+{{·}}[[:వర్గం:కళాకారులు |కళాకారులు]]
+{{·}}[[:వర్గం:క్రీడాకారులు|క్రీడాకారులు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|{{క్లిక్|image=Cscr-featured.png|width=55px|height=55px|link=:వర్గం:విశేషవ్యాసాలు|text=విశేష వ్యాసాలు}}
+|style="border-top:2px dotted #DDDDF7;"|'''[[:వర్గం:విశేషవ్యాసాలు|విశేష వ్యాసాలు]]'''&lt;br /&gt;
+&lt;div class="nowraplinks"&gt;
+[[:వర్గం:ఈ వారం వ్యాసాల పరిచయాల ప్రదర్శన|ఈ వారం వ్యాసాలు]]
+{{·}}[[:వర్గం:ఈ వారం వ్యాసం పరిగణనలు|చదవదగిన వ్యాసాలు]]
+{{·}}[[:వర్గం:వినగలిగే వ్యాసాలు|వినగలిగే వ్యాసాలు]]
+&lt;!-- {{·}}[[Special:Mostrevisions|చురుకైన వ్యాసాలు]] తాజాపరచనిది--&gt;
+{{·}}[[Special:Longpages|పెద్ద వ్యాసాలు]]
+&lt;!--{{·}}[[Special:Mostlinked|అత్యధిక పేజీలనుండి లింకులు గల పేజీలు]] తాజాపరచనిది--&gt;
+{{·}}[[Special:Mostcategories|అధిక వర్గాలలో చేరిన వ్యాసాలు]]
+&lt;/div&gt;
+&lt;!-- ________________________________________ --&gt;
+|-
+&lt;!-- ________________________________________ --&gt;
+|}
+|}
+&lt;noinclude&gt;
+[[వర్గం:మొదటి పేజీ భాగాలు]]
+&lt;/noinclude&gt;</text>
+			<sha1>j1bshxsmn3rcxsb5okx648q1eo25yta</sha1>
+		</revision>
+	</page>
+</mediawiki>

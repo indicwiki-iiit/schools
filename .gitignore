@@ -1,2 +1,4 @@
 schEnv/**
 dnd-demo/node_modules/**
+dnd-demo/api/__pycache__/**
+curDir/__pycache__/**

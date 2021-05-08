@@ -95,7 +95,7 @@ def getWikiText(details, titleTemplate, textTemplate):
 	# print("Title:", details[4].strip(), title)
 	data = getData(details, title)
 	wikiText = textTemplate.render(data)
-	print(wikiText, "\n")
+	# print(wikiText, "\n")
 
 	return title, wikiText
 

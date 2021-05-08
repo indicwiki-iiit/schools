@@ -1,0 +1,7 @@
+1. Check titles, it is getting translated, instead of transliteration
+
+2. Run the code on 5k articles again...or only modify titles and update in the dataframe
+3. Dataframe to xml and xml to Dataframe scripts (LATER)
+
+4. Create english - telugu title row in excel sheet. ( .csv ) 
+
