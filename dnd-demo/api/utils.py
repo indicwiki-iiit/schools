@@ -37,3 +37,4 @@ def getOrder(newCats):
 
 	print("newOrder:", newOrder)
 	return newOrder
+

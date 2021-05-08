@@ -16,7 +16,7 @@ const ModalEdit =(props) =>{
 
 	return (
 		<>
-			<Modal {...props} size="lg" centered
+			<Modal {...props} size="lg" centered onHide={()=>props.setModalShow(false)}
 				aria-labelledby="contained-modal-title-vcenter" >
 				
 				<Modal.Header closeButton>

@@ -1,16 +1,19 @@
-import pickle
 from flask import request, jsonify
-from api import app, pathToData
-
-import gc
+from api import app, pickleFolder
 from api.utils import getDetails, getOrder
 
+from api.models import Schools
 # Routes
+
+@app.route('/list_schools', methods=['POST'])
+def list_schools():
+	return jsonify([{'code':sch.udise_id, 'title':sch.title} for sch in Schools.query.all()])
+
 @app.route('/get_schoolData', methods=['GET', 'POST'])
 def get_schoolData():
 	udiseCode=request.json.get('udiseCode')
 	try:
-		articleParts =pickle.load(open(pathToData+'articleParts.pkl', 'rb'))
+		articleParts =pickle.load(open(pickleFolder+'articleParts.pkl', 'rb'))
 		school = articleParts.loc[articleParts['Code']==udiseCode].to_dict('records')[0]
 
 		#Free memory
@@ -30,7 +33,7 @@ def save_schoolCats():
 	udiseCode=request.json.get('udiseCode')
 	newSchoolCats=request.json.get('schoolCats')
 	
-	articleParts =pickle.load(open(pathToData+'articleParts.pkl', 'rb'))
+	articleParts =pickle.load(open(pickleFolder+'articleParts.pkl', 'rb'))
 	for column, value in newSchoolCats:
 		articleParts.at[articleParts['Code']==udiseCode, column] =value 
 
@@ -40,9 +43,6 @@ def save_schoolCats():
 	
 	print(oldOrder, newOrder)
 
-	pickle.dump(articleParts, open(pathToData+'articleParts.pkl', 'wb'))
-
-	#Free memory
-	del articleParts; gc.collect()
+	pickle.dump(articleParts, open(pickleFolder+'articleParts.pkl', 'wb'))
 
 	return jsonify({ 'show': True })

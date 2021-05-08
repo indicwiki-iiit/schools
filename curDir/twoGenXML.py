@@ -104,13 +104,13 @@ def sha36(page_id):
 	
 	return ''.join(reversed(chars))
 
-def addPage(title, wikiText, pages):
+def writePage(title, wikiText, fobj):
 	global user_id, username
 
 	pglen = len(wikiText)
 	time =datetime.now().strftime("%Y-%m-%dT%H-%M-%SZ")
 	
-	pages = pages +'''\n\n
+	curPage ='''\n\n
 	<page>
 		<title>''' +title +'''</title>
 		<ns>0</ns>
@@ -133,28 +133,33 @@ def addPage(title, wikiText, pages):
 	</page>
 	\n\n'''
 
-	return pages
+	fobj.write(curPage)
+	return
 
 #This writes articles and then generates an xml page which 
 #can be directly imported in mediawiki (tewiki)
 def xmlGenerator(wikiSiteInfo, titleTemplate, textTemplate, oneKB):
+	fobj = open("autoXml5k_1.xml", "w")
+	fobj.write(wikiSiteInfo+'\n')
+
 	codes =oneKB['School Code'].tolist()
-	codes =random.sample(codes, 3)
+	#How many codes to consider
+	codes =codes[:5000]
+	
 	print(len(codes), codes)
 	# Generate XML Page
-	pages = ""
 	global page_id
-	for code in codes:
-		print(code)
+	for i,code in enumerate(codes):
 		details =oneKB.loc[oneKB['School Code']==code].values.tolist()[0]
 		title, wikiText=getWikiText(details, titleTemplate, textTemplate)
-		print('\t', title)
-		pages = addPage(title, wikiText, pages)
+
+		writePage(title, wikiText, fobj)
+		
+		print(i, code, '\t', title)
+		
 		page_id +=1
 
-	xmlpage = wikiSiteInfo +pages +'</metadata>'
-	fobj = open("autoXml22k.xml", "w")
-	fobj.write(xmlpage)
+	fobj.write('\n</mediawiki>\n')
 	fobj.close()
 
 	print("stopped before",page_id)

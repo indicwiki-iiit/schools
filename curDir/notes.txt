@@ -1,8 +1,6 @@
 +Dataframe
 	'articleParts.pkl' is the name of the dataframe. 
 
-
-
 +Requirements for deeptranslit and anuvaad
 	Preferably, use python3.7 for your virtual environment. 'schEnv' is the name of my virtual environment, feel free to name yours anything !
 	

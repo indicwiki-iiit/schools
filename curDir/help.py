@@ -1,10 +1,8 @@
 #coding: utf-8
-
 import re
 import math
 import pickle
 import random
-
 
 ##  Global Data: Below  ##
 
