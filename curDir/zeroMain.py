@@ -1,8 +1,11 @@
+#1. Change global variables (global variable)
+#2. Change the file being used for articleParts (articlePartsFile)
+#3. Change the file for xml generation (fobj)
+#4. Change the number of codes you want articles for (start; end)
+#		name of csv will automatically change
+
 #coding: utf-8
-import re
-import string
-import pickle
-import random
+import os, re, sys, csv, json, string, pickle, random
 import pandas as pd
 from hashlib import sha1
 from write import getWikiText
@@ -84,17 +87,20 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 ## Change above values if different website is picked ##
 
 ## Change the below global variables ##
-page_id =300001
+page_id =300000
 
 user_id ="57"
 username ="Harshapamidipalli"
 
 dataFolder ='./data/'
+destinationFolder = './data/epoch/'
+
+# articlePartsFile = 'sample.pkl'
 
 # Map that determines the order of parts in the article # Default Order: 'abcdefghijklmnopq'
-orderMap ={'a': 'Location', 'b': 'Details', 'c': 'Academics', 'd': 'Counts',
-				'e': 'Ending', 'f': 'References', 'g': 'Facilities', 'h': 'Extracurricular',
-				'i': 'Admissions', 'j': 'Faculty', 'k': 'History', 'l': 'Achievements'}
+# orderMap ={'a': 'Location', 'b': 'Details', 'c': 'Academics', 'd': 'Counts',
+# 				'e': 'Ending', 'f': 'References', 'g': 'Facilities', 'h': 'Extracurricular',
+# 				'i': 'Admissions', 'j': 'Faculty', 'k': 'History', 'l': 'Achievements'}
 
 ## Global Variables Above ## 
 
@@ -144,83 +150,108 @@ def writePage(title, wikiText, fobj):
 	fobj.write(curPage)
 	return
 
-## Funtions to create a new DF
-def newDF():
-	df =pd.DataFrame(columns=['PageID', 'Code', 'Title', 'Infobox', 'Location', 'Details', 
-											'Academics', 'Counts', 'Ending', 'References', 'Facilities', 
-											'Extracurricular', 'Admissions', 'Faculty', 'History', 'Achievements', 'Order'])
+# Outdated code: Shows the columns of ArticleParts' Details (default columns)
+# ## Funtions to create a new DF
+# def newDF():
+# 	df =pd.DataFrame(columns=['PageID', 'Code', 'Title', 'Infobox', 'Location', 'Details', 
+# 											'Academics', 'Counts', 'Ending', 'References', 'Facilities', 
+# 											'Extracurricular', 'Admissions', 'Faculty', 'History', 'Achievements', 'Order'])
 
-	return df
+# 	return df
 
 #This writes articles and then creates a dataframe based on it 
 #also formats the same as XML data and write it to a file
-def generateXmlAndSaveDF(wikiSiteInfo, titleTemplate, textTemplate):
+def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1]), endIndex=int(sys.argv[2])):
 	# Load Data
-	global dataFolder, page_id, orderMap
+	global dataFolder, page_id
+	# School Data and the ready codes
+	oneKB =pickle.load(open(dataFolder+'oneKB.pkl', 'rb'))
+	codes =pickle.load(open(dataFolder+'readyCodes.pkl', 'rb'))
 
-	oneKB =pickle.load(open(dataFolder+'oneKB.pkl', 'rb'))	
-	try:
-		articleParts =pickle.load(open(dataFolder+'articleParts.pkl', 'rb'))
-	except:
-		articleParts =newDF()
-
-	# Create a file object
-	fobj = open("autoXmlTesting.xml", "w")
-	fobj.write(wikiSiteInfo+'\n')
-	
 	# Get list of codes to generate articles for
-	codes =oneKB['School Code'].tolist()
-	codes =codes[:5000]
+	start = startIndex; end = endIndex
+	codes =codes[start:end]
 	# # codes =random.sample(codes, 10)
 
+	#File names:
+	articlePartsFile ='articleParts'+str(start)+'-'+str(end)+'.csv'
+	onePageFile ='onePage'+str(start)+'-'+str(end)+'.xml'
+	titlesFile ='title'+str(start)+'-'+str(end)+'.csv'
+	errFile ='error'+str(start)+'-'+str(end)+'.txt'
+
+	#1. Intermediate Steps saved as csv
+	fobj =open(destinationFolder+articlePartsFile, 'w')
+	articleParts = csv.DictWriter(fobj, fieldnames=['Code', 'Details'])
+
+	#2. Final XML page which is to be uploaded in mediawiki
+	fobj = open(destinationFolder+onePageFile, "w")
+	fobj.write(wikiSiteInfo+'\n')
+
+	#3. Creates a csv file for titles to be corrected later 
+	titleWriter = csv.writer(open(destinationFolder+titlesFile, 'w'))
+	titleWriter.writerow(['UDISE Code', 'English Title', 'Telugu Title'])
+
+	#4. Errors log
+	errObj =open(destinationFolder+errFile, 'w')
+
 	for i, code in enumerate(codes):
+		# try:
 		start = datetime.now()
 		details =oneKB.loc[oneKB['School Code']==code].values.tolist()[0]
-		title, wikiText=getWikiText(details, titleTemplate, textTemplate)
+		title, wikiText=getWikiText(details, textTemplate)
 		
-		#Handle exceptions
-		title = re.sub('&', 'and', title)
+		#Write row to csv file
+		titleWriter.writerow([code, details[4].strip(), title])
 
 		# Save intermediate representation to a dataframe, ArticleParts
-		parts =wikiText.split('\n<$>')
-		newRow ={'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':parts[0], 'Location':parts[1], 
-					'Details':parts[2], 'Academics':parts[3], 'Counts':parts[4], 'Ending':parts[5],
-					'References':parts[6], 'Facilities':'', 'Extracurricular':'', 'Admissions':'', 'Faculty':'', 'History':'',
-					'Achievements':'', 'Order':'abcdefghijkl'}
+		parts =wikiText.split('<$>')
+		
+		Infobox, Location, Details, Academics, Counts, Ending, References = parts[6], parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
+		
+		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox.strip(), 'Location':Location.strip(), 
+					'Details':Details.strip(), 'Academics':Academics.strip(), 'Counts':Counts.strip(), 'Ending':Ending.strip(),
+					'References':References.strip(), 'Facilities':'', 'Extracurricular':'', 'Admissions':'', 'Faculty':'', 'History':'',
+					'Achievements':'', 'Order':'abcdefghijkl'})
 
-		articleParts =articleParts.append(newRow, ignore_index=True)
-
+		articleParts.writerow({'Code':code, 'Details':details})
+		
 		# Format and write the wikitext to an XML file
-		wikiText = re.sub('(\n)?<\$>(\n)?', '', wikiText)
+		wikiText =Infobox.strip()+'\n '+Location.strip()+' '+Details.strip()+' '+Academics.strip()+' '+Counts.strip()+' '+Ending.strip()+'\n\n'+References.strip()
 		writePage(title, wikiText, fobj)
 
 		# Performance check
 		end = datetime.now()
 		diff = str((end-start).seconds)+':'+str((end-start).microseconds)[:3]
-		print(i,':',code,'-', title, '\t time taken:', diff)
+		print(startIndex+i,':',code,'-', title, '\t time taken:', diff)
 
 		page_id +=1
+		# except:
+		# 	print('#Failed @', startIndex+i, ':', code)
+		# 	errObj.write(str(code)+'\n')
 
-	fobj.write('\n</mediawiki>\n')
-	fobj.close()
-	
 	print("stopped before",page_id)
+	fobj.write('\n</mediawiki>\n')
 
-	pickle.dump(articleParts, open(dataFolder+'articleParts.pkl', 'wb'))
+	fobj.close()
+	errObj.close()
 
 def main():
 	# Load school's templates
 	file_loader = FileSystemLoader('template')
 	env = Environment(loader=file_loader)
 
-	titleTemplate = env.get_template('teluguTitle.j2')
 	dfTextTemplate =env.get_template('teluguDFtext.j2')
 
+	print(sys.argv)
+
 	# Generate Dataframe
-	generateXmlAndSaveDF(tewiki, titleTemplate, dfTextTemplate)
 	# Columns: [PageID, Code, Title, Infobox, Location, Details, Academics, Counts, 
 	#				Ending, References, Facilities, Extracurricular, Admissions, Faculty, 
 	#				History, Achievements, Order]
+	# generateXmlAndSaveDF(tewiki, dfTextTemplate, 0, 9754)
+	# generateXmlAndSaveDF(tewiki, dfTextTemplate, 21055, 21060)
+
+	generateXmlAndSaveDF(tewiki, dfTextTemplate)
 
 
 if __name__ == "__main__":

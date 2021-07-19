@@ -30,7 +30,6 @@ def process(phrase):
 			
 	return phr.strip()
 
-
 def handleExceptions(pred, anuTelugu):
 	#Take care of అమ్మాయిలు and అబ్బాయిలు
 	pred =re.sub('అమ్మాయిలు', 'బాలికలు', pred)

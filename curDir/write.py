@@ -1,21 +1,8 @@
 #coding: utf-8
-
 import re
-from trans import transtelugu
+from transNNP import getTeTokens
+from trans import transTelugu, masterHandleTitle
 from help import getData, class_nums, numToTelugu
-
-from jinja2 import Environment, FileSystemLoader
-
-# For teluguTitle.j2
-def getSchName(name):
-	data ={}
-	data['enName']=name
-
-	name = re.sub('^MPPS|^MPUPS|^ZPPS|^ZPHS|^KGBV', '', name)
-	teName =transtelugu(name, 1)
-	data['teName']= teName
-
-	return data
 
 #Returns Grades 
 def getGrades(desc):
@@ -27,18 +14,18 @@ def getGrades(desc):
 
 # For teluguText.j2
 def getData(details, title):
-	names = getSchName(details[4].strip())
+	enName = details[4].strip()
 	enMgnt =details[6].strip()
-	teMgnt =transtelugu(details[6].strip(), 0)
+	teMgnt, extraDesc, schToken =getTeTokens(enName, enMgnt)
 
-	village = transtelugu(details[2].strip(), 0)
-	district = transtelugu(details[0].strip(), 0)
-	block = transtelugu(details[1].strip(), 0)
+	village = transTelugu(details[2].strip().lower())
+	district = transTelugu(details[0].strip().lower())
+	block = transTelugu(details[1].strip().lower())
 	code = str(details[3]).strip()
 
 	loInt, hiInt = getGrades(details[5].strip())
 	lo =class_nums[loInt]; hi =class_nums[hiInt]
-	medium = transtelugu(details[7].strip(), 0)
+	medium = transTelugu(details[7].strip())
 
 	sType =details[9].lower()
 	bInt, gInt =details[11], details[12]
@@ -56,7 +43,6 @@ def getData(details, title):
 
 	data = {
 		"title": title,
-		"enName": names['enName'],
 		"village": village,
 		"district": district,
 		"block": block,
@@ -65,9 +51,10 @@ def getData(details, title):
 		"code": code,
 
 		"medium": medium,
-		"enMgnt": enMgnt,
 		"teMgnt": teMgnt,
-
+		"extraDesc": extraDesc,
+		"schToken":schToken,
+		
 		"lo": lo, #the transliteration of lower class in telugu
 		"loInt": loInt,
 		"hi": hi, ##the transliteration of higher class in telugu
@@ -88,17 +75,12 @@ def getData(details, title):
 
 	return data
 
-
-
-def getWikiText(details, titleTemplate, textTemplate):
-	title =titleTemplate.render(getSchName(details[4].strip()))
-	# print("Title:", details[4].strip(), title)
+def getWikiText(details, textTemplate):
+	title =masterHandleTitle(details[4].strip())
 	data = getData(details, title)
 	wikiText = textTemplate.render(data)
-	# print(wikiText, "\n")
 
 	return title, wikiText
-
 
 if __name__ == '__main__':
 	main()
