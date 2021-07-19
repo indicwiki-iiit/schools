@@ -90,7 +90,7 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 page_id =300000
 
 user_id ="57"
-username ="Harshapamidipalli"
+username ="TeWikiSchoolBot"
 
 dataFolder ='./data/'
 destinationFolder = './data/epoch/'
@@ -170,7 +170,8 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 
 	# Get list of codes to generate articles for
 	start = startIndex; end = endIndex
-	codes =codes[start:end]
+	# codes =codes[start:end]
+	codes = [28204401308]
 	# # codes =random.sample(codes, 10)
 
 	#File names:
