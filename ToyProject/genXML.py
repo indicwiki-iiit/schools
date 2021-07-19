@@ -39,7 +39,7 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 		</namespaces>
 	</siteinfo>\n'''
 
-# 300000 - 305000 => school's articles
+# 300000 - 350000 => school's articles
 # Global Variables
 page_id =500000
 

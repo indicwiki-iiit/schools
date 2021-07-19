@@ -82,10 +82,8 @@ df[df['a']].index
 IDEAS (TODO)
 '''''''''''''''
 +Statistics
-	o A new section in each page which mentions something as follows:
-		"
-		ee pathashala, ___ gramam oka 10 pathashalallo okati. idi ___ jilla lo undi. ee jilla lo motham 20 gramalu 60 pathashalalu unnayi.
-		"
+	o Some inferencial statistics 
+	
 +Add more template lines handle management types
 	All unique managements -
 	oneKB['School Management'].unique():

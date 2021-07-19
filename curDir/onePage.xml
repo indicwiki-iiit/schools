@@ -1,0 +1,85 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
+	<siteinfo>
+		<sitename>tewiki</sitename>
+		<dbname>indicwiki</dbname>
+		<base>https://tewiki.iiit.ac.in/index.php/%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<generator>MediaWiki 1.34.0</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">మీడియా</namespace>
+			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">చర్చ</namespace>
+			<namespace key="2" case="first-letter">వాడుకరి</namespace>
+			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
+			<namespace key="4" case="first-letter">Project</namespace>
+			<namespace key="5" case="first-letter">Project చర్చ</namespace>
+			<namespace key="6" case="first-letter">దస్త్రం</namespace>
+			<namespace key="7" case="first-letter">దస్త్రంపై చర్చ</namespace>
+			<namespace key="8" case="first-letter">మీడియావికీ</namespace>
+			<namespace key="9" case="first-letter">మీడియావికీ చర్చ</namespace>
+			<namespace key="10" case="first-letter">మూస</namespace>
+			<namespace key="11" case="first-letter">మూస చర్చ</namespace>
+			<namespace key="12" case="first-letter">సహాయం</namespace>
+			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
+			<namespace key="14" case="first-letter">వర్గం</namespace>
+			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
+			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
+			<namespace key="2300" case="first-letter">Gadget</namespace>
+			<namespace key="2301" case="first-letter">Gadget talk</namespace>
+			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+			<namespace key="2600" case="first-letter">Topic</namespace>
+		</namespaces>
+	</siteinfo>
+
+
+
+
+	<page>
+		<title>జి.ఎ.యు.పి.ఎస్ బండ, 28140100401</title>
+		<ns>0</ns>
+		<id>305001</id>
+		<revision>
+			<id>305001</id>
+			<timestamp>2021-05-13T14-06-23Z</timestamp>
+			<contributor>
+				<username>Harshapamidipalli</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1607">
+			
+{{Infobox school
+	| name = జి.ఎ.యు.పి.ఎస్ బండ, 28140100401
+	| city = కట్టు గ్రామం, తూర్పు గోదావరి జిల్లా
+	| district = తూర్పు గోదావరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+	| grades = 1 - 8
+	| medium = తెలుగు  
+	| students = 101 మంది
+	| faculty = ఒక ఉపాధ్యాయుడు
+}}
+తూర్పు గోదావరి జిల్లాలో మరేడుమిల్లి పరిధిలో కట్టు గ్రామంలో ఈ పాఠశాల ఉన్నది.ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140100401. టి.డబల్యు డి.ఈ.పి.టి  ఆశ్రం స్కూల్స్ నిర్వహణలో ఈ పాఠశాల ఉన్నది.ఇక్కడ విద్యార్థులకు ఎనిమిదవ తరగతి వరకూ తెలుగు  మాధ్యమంలో భోదించబడుతుంది.ఇది బాల బాలికల పాఠశాల. మొత్తం 101 మంది విద్యార్థులలో నలభై తొమ్మిది మంది బాలురు యాభై రెండు మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇది ఏకోపాధ్యాయ పాఠశాల. ఒక ఉపాధ్యాయుడు ఉన్నారు. &lt;ref&gt;{{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}&lt;/ref&gt;.ఈ వివరములు నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా 2017-18 విద్యా సంవత్సరమునకు సంబంధించినవి.'}}
+
+==మూలాలు== 
+{{Reflist}} 
+
+	[[వర్గం:తెవికి పాఠశాలలు]] [[వర్గం:పాఠశాలలు]] [[వర్గం:విధ్యసంస్థలు]]
+	[[వర్గం:భారతదేశము లో పాఠశాలలు]]  [[వర్గం:భారతదేశము లో విధ్యసంస్థలు]]
+	[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]  [[వర్గం:ఆంధ్రప్రదేశ్ విధ్యసంస్థలు]]
+	[[వర్గం:తూర్పు గోదావరి జిల్లా పాఠశాలలు]]  [[వర్గం:తూర్పు గోదావరి జిల్లా విధ్యసంస్థలు]]
+	[[వర్గం:మరేడుమిల్లి లో పాఠశాలలు]]  [[వర్గం:మరేడుమిల్లి లో విధ్యసంస్థలు]]
+	[[వర్గం:కట్టు లో పాఠశాలలు]]  [[వర్గం:కట్టు లో విధ్యసంస్థలు]]
+			</text>
+			<sha1>gf618ngjk2mw94tg4atsz0znql7rs89</sha1>
+		</revision>
+	</page>
+	
+
+
+</mediawiki>

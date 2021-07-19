@@ -4,11 +4,8 @@ This directory contains the codebase for the new model, converting knowledge bas
 -**write.py**
 	Generates an article and its title by rendering the jinja templates given a school's data !
 
--**oneMakeDataframe.py** 
-	constructs an article(s) for a given list of school code(s) and then segments and structures each article, then this structured data is stored in a dataframe which is pickled as **articleParts.pkl** in the data folder. 
-
--**twoGenXML.py** 
-	generates the XML file from the previously constructed dataframe !
+-**zeroMain.py** 
+	constructs an article(s) for a given list of school code(s) and then segments and structures each article, then this structured data is stored in a dataframe which is pickled as **articleParts.pkl** in the data folder. Also, it constructs an xml file for the give school code(s).
 
 Rest of the files are auxilary files.
 

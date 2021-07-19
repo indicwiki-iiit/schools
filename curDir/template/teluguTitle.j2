@@ -3,18 +3,28 @@
 	{%- if 'KGBV' in enName -%}
 		{%- set phrase='కస్తూర్బా గాంధీ బాలికా విద్యాలయ (KGBV) ' -%}
 	{%- elif 'MPPS' in enName -%}
-		{%- set phrase='మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ' -%}
+		{%- set phrase='మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ' -%}
 	{%- elif 'MPUPS' in enName -%}
-		{%- set phrase='మండల ప్రజా పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) ' -%}
+		{%- set phrase='మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) ' -%}
 	{%- elif 'ZPPS' in enName -%}
 		{%- set phrase='జిల్లా పరిషత్ ప్రాథమిక పాఠశాల (ZPPS) ' -%}
 	{%- elif 'ZPHS' in enName -%}
 		{%- set phrase='జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) ' -%}
+	{%- elif 'GPS' in enName -%}
+		{%- set phrase='ప్రభుత్వ ప్రాథమిక పాఠశాల (GPS) ' -%}
+	{%- elif 'GAPS' in enName -%}
+		{%- set phrase='ప్రభుత్వ ఆశ్రమ ప్రాథమిక పాఠశాల (GAPS) ' -%}
+	{%- elif 'GAHS' in enName -%}
+		{%- set phrase='ప్రభుత్వ ఆశ్రమ ఉన్నత పాఠశాల (GAHS) ' -%}
+	{%- elif 'GAUPS' in enName -%}
+		{%- set phrase='ప్రభుత్వ ఆశ్రమ ప్రాథమికోన్నత పాఠశాల (GAUPS) ' -%}
+	{%- elif 'APMS' in enName -%}
+		{%- set phrase='ఆంధ్రప్రదేశ్ మోడల్ పాఠశాల (APMS) ' -%}
 	{%- else -%}
 		{%- set phrase='' -%}
 	{%- endif -%}
 
-	{{phrase}} {{teName}}
+	{{phrase}}{{teName}}
 {%- endmacro -%}
 
 {{schTitle(enName, teName)}}

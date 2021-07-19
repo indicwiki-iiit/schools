@@ -1,7 +1,15 @@
-1. Check titles, it is getting translated, instead of transliteration
 
-2. Run the code on 5k articles again...or only modify titles and update in the dataframe
-3. Dataframe to xml and xml to Dataframe scripts (LATER)
 
-4. Create english - telugu title row in excel sheet. ( .csv ) 
+Modify
+-----
+!	0. sentences for blind, dumb and deaf, mentally retarded, CBSE and ICSE
+!	1. Categories: vidyaasamsthalu
+	2. III RD (Mudava)	
+!	3. New sub heading, "Gurtimpu", "Vivralu"
+!	4. Management changes in the csv (new option; check sheets)
+
+extra mullalu (only for govt schools based on AP or Telangana):
+https://mdmhp.nic.in/SchoolReporting/Index/TS
+https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm
+
 

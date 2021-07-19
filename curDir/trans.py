@@ -1,15 +1,59 @@
-import re
-import pickle
+import gc,re, csv, pickle, enchant
+from transNNP import handleNewToken, freqTokens
 
 from anuvaad import Anuvaad
 anu =Anuvaad('english-telugu')
 
 from deeptranslit import DeepTranslit
-trans = DeepTranslit('telugu').transliterate
-
-# from help import charsToTelugu
+translit = DeepTranslit('telugu').transliterate
 
 threshold = 0.6
+
+def clean(token):
+	cleanToken = ''
+	for c in token:
+		if not re.match(r'[\[\]\(\),]', c):
+			cleanToken+=c
+	return cleanToken
+
+def masterHandleTitle(title):
+	#Pre process
+	title = re.sub('&', '&amp;', title)
+	title = re.sub(r'(\(\[)', ' \g<1>', title)
+	title = re.sub(r'(\)\])', '\g<1> ', title)
+	title = re.sub(r'^((MP|ZP|G|GA)(PS|PPS|HS|UPS)|APMS)', '\g<1> ', title)
+	title =re.sub('([a-zA-Z])([0-9])', '\g<1> \g<2>', title)
+	title =re.sub('([0-9])([a-zA-Z])', '\g<1> \g<2>', title)
+
+	# Translation/Transliteration
+	teTitle = ''
+	for token in re.split(',+| +', title):
+		cleanToken =clean(token)
+		withoutDot =re.sub('\.', '', cleanToken)
+		# Most Frequent & Imp Tokens
+		if cleanToken in freqTokens:
+			teToken =freqTokens[cleanToken]
+		elif withoutDot in freqTokens:
+			teToken =freqTokens[withoutDot]
+		# New Token
+		else:
+			teToken =handleNewToken(cleanToken, translit) 
+
+		try:
+			if cleanToken!=token and cleanToken in token:
+				teToken = re.sub(cleanToken, teToken, token)
+		except:
+			teToken =teToken
+
+		teTitle +=teToken+' '
+
+	#Post Processing
+	teTitle = re.sub('&', '&amp;', teTitle)
+	teTitle = re.sub(r'([\(\[]) ', r'\g<1>', teTitle)
+	teTitle = re.sub(r' ([\)\]])', r'\g<1>', teTitle)
+	teTitle = re.sub(r'\s+', ' ', teTitle)
+
+	return teTitle.strip()
 
 def process(phrase):
 	phr =''
@@ -30,14 +74,13 @@ def process(phrase):
 			
 	return phr.strip()
 
-
 def handleExceptions(pred, anuTelugu):
 	#Take care of అమ్మాయిలు and అబ్బాయిలు
-	pred =re.sub('అమ్మాయిలు', 'బాలికలు', pred)
 	pred =re.sub('అబ్బాయిలు', 'బాలురు', pred)
+	pred =re.sub('అమ్మాయిలు', 'బాలికలు', pred)
 
-	anuTelugu =re.sub('అమ్మాయిలు', 'బాలికలు', anuTelugu)
 	anuTelugu =re.sub('అబ్బాయిలు', 'బాలురు', anuTelugu)
+	anuTelugu =re.sub('అమ్మాయిలు', 'బాలికలు', anuTelugu)
 
 	return pred, anuTelugu
 
@@ -55,30 +98,27 @@ def translate(phrase):
 		else:
 			telugu += anu.anuvaad(word)+' '
 
-	return telugu.strip()+' '
+	return telugu.strip()
 
-def transtelugu(phrase, sch_name):
+def transTelugu(phrase):
 	phrase = process(phrase)
 
 	anuTelugu =translate(phrase)
 
-	deep =trans(phrase)[0]
+	deep =translit(phrase)[0]
 	pred =deep['pred']
 	prob =float(deep['prob'])
 
 	pred, anuTelugu =handleExceptions(pred, anuTelugu)
 	
-	if sch_name:
-		return anuTelugu
-
 	if prob >= threshold:
-		return pred+' '
+		return pred.strip()+' '
 	
 	else:
-		return anuTelugu
+		return anuTelugu.strip()+' '
 
 def main():
-	# print(trans('anantapur'))
+	# print(translit('anantapur'))
 	print(anu.anuvaad('anantapur'))
 	
 if __name__ == "__main__":

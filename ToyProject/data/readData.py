@@ -1,27 +1,30 @@
 import pickle
-import pandas as pd
+import pandas as pd 
+import sweetviz as sv
 
-def clean(moviesDF):
-	for i, row in moviesDF.iterrows():
+def analyse(df, title):
+	report = sv.analyze([df, title])
+	report.show_html()
+
+def clean(df):
+	for i, row in df.iterrows():
 		if str(row.year).startswith('TV'):
-			print(row.year)
-			correctYear = 2019
+			correctyear = 2019
 		else:
-			correctYear = int(row.year)
+			correctyear = int(row.year)
+		
+		df.at[i, 'year'] = correctyear
 
-		moviesDF.at[i, 'year'] = correctYear
-
-	moviesDF = moviesDF.dropna()
-
-	return moviesDF
+	return df
 
 def main():
 	moviesFile = './movies.csv'
 	moviesDF = pd.read_csv(moviesFile)
 	moviesDF = clean(moviesDF)
+	
+	# analyse(moviesDF, 'Movies')
 
-	pickle.dump(moviesDF, open('./moviesDF.pkl', 'wb'))
-
+	pickle.dump(moviesDF, open('movies.pkl', 'wb'))
 
 if __name__ == '__main__':
 	main()
