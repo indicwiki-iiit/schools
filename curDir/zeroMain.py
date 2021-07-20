@@ -53,13 +53,13 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 	<siteinfo>
 		<sitename>tewiki</sitename>
 		<dbname>indicwiki</dbname>
-		<base>https://tewiki.iiit.ac.in/index.php/%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
 		<generator>MediaWiki 1.34.0</generator>
 		<case>first-letter</case>
 		<namespaces>
 			<namespace key="-2" case="first-letter">మీడియా</namespace>
 			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
-			<namespace key="0" case="first-letter" />
+			<namespace key="0" case="first-letter"/>
 			<namespace key="1" case="first-letter">చర్చ</namespace>
 			<namespace key="2" case="first-letter">వాడుకరి</namespace>
 			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
@@ -75,6 +75,14 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
 			<namespace key="14" case="first-letter">వర్గం</namespace>
 			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="120" case="first-letter">Item</namespace>
+			<namespace key="121" case="first-letter">Item talk</namespace>
+			<namespace key="122" case="first-letter">Property</namespace>
+			<namespace key="123" case="first-letter">Property talk</namespace>
+			<namespace key="482" case="first-letter">Config</namespace>
+			<namespace key="483" case="first-letter">Config talk</namespace>
+			<namespace key="710" case="first-letter">TimedText</namespace>
+			<namespace key="711" case="first-letter">TimedText talk</namespace>
 			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
 			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
 			<namespace key="2300" case="first-letter">Gadget</namespace>
@@ -82,6 +90,8 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
 			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
 			<namespace key="2600" case="first-letter">Topic</namespace>
+			<namespace key="3022" case="first-letter">Tewiki</namespace>
+			<namespace key="3023" case="first-letter">Tewiki talk</namespace>
 		</namespaces>
 	</siteinfo>\n'''
 ## Change above values if different website is picked ##
@@ -93,7 +103,7 @@ user_id ="57"
 username ="TeWikiSchoolBot"
 
 dataFolder ='./data/'
-destinationFolder = './data/epoch/'
+destinationFolder = './data/'
 
 # articlePartsFile = 'sample.pkl'
 
@@ -205,19 +215,27 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		titleWriter.writerow([code, details[4].strip(), title])
 
 		# Save intermediate representation to a dataframe, ArticleParts
-		parts =wikiText.split('<$>')
+		parts = tuple([p.strip(' \n\t\r') for p in wikiText.split('<$>')])
 		
-		Infobox, Location, Details, Academics, Counts, Ending, References = parts[6], parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
+		# Infobox, Location, Details, Academics, Counts, Ending, References = parts[6], parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
 		
-		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox.strip(), 'Location':Location.strip(), 
-					'Details':Details.strip(), 'Academics':Academics.strip(), 'Counts':Counts.strip(), 'Ending':Ending.strip(),
-					'References':References.strip(), 'Facilities':'', 'Extracurricular':'', 'Admissions':'', 'Faculty':'', 'History':'',
-					'Achievements':'', 'Order':'abcdefghijkl'})
+		# details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox.strip(), 'Location':Location.strip(), 
+		# 			'Details':Details.strip(), 'Academics':Academics.strip(), 'Counts':Counts.strip(), 'Ending':Ending.strip(),
+		# 			'References':References.strip(), 'Facilities':'', 'Extracurricular':'', 'Admissions':'', 'Faculty':'', 'History':'',
+		# 			'Achievements':'', 'Order':'abcdefghijkl'})
+
+		Overview, Details, Counts, References, Infobox = parts
+		
+		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox, 'Overview':Overview, 
+					'Details':Details, 'Counts':Counts, 'References':References, 'Facilities':'', 'Extracurricular':'', 
+     				'Admissions':'', 'Faculty':'', 'History':'', 'Achievements':'', 'Order':'abcdefghijkl'})		
 
 		articleParts.writerow({'Code':code, 'Details':details})
 		
 		# Format and write the wikitext to an XML file
-		wikiText =Infobox.strip()+'\n '+Location.strip()+' '+Details.strip()+' '+Academics.strip()+' '+Counts.strip()+' '+Ending.strip()+'\n\n'+References.strip()
+		# wikiText =Infobox.strip()+'\n '+Location.strip()+' '+Details.strip()+' '+Academics.strip()+' '+Counts.strip()+' '+Ending.strip()+'\n\n'+References.strip()
+		s = '\n\n'
+		wikiText = Infobox + s + Overview + s + Details + s + Counts + s + References
 		writePage(title, wikiText, fobj)
 
 		# Performance check
@@ -241,7 +259,7 @@ def main():
 	file_loader = FileSystemLoader('template')
 	env = Environment(loader=file_loader)
 
-	dfTextTemplate =env.get_template('teluguDFtext.j2')
+	dfTextTemplate =env.get_template('new_teluguDFtext.j2')
 
 	print(sys.argv)
 

@@ -1,8 +1,8 @@
 import gc,re, csv, pickle, enchant
 from transNNP import handleNewToken, freqTokens
 
-from anuvaad import Anuvaad
-anu =Anuvaad('english-telugu')
+# from anuvaad import Anuvaad
+# anu =Anuvaad('english-telugu')
 
 from deeptranslit import DeepTranslit
 translit = DeepTranslit('telugu').transliterate
@@ -103,8 +103,9 @@ def translate(phrase):
 def transTelugu(phrase):
 	phrase = process(phrase)
 
-	anuTelugu =translate(phrase)
-
+	# anuTelugu =translate(phrase)
+	anuTelugu = ''
+ 
 	deep =translit(phrase)[0]
 	pred =deep['pred']
 	prob =float(deep['prob'])
@@ -115,11 +116,12 @@ def transTelugu(phrase):
 		return pred.strip()+' '
 	
 	else:
-		return anuTelugu.strip()+' '
+		# return anuTelugu.strip()+' '
+		return pred.strip()+' '
 
 def main():
-	# print(translit('anantapur'))
-	print(anu.anuvaad('anantapur'))
+	print(translit('anantapur'))
+	# print(anu.anuvaad('anantapur'))
 	
 if __name__ == "__main__":
 	main()
