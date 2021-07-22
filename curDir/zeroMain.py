@@ -179,8 +179,8 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 
 	# Get list of codes to generate articles for
 	start = startIndex; end = endIndex
-	# codes =codes[start:end]
-	codes = [28204401308]
+	codes = codes[start:end]
+	# codes = [28204401308]
 	# # codes =random.sample(codes, 10)
 
 	#File names:
