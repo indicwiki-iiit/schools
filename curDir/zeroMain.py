@@ -59,7 +59,7 @@ tewiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:x
 		<namespaces>
 			<namespace key="-2" case="first-letter">మీడియా</namespace>
 			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
-			<namespace key="0" case="first-letter"/>
+			<namespace key="0" case="first-letter" />
 			<namespace key="1" case="first-letter">చర్చ</namespace>
 			<namespace key="2" case="first-letter">వాడుకరి</namespace>
 			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
@@ -103,7 +103,7 @@ user_id ="57"
 username ="TeWikiSchoolBot"
 
 dataFolder ='./data/'
-destinationFolder = './data/'
+destinationFolder = './data/trials/'
 
 # articlePartsFile = 'sample.pkl'
 
@@ -149,8 +149,7 @@ def writePage(title, wikiText, fobj):
 			<comment>xmlpage created</comment>
 			<model>wikitext</model>
 			<format>text/x-wiki</format>
-			<text xml:space="preserve" bytes="''' +str(pglen) +'''">
-			\n''' +wikiText +'''
+			<text xml:space="preserve" bytes="''' +str(pglen) +'''">''' +wikiText +'''
 			</text>
 			<sha1>''' +sha36(page_id) +'''</sha1>
 		</revision>
@@ -236,6 +235,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		# wikiText =Infobox.strip()+'\n '+Location.strip()+' '+Details.strip()+' '+Academics.strip()+' '+Counts.strip()+' '+Ending.strip()+'\n\n'+References.strip()
 		s = '\n\n'
 		wikiText = Infobox + s + Overview + s + Details + s + Counts + s + References
+		wikiText = wikiText.strip(' \n\t\r')
 		writePage(title, wikiText, fobj)
 
 		# Performance check

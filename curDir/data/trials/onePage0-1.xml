@@ -8,7 +8,7 @@
 		<namespaces>
 			<namespace key="-2" case="first-letter">మీడియా</namespace>
 			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
-			<namespace key="0" case="first-letter"/>
+			<namespace key="0" case="first-letter" />
 			<namespace key="1" case="first-letter">చర్చ</namespace>
 			<namespace key="2" case="first-letter">వాడుకరి</namespace>
 			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
@@ -53,7 +53,7 @@
 		<id>300000</id>
 		<revision>
 			<id>300000</id>
-			<timestamp>2021-07-20T09-39-20Z</timestamp>
+			<timestamp>2021-07-22T06-52-53Z</timestamp>
 			<contributor>
 				<username>TeWikiSchoolBot</username>
 				<id>57</id>
@@ -61,9 +61,7 @@
 			<comment>xmlpage created</comment>
 			<model>wikitext</model>
 			<format>text/x-wiki</format>
-			<text xml:space="preserve" bytes="1817">
-			
-{{Infobox school
+			<text xml:space="preserve" bytes="1832">{{Infobox school
 	| name = మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల (MPPS) సివాజినగర్
 	| city = ఏర్రగుంటకోట గ్రామం, కడప జిల్లా
 	| district = కడప జిల్లా
@@ -77,13 +75,13 @@
 	| free_text = ఇద్దరు ఉపాధ్యాయులు
 }}
 
-కడప జిల్లాలో వబ్లవరిపల్లి పరిధిలో ఏర్రగుంటకోట గ్రామంలో ఈ మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల ఉన్నది. ఇది మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకూ తెలుగు మాధ్యమంలో బోధన చేస్తారు.
+కడప జిల్లాలో వబ్లవరిపల్లి పరిధిలో ఏర్రగుంటకోట గ్రామంలో ఈ మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల ఉన్నది. ఇది మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకూ తెలుగు మాధ్యమంలో చదువు చెప్తారు.
 
 ==గుర్తింపు==
 ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28204401308.
 
 ==పాఠశాల వివరములు==
-ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం ముప్పై రెండు మంది విద్యార్థులలో ఇరవై మంది బాలురు పన్నెండు మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇక్కడ ఇద్దరు ఉపాధ్యాయులు ఉన్నారు.
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో మొత్తం ముప్పై రెండు మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. వీరిలో ఇరవై మంది బాలురు పన్నెండు మంది బాలికలు ఉన్నారు. ఇక్కడ ఇద్దరు ఉపాధ్యాయులు ఉన్నారు.
 
 ==మూలాలు== 
 * {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
