@@ -43,8 +43,8 @@ for tok in freqTokens:
 
 # Obtaining the lists of english and telugu titles
 a = pd.read_excel('title0-21060.xlsx')
-english_titles = a['పాఠశాల పేరు ఇంగ్లీష్ '].tolist()[:10]
-telugu_titles = a['సవరించిన తెలుగు పేరు (ఇక్కడ అవసరం అయిన మార్పులు చేయగలరు)'].tolist()[:10]
+english_titles = a['పాఠశాల పేరు ఇంగ్లీష్ '].tolist()
+telugu_titles = a['సవరించిన తెలుగు పేరు (ఇక్కడ అవసరం అయిన మార్పులు చేయగలరు)'].tolist()
 
 # Some edge cases which are being hardcoded
 initial_abbreviations = {
