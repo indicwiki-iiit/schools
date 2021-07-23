@@ -54,6 +54,14 @@ initial_abbreviations = {
 }
 final_dict['GPS'] = 'ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS)'
 
+# telugu representation of english alphabets
+telugu_letters = [
+    "ఏ", "ఎ", "బి", "బీ", "సి", "సీ", "డి", "డీ", "ఇ", "ఈ", "ఎఫ్", "జి", 
+    "జీ", "హెచ్", "ఐ", "జె", "జే", "కె", "కే", "ఎల్", "ఎం", "ఎన్", "ఒ", "ఓ", 
+    "పి", "పీ", "క్యు", "క్యూ", "అర్", "ఆర్", "ఎస్", "టి", "టీ", "యు", "యూ", 
+    "వి", "వీ", "డబ్ల్యూ", "ఎక్స్", "వై", "జెడ్"
+]
+
 perfect_one_to_one_mappings = 0
 improper_mappings = 0
 
@@ -65,6 +73,16 @@ for i in range(len(english_titles)):
     # print(f'{english_title} ==== {telugu_title}')
     english_tokens = [token for token in english_title.split() if len(token) > 0 and token != ' ']
     telugu_tokens = [token for token in telugu_title.split() if len(token) > 0 and token != ' ']
+    
+    # Single lettered english alphabets are treated as abbreviations for efficient mapping
+    for j in range(len(english_tokens)):
+        if len(english_tokens[j]) == 1 and english_tokens[0] >= 'A' and english_tokens[0] <= 'Z':
+            english_tokens[j] = english_tokens[j] + '.'
+            
+    # Single lettered representation of telugu alphabets are treated as abbreviations for efficient mapping
+    for j in range(len(telugu_tokens)):
+        if telugu_tokens[j] in telugu_letters and not telugu_tokens[j].endswith('.'):
+            telugu_tokens[j] = telugu_tokens[j] + '.'
     
     # edge cases
     if english_title == "MPPS (GPS) SANKARAGUPTHAM":
