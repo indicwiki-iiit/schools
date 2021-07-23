@@ -2,6 +2,15 @@
 import pickle
 import pandas as pd
 
+# telugu representation of english alphabets
+telugu_letters = {
+    "ఏ":'A', "ఎ":'A', "బి":'B', "బీ":'B', "సి":'C', "సీ":'C', "డి":'D', "డీ":'D', "ఇ":'E', 
+    "ఈ":'E', "ఎఫ్":'F', "జి":'G', "జీ":'G', "హెచ్":'H', "ఐ":'I', "జె":'J', "జే":'J', 
+    "కె":'K', "కే":'K', "ఎల్":'L', "ఎం":'M', "ఎన్":'N', "ఒ":'O', "ఓ":'O', "పి":'P', 
+    "పీ":'P', "క్యు":'Q', "క్యూ":'Q', "అర్":'R', "ఆర్":'R', "ఎస్":'S', "టి":'T', "టీ":'T', 
+    "యు":'U', "యూ":'U', "వి":'V', "వీ":'V', "డబ్ల్యూ":'W', "ఎక్స్":'X', "వై":'Y', "జెడ్":'Z'
+}
+
 # Pre-processing for proper tokenization
 def clean_string(given_string):
     new_string = given_string.replace("( ", "(").replace(" )", ")").replace(")", ") ").replace("(", " (")
@@ -16,6 +25,7 @@ def clean_string(given_string):
     return str(' '.join(all_tokens)).strip(' \n\t\r')
 
 # Handles special characters (especially in abbreviations) such as , and . such that one-one mapping is done as efficiently as possible
+# (merging contiguous tokens ending with the same symbol: , or .)
 def handle_symbol_merging(current_list, symbol):
     new_list = []
     current_abbreviation = ""
@@ -30,6 +40,47 @@ def handle_symbol_merging(current_list, symbol):
     if(len(current_abbreviation)) > 0:
         new_list.append(current_abbreviation)
     return new_list
+
+# Tries to rectify inconsistent mapping of english abbreviations to telugu 
+# (handling cases like "AB CD" being mapped to "ఏ.బి.సి.డి.")
+def improve_abbreviation_handling(english_tokens, telugu_tokens):
+    new_telugu_tokens = []
+    english_tokens_pointer = 0
+    for m in range(len(telugu_tokens)):
+        # corner case
+        if english_tokens_pointer >= len(english_tokens):
+            new_telugu_tokens.append(telugu_tokens[m])
+            continue
+        # if current token is not a telugu abbreviation, ignore it
+        if not '.' in telugu_tokens[m]:
+            new_telugu_tokens.append(telugu_tokens[m])
+            english_tokens_pointer += 1
+            continue
+        split_telugu_abbreviation = [t + '.' for t in telugu_tokens[m].split('.') if len(t) > 0 and t != ' ']
+        # if current abbreviation is not telugu representation of english alphabet, ignore it
+        if len([t for t in split_telugu_abbreviation if not t[:-1] in telugu_letters]) > 0:
+            new_telugu_tokens.append(telugu_tokens[m])
+            english_tokens_pointer += 1
+            continue
+        # Keep on splitting current telugu abbreviation until its in sync with corresponding english version 
+        segments_to_split = []
+        telugu_tok_count = len(split_telugu_abbreviation)
+        while english_tokens_pointer < len(english_tokens) and telugu_tok_count > 0:
+            current_english_tok = len([c for c in english_tokens[english_tokens_pointer] if c >= 'A' and c <= 'Z'])
+            split_length = min(telugu_tok_count, current_english_tok)
+            segments_to_split.append(split_length)
+            telugu_tok_count -= split_length
+            english_tokens_pointer += 1
+        # corner case
+        if telugu_tok_count != 0:
+            new_telugu_tokens.append(telugu_tokens[m])
+            continue
+        # Actual split of telugu abbreviation and appending it to new telugu tokens
+        current_pointer = 0
+        for s in segments_to_split:
+            new_telugu_tokens.append(''.join(split_telugu_abbreviation[current_pointer:current_pointer+s]))
+            current_pointer += s
+    return new_telugu_tokens
 
 # Global variables with token mappings / edge cases
 frequent_tokens = {}
@@ -53,14 +104,6 @@ initial_abbreviations = {
     '(ZPPHS)': '(ZPPHS)', '(ZPOHS)': '(ZOPHS)', '(ZPOPS)': '(ZPOHS)'
 }
 final_dict['GPS'] = 'ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS)'
-
-# telugu representation of english alphabets
-telugu_letters = [
-    "ఏ", "ఎ", "బి", "బీ", "సి", "సీ", "డి", "డీ", "ఇ", "ఈ", "ఎఫ్", "జి", 
-    "జీ", "హెచ్", "ఐ", "జె", "జే", "కె", "కే", "ఎల్", "ఎం", "ఎన్", "ఒ", "ఓ", 
-    "పి", "పీ", "క్యు", "క్యూ", "అర్", "ఆర్", "ఎస్", "టి", "టీ", "యు", "యూ", 
-    "వి", "వీ", "డబ్ల్యూ", "ఎక్స్", "వై", "జెడ్"
-]
 
 perfect_one_to_one_mappings = 0
 improper_mappings = 0
@@ -116,13 +159,15 @@ for i in range(len(english_titles)):
     english_tokens = handle_symbol_merging(english_tokens, ',')
     telugu_tokens = handle_symbol_merging(telugu_tokens, '.')
     telugu_tokens = handle_symbol_merging(telugu_tokens, ',')
-    
+    telugu_tokens = improve_abbreviation_handling(english_tokens, telugu_tokens)
     # print(f'{english_tokens} ==== {telugu_tokens}')
     
     if len(english_tokens) == len(telugu_tokens):
         # Perfect one-one mapping is possible here
         for j in range(len(english_tokens)):
             final_dict[english_tokens[j]] = telugu_tokens[j]
+        if len(english_tokens[j]) == 2 and english_tokens[0] >= 'A' and english_tokens[0] <= 'Z' and english_tokens[1] == '.':
+            final_dict[english_tokens[j][0]] = telugu_tokens[j]
         perfect_one_to_one_mappings += 1
     else:
         # One-one mapping is not possible here
