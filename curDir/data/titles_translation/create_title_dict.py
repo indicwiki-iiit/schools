@@ -41,10 +41,11 @@ freqTokens = pickle.load(open('../freqTokens.pkl', 'rb'))
 for tok in freqTokens:
     frequent_tokens[clean_string(tok)] = freqTokens[tok]
 
-# Obtaining the lists of english and telugu titles
+# Obtaining the lists of english and telugu titles and codes
 a = pd.read_excel('title0-21060.xlsx')
 english_titles = a['పాఠశాల పేరు ఇంగ్లీష్ '].tolist()
 telugu_titles = a['సవరించిన తెలుగు పేరు (ఇక్కడ అవసరం అయిన మార్పులు చేయగలరు)'].tolist()
+codes = a['CODE '].tolist()
 
 # Some edge cases which are being hardcoded
 initial_abbreviations = {
@@ -60,6 +61,7 @@ for i in range(len(english_titles)):
     # Tokenizing english and telugu titles
     english_title = clean_string(english_titles[i])
     telugu_title = clean_string(telugu_titles[i])
+    current_code = codes[i]
     # print(f'{english_title} ==== {telugu_title}')
     english_tokens = [token for token in english_title.split() if len(token) > 0 and token != ' ']
     telugu_tokens = [token for token in telugu_title.split() if len(token) > 0 and token != ' ']
@@ -108,7 +110,7 @@ for i in range(len(english_titles)):
         # One-one mapping is not possible here
         if len([tok for tok in english_tokens if not tok in frequent_tokens]) > 0:
             # Edge case where one-one mapping is not possible and freqTokens is not helpful for mapping
-            edge_cases[english_title] = telugu_title
+            edge_cases[english_title] = telugu_title + ' #$# code = ' + str(current_code)
             improper_mappings += 1
         else:
             # Frequent tokens can be used for getting translated output of english tokens, for all tokens in english title
@@ -120,10 +122,11 @@ token_mappings_df = {"English_title_token": [], "Telugu_title_token": []}
 for k in final_dict:
     token_mappings_df["English_title_token"].append(k)
     token_mappings_df["Telugu_title_token"].append(final_dict[k])
-edge_cases_df = {"English_titles": [], "Telugu_titles": []}
+edge_cases_df = {"Code": [], "English_titles": [], "Telugu_titles": []}
 for k in edge_cases:
     edge_cases_df["English_titles"].append(k)
-    edge_cases_df["Telugu_titles"].append(edge_cases[k])
+    edge_cases_df["Telugu_titles"].append(edge_cases[k].split(' #$# code = ')[0])
+    edge_cases_df["Code"].append(edge_cases[k].split(' #$# code = ')[1])
 pd.DataFrame.from_dict(token_mappings_df).to_csv("titleTokens.csv")
 pd.DataFrame.from_dict(edge_cases_df).to_csv("edgeCases-titleTokens.csv")
 with open('titleTokens.pkl', 'wb') as f:
