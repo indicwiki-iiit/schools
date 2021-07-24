@@ -6,10 +6,16 @@ import pandas as pd
 telugu_letters = {
     "ఏ":'A', "ఎ":'A', "బి":'B', "బీ":'B', "సి":'C', "సీ":'C', "డి":'D', "డీ":'D', "ఇ":'E', 
     "ఈ":'E', "ఎఫ్":'F', "జి":'G', "జీ":'G', "హెచ్":'H', "ఐ":'I', "జె":'J', "జే":'J', 
-    "కె":'K', "కే":'K', "ఎల్":'L', "ఎం":'M', "ఎన్":'N', "ఒ":'O', "ఓ":'O', "పి":'P', 
+    "కె":'K', "కే":'K', "ఎల్":'L', "ఎం":'M', "యం":'M', "ఎన్":'N', "ఒ":'O', "ఓ":'O', "పి":'P', 
     "పీ":'P', "క్యు":'Q', "క్యూ":'Q', "అర్":'R', "ఆర్":'R', "ఎస్":'S', "టి":'T', "టీ":'T', 
     "యు":'U', "యూ":'U', "వి":'V', "వీ":'V', "డబ్ల్యూ":'W', "ఎక్స్":'X', "వై":'Y', "జెడ్":'Z'
 }
+
+# Checks if given argument is indeed a valid string
+def is_valid_string(attribute_value):
+    if not isinstance(attribute_value, str) and not isinstance(attribute_value, float) and not isinstance(attribute_value, type(None)):
+        return True
+    return not (attribute_value == None or pd.isnull(attribute_value) or str(attribute_value) == "" or str(attribute_value) == "nan")
 
 # Pre-processing for proper tokenization
 def clean_string(given_string):
@@ -40,6 +46,51 @@ def handle_symbol_merging(current_list, symbol):
     if(len(current_abbreviation)) > 0:
         new_list.append(current_abbreviation)
     return new_list
+
+# Global variables with token mappings / edge cases
+frequent_tokens = {}
+edge_cases = {}
+final_dict = {}
+
+# Cleaning up keys of frequent tokens and storing so that they can be exploited when one-one mapping is not possible
+freqTokens = pickle.load(open('../freqTokens.pkl', 'rb'))
+for tok in freqTokens:
+    frequent_tokens[clean_string(tok)] = clean_string(freqTokens[tok])
+    
+# few acronymns (and their corresponding telugu tokens) which are used very frequently 
+# (cases where a single english token is mapped to multiple telugu tokens - freqTokens are used only for very few recurring english tokens)
+frequent_telugu_abbreviations = {}
+freqTokens_df = pd.read_csv('../freqTokens.csv')
+freqTokens_df = freqTokens_df.loc[freqTokens_df["Count"] >= 10]
+new_title_tokens = pickle.load(open('titleTokens.pkl', 'rb'))
+for i, row in freqTokens_df.iterrows():
+    current_english_token = clean_string(freqTokens_df.at[i, "Eng Token"])
+    if len(current_english_token) == 1 and current_english_token[0] >= 'A' and current_english_token[0] <= 'Z':
+        current_english_token += '.'
+    if not is_valid_string(freqTokens_df.at[i, "Telugu"]):
+        continue
+    current_telugu_translation = clean_string(freqTokens_df.at[i, "Telugu"])
+    if current_telugu_translation in telugu_letters and not current_telugu_translation.endswith('.'):
+        current_telugu_translation += '.'
+    tokenized_telugu_string = handle_symbol_merging(current_telugu_translation.split(), '.')
+    frequent_telugu_abbreviations[current_english_token] = len(handle_symbol_merging(tokenized_telugu_string, ','))
+    
+
+# Obtaining the lists of english and telugu titles and codes
+a = pd.read_excel('title0-21060.xlsx')
+english_titles = a['పాఠశాల పేరు ఇంగ్లీష్ '].tolist()
+telugu_titles = a['సవరించిన తెలుగు పేరు (ఇక్కడ అవసరం అయిన మార్పులు చేయగలరు)'].tolist()
+codes = a['CODE '].tolist()
+
+# Some edge cases which are being hardcoded
+initial_abbreviations = {
+    '(ZPHS)': '(ZPHS)', '(APMS)': '(APMS)', '(GPS)': ') last', '(MPPS)': '(MPPS)', '(MPUPS)': '(MPUPS)', 
+    '(ZPPHS)': '(ZPPHS)', '(ZPOHS)': '(ZOPHS)', '(ZPOPS)': '(ZPOHS)'
+}
+final_dict['GPS'] = 'ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS)'
+
+perfect_one_to_one_mappings = 0
+improper_mappings = 0
 
 # Tries to rectify inconsistent mapping of english abbreviations to telugu 
 # (handling cases like "AB CD" being mapped to "ఏ.బి.సి.డి.")
@@ -82,31 +133,30 @@ def improve_abbreviation_handling(english_tokens, telugu_tokens):
             current_pointer += s
     return new_telugu_tokens
 
-# Global variables with token mappings / edge cases
-frequent_tokens = {}
-edge_cases = {}
-final_dict = {}
-
-# Cleaning up keys of frequent tokens and storing so that they can be exploited when one-one mapping is not possible
-freqTokens = pickle.load(open('../freqTokens.pkl', 'rb'))
-for tok in freqTokens:
-    frequent_tokens[clean_string(tok)] = freqTokens[tok]
-
-# Obtaining the lists of english and telugu titles and codes
-a = pd.read_excel('title0-21060.xlsx')
-english_titles = a['పాఠశాల పేరు ఇంగ్లీష్ '].tolist()
-telugu_titles = a['సవరించిన తెలుగు పేరు (ఇక్కడ అవసరం అయిన మార్పులు చేయగలరు)'].tolist()
-codes = a['CODE '].tolist()
-
-# Some edge cases which are being hardcoded
-initial_abbreviations = {
-    '(ZPHS)': '(ZPHS)', '(APMS)': '(APMS)', '(GPS)': ') last', '(MPPS)': '(MPPS)', '(MPUPS)': '(MPUPS)', 
-    '(ZPPHS)': '(ZPPHS)', '(ZPOHS)': '(ZOPHS)', '(ZPOPS)': '(ZPOHS)'
-}
-final_dict['GPS'] = 'ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS)'
-
-perfect_one_to_one_mappings = 0
-improper_mappings = 0
+# Tries to rectify inconsistent mapping of english abbreviations to telugu 
+# (handling cases like "PS" being mapped to "ప్రాథమిక పాఠశాల")
+def improve_abbreviation_handling_2(english_tokens, telugu_tokens):
+    new_telugu_tokens = []
+    telugu_tokens_pointer = 0
+    english_tokens_pointer = 0
+    while telugu_tokens_pointer < len(telugu_tokens):
+        # corner case
+        if english_tokens_pointer >= len(english_tokens):
+            new_telugu_tokens.append(telugu_tokens[telugu_tokens_pointer])
+            telugu_tokens_pointer += 1
+            continue
+        # if current token is not a recurring english token, ignore it
+        if not english_tokens[english_tokens_pointer] in frequent_telugu_abbreviations:
+            new_telugu_tokens.append(telugu_tokens[telugu_tokens_pointer])
+            english_tokens_pointer += 1
+            telugu_tokens_pointer += 1
+            continue
+        # Keep on merging telugu tokens to be in sync with current english token 
+        join_length = min(len(telugu_tokens) - telugu_tokens_pointer, frequent_telugu_abbreviations[english_tokens[english_tokens_pointer]])
+        new_telugu_tokens.append(' '.join(telugu_tokens[telugu_tokens_pointer:telugu_tokens_pointer+join_length]))
+        english_tokens_pointer += 1
+        telugu_tokens_pointer += join_length
+    return new_telugu_tokens
 
 for i in range(len(english_titles)):
     # Tokenizing english and telugu titles
@@ -119,7 +169,7 @@ for i in range(len(english_titles)):
     
     # Single lettered english alphabets are treated as abbreviations for efficient mapping
     for j in range(len(english_tokens)):
-        if len(english_tokens[j]) == 1 and english_tokens[0] >= 'A' and english_tokens[0] <= 'Z':
+        if len(english_tokens[j]) == 1 and english_tokens[j][0] >= 'A' and english_tokens[j][0] <= 'Z':
             english_tokens[j] = english_tokens[j] + '.'
             
     # Single lettered representation of telugu alphabets are treated as abbreviations for efficient mapping
@@ -160,13 +210,14 @@ for i in range(len(english_titles)):
     telugu_tokens = handle_symbol_merging(telugu_tokens, '.')
     telugu_tokens = handle_symbol_merging(telugu_tokens, ',')
     telugu_tokens = improve_abbreviation_handling(english_tokens, telugu_tokens)
+    telugu_tokens = improve_abbreviation_handling_2(english_tokens, telugu_tokens)
     # print(f'{english_tokens} ==== {telugu_tokens}')
     
     if len(english_tokens) == len(telugu_tokens):
         # Perfect one-one mapping is possible here
         for j in range(len(english_tokens)):
             final_dict[english_tokens[j]] = telugu_tokens[j]
-        if len(english_tokens[j]) == 2 and english_tokens[0] >= 'A' and english_tokens[0] <= 'Z' and english_tokens[1] == '.':
+        if len(english_tokens[j]) == 2 and english_tokens[j][0] >= 'A' and english_tokens[j][0] <= 'Z' and english_tokens[j][1] == '.':
             final_dict[english_tokens[j][0]] = telugu_tokens[j]
         perfect_one_to_one_mappings += 1
     else:
