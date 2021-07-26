@@ -249,7 +249,9 @@ for k in edge_cases:
     edge_cases_df["Telugu_titles"].append(edge_cases[k].split(' #$# code = ')[0])
     edge_cases_df["Code"].append(edge_cases[k].split(' #$# code = ')[1])
 pd.DataFrame.from_dict(token_mappings_df).to_csv("titleTokens.csv")
+pd.DataFrame.from_dict(token_mappings_df).to_excel("titleTokens.xlsx")
 pd.DataFrame.from_dict(edge_cases_df).to_csv("edgeCases-titleTokens.csv")
+pd.DataFrame.from_dict(edge_cases_df).to_excel("edgeCases-titleTokens.xlsx")
 with open('titleTokens.pkl', 'wb') as f:
     pickle.dump(final_dict, f)
 with open('edgeCases-titleTokens.pkl', 'wb') as f:
