@@ -1,0 +1,993 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
+	<siteinfo>
+		<sitename>tewiki</sitename>
+		<dbname>indicwiki</dbname>
+		<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<generator>MediaWiki 1.34.0</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">మీడియా</namespace>
+			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">చర్చ</namespace>
+			<namespace key="2" case="first-letter">వాడుకరి</namespace>
+			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
+			<namespace key="4" case="first-letter">Project</namespace>
+			<namespace key="5" case="first-letter">Project చర్చ</namespace>
+			<namespace key="6" case="first-letter">దస్త్రం</namespace>
+			<namespace key="7" case="first-letter">దస్త్రంపై చర్చ</namespace>
+			<namespace key="8" case="first-letter">మీడియావికీ</namespace>
+			<namespace key="9" case="first-letter">మీడియావికీ చర్చ</namespace>
+			<namespace key="10" case="first-letter">మూస</namespace>
+			<namespace key="11" case="first-letter">మూస చర్చ</namespace>
+			<namespace key="12" case="first-letter">సహాయం</namespace>
+			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
+			<namespace key="14" case="first-letter">వర్గం</namespace>
+			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="120" case="first-letter">Item</namespace>
+			<namespace key="121" case="first-letter">Item talk</namespace>
+			<namespace key="122" case="first-letter">Property</namespace>
+			<namespace key="123" case="first-letter">Property talk</namespace>
+			<namespace key="482" case="first-letter">Config</namespace>
+			<namespace key="483" case="first-letter">Config talk</namespace>
+			<namespace key="710" case="first-letter">TimedText</namespace>
+			<namespace key="711" case="first-letter">TimedText talk</namespace>
+			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
+			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
+			<namespace key="2300" case="first-letter">Gadget</namespace>
+			<namespace key="2301" case="first-letter">Gadget talk</namespace>
+			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+			<namespace key="2600" case="first-letter">Topic</namespace>
+			<namespace key="3022" case="first-letter">Tewiki</namespace>
+			<namespace key="3023" case="first-letter">Tewiki talk</namespace>
+		</namespaces>
+	</siteinfo>
+
+
+
+
+	<page>
+		<title>ప్రభుత్వ ప్రాథమికోన్నత పాఠశాల (ఆశ్రమ) బాండ</title>
+		<ns>0</ns>
+		<id>300000</id>
+		<revision>
+			<id>300000</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1846">{{Infobox school
+	| name = ప్రభుత్వ ప్రాథమికోన్నత పాఠశాల (ఆశ్రమ) బాండ
+	| city = బండ గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 8
+	| medium = తెలుగు  
+	| students = 101 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఒక ఉపాధ్యాయుడు
+}}
+
+ఈ ప్రభుత్వం ఎయిడెడ్  ప్రాథమికోన్నత పాఠశాల బండ గ్రామంలో ఉన్నది. ఈస్ట్ గోదవరి జిల్లాలో మరేదుమిల్లి పరిధిలో ఈ గ్రామం ఉన్నది. ఇది గిరిజన సంక్షేమ ఆశ్రమ పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఎనిమిదవ తరగతి వరకు తెలుగు మాధ్యమంలో బోధన చేస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140100401.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం 101 మంది విద్యార్థులలో నలభై తొమ్మిది మంది బాలురు యాభై రెండు మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇది ఏకోపాధ్యాయ పాఠశాల. ఒక ఉపాధ్యాయుడు ఉన్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:మరేదుమిల్లి లో పాఠశాలలు]]
+[[వర్గం:మరేదుమిల్లి లో విద్యాసంస్థలు]]
+[[వర్గం:బండ లో పాఠశాలలు]]
+[[వర్గం:బండ లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>t0ln9fxstr6xarzgn9wrrymf3r6ng54</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) (టి. డబ్ల్యు.) బొద్దుమనువీది</title>
+		<ns>0</ns>
+		<id>300001</id>
+		<revision>
+			<id>300001</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1880">{{Infobox school
+	| name = ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) (టి. డబ్ల్యు.) బొద్దుమనువీది
+	| city = బొడ్లంక గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = తెలుగు  
+	| students = పదమూడు మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఒక ఉపాధ్యాయిని
+}}
+
+ఈ ప్రభుత్వ ప్రాథమిక పాఠశాల బొడ్లంక గ్రామంలో ఉన్నది. ఈస్ట్ గోదవరి జిల్లాలో మరేదుమిల్లి పరిధిలో ఈ గ్రామం ఉన్నది. ప్రభుత్వ గిరిజన సంక్షేమ శాఖ ప్రాథమిక పాఠశాల నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకు తెలుగు మాధ్యమంలో బోధన చేస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140100910.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం పదమూడు మంది విద్యార్థులలో నలుగురు బాలురు తొమ్మిది మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇది ఏకోపాధ్యాయ పాఠశాల. ఒక ఉపాధ్యాయిని ఉన్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:మరేదుమిల్లి లో పాఠశాలలు]]
+[[వర్గం:మరేదుమిల్లి లో విద్యాసంస్థలు]]
+[[వర్గం:బొడ్లంక లో పాఠశాలలు]]
+[[వర్గం:బొడ్లంక లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>kvox1rlpryx7nvib5boamcwdzj9gh7g</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పందిరిమామిడికోట</title>
+		<ns>0</ns>
+		<id>300002</id>
+		<revision>
+			<id>300002</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1913">{{Infobox school
+	| name = మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పందిరిమామిడికోట
+	| city = పండిమమిదికోటికోట గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = తెలుగు  
+	| students = పదహారు మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇద్దరు ఉపాధ్యాయినులు
+}}
+
+ఈస్ట్ గోదవరి జిల్లాలో మరేదుమిల్లి పరిధిలో పండిమమిదికోటికోట గ్రామంలో ఈ మండల ప్రజా పరిషత్ ప్రాథమిక పాఠశాల ఉన్నది. ఇది మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకు తెలుగు మాధ్యమంలో చదువు చెప్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140103501.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం పదహారు మంది విద్యార్థులలో తొమ్మిది మంది బాలురు ఏడుగురు బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇక్కడ ఇద్దరు ఉపాధ్యాయులు ఉన్నారు, వీరిలో అందరూ ఉపాధ్యాయినులే.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:మరేదుమిల్లి లో పాఠశాలలు]]
+[[వర్గం:మరేదుమిల్లి లో విద్యాసంస్థలు]]
+[[వర్గం:పండిమమిదికోటికోట లో పాఠశాలలు]]
+[[వర్గం:పండిమమిదికోటికోట లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>g2c42h64h8j6z1nsm4j76qrt2owgxd7</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) మారేడుమిల్లి</title>
+		<ns>0</ns>
+		<id>300003</id>
+		<revision>
+			<id>300003</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1967">{{Infobox school
+	| name = జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) మారేడుమిల్లి
+	| city = మరేదుమిల్లి గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు  
+	| students = ఎనభై ఆరు మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = తొమ్మిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ జిల్లా పరిషత్ ఉన్నత పాఠశాల మరేదుమిల్లి గ్రామంలో ఉన్నది. ఈస్ట్ గోదవరి జిల్లాలో మరేదుమిల్లి పరిధిలో ఈ గ్రామం ఉన్నది. ఇది మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇందులో ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు మాధ్యమంలో భోదించబడుతుంది.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140104904.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం ఎనభై ఆరు మంది విద్యార్థులలో యాభై నాలుగు మంది బాలురు ముప్పై రెండు మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇక్కడ నలుగురు ఉపాధ్యాయులు ఐదుగురు ఉపాధ్యాయినులు, మొత్తం తొమ్మిది మంది ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:మరేదుమిల్లి లో పాఠశాలలు]]
+[[వర్గం:మరేదుమిల్లి లో విద్యాసంస్థలు]]
+[[వర్గం:మరేదుమిల్లి లో పాఠశాలలు]]
+[[వర్గం:మరేదుమిల్లి లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>54lolbj2thrnkp5w75xmz19v4mgat42</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>లూథరన్ ప్రాథమిక పాఠశాల (ఎయిడెడ్) గొంతువానిపాలెం</title>
+		<ns>0</ns>
+		<id>300004</id>
+		<revision>
+			<id>300004</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1856">{{Infobox school
+	| name = లూథరన్ ప్రాథమిక పాఠశాల (ఎయిడెడ్) గొంతువానిపాలెం
+	| city = గొంతువనిపాలెం గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = తెలుగు  
+	| students = ఇరవై తొమ్మిది మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ముగ్గురు ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ ఎయిడెడ్ పాఠశాల గొంతువనిపాలెం గ్రామంలో ఉన్నది. ఈ గ్రామం ఈస్ట్ గోదవరి జిల్లాలో అద్దతీగల పరిధిలో ఉన్నది. ప్రైవేట్ ఎయిడెడ్  నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకు తెలుగు మాధ్యమంలో బోధన చేస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140309802.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో పధ్నాలుగు మంది బాలురు పదిహేను మంది బాలికలు , మొత్తం ఇరవై తొమ్మిది మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. ఇక్కడ ముగ్గురు ఉపాధ్యాయులు ఉన్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:అద్దతీగల లో పాఠశాలలు]]
+[[వర్గం:అద్దతీగల లో విద్యాసంస్థలు]]
+[[వర్గం:గొంతువనిపాలెం లో పాఠశాలలు]]
+[[వర్గం:గొంతువనిపాలెం లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>kkoxqnpk0mx0r2f1sijxppdnpv237eg</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>మాధురి విద్యాలయ ప్రాథమికోన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) గోల్లప్రోలు</title>
+		<ns>0</ns>
+		<id>300005</id>
+		<revision>
+			<id>300005</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1925">{{Infobox school
+	| name = మాధురి విద్యాలయ ప్రాథమికోన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) గోల్లప్రోలు
+	| city = గొల్లప్రోలు గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఇంగ్లీష్  
+	| students = 1302 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పదకొండు మంది ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ పాఠశాల ఈస్ట్ గోదవరి జిల్లాలో గొల్లప్రోలు పరిధిలో గల గొల్లప్రోలు గ్రామంలో ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులు ఐదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140800908.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో మొత్తం 1302 మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. వీరిలో 745 మంది బాలురు 557 మంది బాలికలు ఉన్నారు. మొత్తం పదకొండు మంది ఉపాధ్యాయులలో ఇద్దరు ఉపాధ్యాయులు తొమ్మిది మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:గొల్లప్రోలు లో పాఠశాలలు]]
+[[వర్గం:గొల్లప్రోలు లో విద్యాసంస్థలు]]
+[[వర్గం:గొల్లప్రోలు లో పాఠశాలలు]]
+[[వర్గం:గొల్లప్రోలు లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>l0utxd6t2z3aaldhuc7ihcl5w6oaxf9</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>శ్రీరామ్ విద్యానికేతన్ ప్రాథమికోన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) గోల్లప్రోలు</title>
+		<ns>0</ns>
+		<id>300006</id>
+		<revision>
+			<id>300006</id>
+			<timestamp>2021-07-26T18-41-22Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1949">{{Infobox school
+	| name = శ్రీరామ్ విద్యానికేతన్ ప్రాథమికోన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) గోల్లప్రోలు
+	| city = గొల్లప్రోలు గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 8
+	| medium = ఇంగ్లీష్  
+	| students = 256 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = తొమ్మిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ పాఠశాల గొల్లప్రోలు గ్రామంలో ఉన్నది. ఈస్ట్ గోదవరి జిల్లాలో గొల్లప్రోలు పరిధిలో ఈ గ్రామం ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులకు ఎనిమిదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధన చేస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28140800916.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో మొత్తం 256 మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. వీరిలో 161 మంది బాలురు తొంభై అయిదు మంది బాలికలు ఉన్నారు. ఇక్కడ ముగ్గురు ఉపాధ్యాయులు ఆరుగురు ఉపాధ్యాయినులు, మొత్తం తొమ్మిది మంది ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:గొల్లప్రోలు లో పాఠశాలలు]]
+[[వర్గం:గొల్లప్రోలు లో విద్యాసంస్థలు]]
+[[వర్గం:గొల్లప్రోలు లో పాఠశాలలు]]
+[[వర్గం:గొల్లప్రోలు లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>l9kef9q08uiedd9mdbrj3mm3bztgfu3</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ఆదర్శ ఉన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) కొత్తపల్లి</title>
+		<ns>0</ns>
+		<id>300007</id>
+		<revision>
+			<id>300007</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1924">{{Infobox school
+	| name = ఆదర్శ ఉన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) కొత్తపల్లి
+	| city = కోతపల్లి గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = ఇంగ్లీష్,తెలుగు  
+	| students = తొంభై రెండు మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఎనిమిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ పాఠశాల కోతపల్లి గ్రామంలో ఉన్నది. ఈ గ్రామం ఈస్ట్ గోదవరి జిల్లాలో గోకవరం పరిధిలో ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇందులో ఆరవ తరగతి నుండి పదవ తరగతి వరకు ఇంగ్లీష్,తెలుగు మాధ్యమంలో భోదించబడుతుంది.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28141700212.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం తొంభై రెండు మంది విద్యార్థులలో యాభై నాలుగు మంది బాలురు ముప్పై ఎనిమిది మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. మొత్తం ఎనిమిది మంది ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు నలుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:గోకవరం లో పాఠశాలలు]]
+[[వర్గం:గోకవరం లో విద్యాసంస్థలు]]
+[[వర్గం:కోతపల్లి లో పాఠశాలలు]]
+[[వర్గం:కోతపల్లి లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>nykjxjv1kuqipizjutkd1nkccdj6ock</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>చిన్న సోల్డియర్స్ ఉన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) జార్జ్ గారి వీధి</title>
+		<ns>0</ns>
+		<id>300008</id>
+		<revision>
+			<id>300008</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1881">{{Infobox school
+	| name = చిన్న సోల్డియర్స్ ఉన్నత పాఠశాల ((ఇంగ్లీష్ మీడియం)) జార్జ్ గారి వీధి
+	| city = పితపురం గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = ఇంగ్లీష్  
+	| students = 178 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఆరుగురు ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ పాఠశాల పితపురం గ్రామంలో ఉన్నది. ఈస్ట్ గోదవరి జిల్లాలో పితపురం పరిధిలో ఈ గ్రామం ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇందులో ఆరవ తరగతి నుండి పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో భోదించబడుతుంది.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28142190763.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం 178 మంది విద్యార్థులలో 102 మంది బాలురు డెబ్బై ఆరు మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. మొత్తం ఆరుగురు ఉపాధ్యాయులలో ఒక ఉపాధ్యాయుడు ఐదుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:పితపురం లో పాఠశాలలు]]
+[[వర్గం:పితపురం లో విద్యాసంస్థలు]]
+[[వర్గం:పితపురం లో పాఠశాలలు]]
+[[వర్గం:పితపురం లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>26zd4kq3rqiz0wbk0mivvw0sj2yfhqs</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) దౌలేశ్వరం</title>
+		<ns>0</ns>
+		<id>300009</id>
+		<revision>
+			<id>300009</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1929">{{Infobox school
+	| name = జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) దౌలేశ్వరం
+	| city = దౌలేశ్వరం గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు,ఇంగ్లీష్  
+	| students = 403 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పధ్నాలుగు మంది ఉపాధ్యాయులు
+}}
+
+ఈ జిల్లా పరిషత్ ఉన్నత పాఠశాల ఈస్ట్ గోదవరి జిల్లాలో రాజమహేంద్రవరం( రూరాల్) పరిధిలో గల దౌలేశ్వరం గ్రామంలో ఉన్నది. ఇది మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో పని చేస్తుంది. ఇందులో ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు,ఇంగ్లీష్ మాధ్యమంలో భోదించబడుతుంది.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28142990322.
+
+==పాఠశాల వివరములు==
+ఇక్కడ బాలురకు మాత్రమే ప్రవేశం ఉన్నది. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా 403 మంది బాలురు ఈ పాఠశాలలో అభ్యసిస్తున్నారు. మొత్తం పధ్నాలుగు మంది ఉపాధ్యాయులలో ఐదుగురు ఉపాధ్యాయులు తొమ్మిది మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:రాజమహేంద్రవరం( రూరాల్) లో పాఠశాలలు]]
+[[వర్గం:రాజమహేంద్రవరం( రూరాల్) లో విద్యాసంస్థలు]]
+[[వర్గం:దౌలేశ్వరం లో పాఠశాలలు]]
+[[వర్గం:దౌలేశ్వరం లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>q7n5k222d1rhi8x3vdjr55mwxrbhz6x</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>సేవన్ మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) సత్తెనపల్లి</title>
+		<ns>0</ns>
+		<id>300010</id>
+		<revision>
+			<id>300010</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1917">{{Infobox school
+	| name = సేవన్ మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) సత్తెనపల్లి
+	| city = సత్తేనపల్లి గ్రామం, గుంటూరు జిల్లా
+	| district = గుంటూరు జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఇంగ్లీష్,తెలుగు  
+	| students = 163 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల సత్తేనపల్లి గ్రామంలో ఉన్నది. ఈ గ్రామం గుంటూరు జిల్లాలో సత్తేనపల్లి పరిధిలో ఉన్నది. మండల ప్రజా పరిషత్తు_జిల్లా ప్రజా పరిషత్తు పాఠశాలలు నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులు ఐదవ తరగతి వరకు ఇంగ్లీష్,తెలుగు మాధ్యమంలో విద్యను అభ్యసిస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28171590918.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో డెబ్బై ఏడు మంది బాలురు ఎనభై ఆరు మంది బాలికలు , మొత్తం 163 మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. మొత్తం ఏడుగురు ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు ముగ్గురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు జిల్లా పాఠశాలలు]]
+[[వర్గం:గుంటూరు జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:సత్తేనపల్లి లో పాఠశాలలు]]
+[[వర్గం:సత్తేనపల్లి లో విద్యాసంస్థలు]]
+[[వర్గం:సత్తేనపల్లి లో పాఠశాలలు]]
+[[వర్గం:సత్తేనపల్లి లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>4ucve2q5du3srm7wkcb3z05b0lry441</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>గోవత్ప్స్ ఎం. నిలయం సి. జి.ఎన్.టి.</title>
+		<ns>0</ns>
+		<id>300011</id>
+		<revision>
+			<id>300011</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1857">{{Infobox school
+	| name = గోవత్ప్స్ ఎం. నిలయం సి. జి.ఎన్.టి.
+	| city = గుంటూరు ( ఉ) గ్రామం, గుంటూరు జిల్లా
+	| district = గుంటూరు జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఉర్దూ  
+	| students = ముప్పై నాలుగు మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ముగ్గురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల గుంటూరు ( ఉ) గ్రామంలో ఉన్నది. ఈ గ్రామం గుంటూరు జిల్లాలో గుంటూరు పరిధిలో ఉన్నది. రాష్ట్ర ఫ్రభుత్వ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకు ఉర్దూ మాధ్యమంలో చదువు చెప్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28172600603.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో మొత్తం ముప్పై నాలుగు మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. వీరిలో ఇరవై ఆరు మంది బాలురు ఎనిమిది మంది బాలికలు ఉన్నారు. మొత్తం ముగ్గురు ఉపాధ్యాయులలో ఇద్దరు ఉపాధ్యాయులు ఒక ఉపాధ్యాయిని ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు జిల్లా పాఠశాలలు]]
+[[వర్గం:గుంటూరు జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు లో పాఠశాలలు]]
+[[వర్గం:గుంటూరు లో విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు ( ఉ) లో పాఠశాలలు]]
+[[వర్గం:గుంటూరు ( ఉ) లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>cp76dvngc38doe4vc3f1lp1f8yyrj3e</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>విజయామేరీ ఇంగ్లీష్ మీడియం పాఠశాల సిరిపురం</title>
+		<ns>0</ns>
+		<id>300012</id>
+		<revision>
+			<id>300012</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1838">{{Infobox school
+	| name = విజయామేరీ ఇంగ్లీష్ మీడియం పాఠశాల సిరిపురం
+	| city = శిరిపురం గ్రామం, గుంటూరు జిల్లా
+	| district = గుంటూరు జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 10
+	| medium = ఇంగ్లీష్  
+	| students = 242 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఎనిమిది మంది ఉపాధ్యాయులు
+}}
+
+గుంటూరు జిల్లాలో మేడికొందురు పరిధిలో శిరిపురం గ్రామంలో ఈ ప్రైవేట్ పాఠశాల ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులు పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28172500310.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం 242 మంది విద్యార్థులలో 133 మంది బాలురు 109 మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. మొత్తం ఎనిమిది మంది ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు నలుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు జిల్లా పాఠశాలలు]]
+[[వర్గం:గుంటూరు జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:మేడికొందురు లో పాఠశాలలు]]
+[[వర్గం:మేడికొందురు లో విద్యాసంస్థలు]]
+[[వర్గం:శిరిపురం లో పాఠశాలలు]]
+[[వర్గం:శిరిపురం లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>jckv17it6jjgn16h1sqsv8a1qklthdl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>జి.ఎం. ప్రభుత్వ ఉన్నత పాఠశాల పెదపూడి</title>
+		<ns>0</ns>
+		<id>300013</id>
+		<revision>
+			<id>300013</id>
+			<timestamp>2021-07-26T18-41-23Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1841">{{Infobox school
+	| name = జి.ఎం. ప్రభుత్వ ఉన్నత పాఠశాల పెదపూడి
+	| city = పెదపూడి గ్రామం, ఈస్ట్ గోదవరి జిల్లా
+	| district = ఈస్ట్ గోదవరి జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు,ఇంగ్లీష్  
+	| students = 382 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పదహారు మంది ఉపాధ్యాయులు
+}}
+
+ఈస్ట్ గోదవరి జిల్లాలో పెదపూడి పరిధిలో పెదపూడి గ్రామంలో ఈ పాఠశాల ఉన్నది. ఇది రాష్ట్ర ఫ్రభుత్వ నిర్వహణలో పని చేస్తుంది. ఇందులో ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు,ఇంగ్లీష్ మాధ్యమంలో భోదించబడుతుంది.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28143500306.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా మొత్తం 382 మంది విద్యార్థులలో 192 మంది బాలురు 190 మంది బాలికలు ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. ఇక్కడ మొత్తం పదహారు మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో పది మంది ఉపాధ్యాయులు ఆరుగురు ఉపాధ్యాయినులు .
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా పాఠశాలలు]]
+[[వర్గం:ఈస్ట్ గోదవరి జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:పెదపూడి లో పాఠశాలలు]]
+[[వర్గం:పెదపూడి లో విద్యాసంస్థలు]]
+[[వర్గం:పెదపూడి లో పాఠశాలలు]]
+[[వర్గం:పెదపూడి లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>7jiof9pfz0tw5d4urzmbidq925tvjzl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>సాయి (ఇంగ్లీష్ మీడియం) అంప్ మీడియం పాఠశాల తుమ్మల</title>
+		<ns>0</ns>
+		<id>300014</id>
+		<revision>
+			<id>300014</id>
+			<timestamp>2021-07-26T18-41-24Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="1857">{{Infobox school
+	| name = సాయి (ఇంగ్లీష్ మీడియం) అంప్ మీడియం పాఠశాల తుమ్మల
+	| city = పోటుమేరాక గ్రామం, గుంటూరు జిల్లా
+	| district = గుంటూరు జిల్లా
+	| state = ఆంధ్రప్రదేశ్
+	| country	 = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 8
+	| medium = ఇంగ్లీష్  
+	| students = 109 మంది
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఆరుగురు ఉపాధ్యాయులు
+}}
+
+ఈ ప్రైవేట్ పాఠశాల పోటుమేరాక గ్రామంలో ఉన్నది. ఈ గ్రామం గుంటూరు జిల్లాలో రేపల్లె పరిధిలో ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల ఉన్నది. ఇక్కడ విద్యార్థులు ఎనిమిదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు.
+
+==గుర్తింపు==
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 28175201713.
+
+==పాఠశాల వివరములు==
+ఇది బాల బాలికల పాఠశాల. 2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా ఈ పాఠశాలలో డెబ్బై మూడు మంది బాలురు ముప్పై ఆరు మంది బాలికలు , మొత్తం 109 మంది విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. ఇక్కడ ఐదుగురు ఉపాధ్యాయులు ఒక ఉపాధ్యాయిని, మొత్తం ఆరుగురు ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+==మూలాలు== 
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ లో పాఠశాలలు]]
+[[వర్గం:ఆంధ్రప్రదేశ్ విద్యాసంస్థలు]]
+[[వర్గం:గుంటూరు జిల్లా పాఠశాలలు]]
+[[వర్గం:గుంటూరు జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:రేపల్లె లో పాఠశాలలు]]
+[[వర్గం:రేపల్లె లో విద్యాసంస్థలు]]
+[[వర్గం:పోటుమేరాక లో పాఠశాలలు]]
+[[వర్గం:పోటుమేరాక లో విద్యాసంస్థలు]]
+			</text>
+			<sha1>iairn0q49ig9j8hsfbb2dfkhi1xqs3i</sha1>
+		</revision>
+	</page>
+	
+
+
+</mediawiki>
