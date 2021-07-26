@@ -9,8 +9,8 @@ def clean(token):
 	return cleanToken
 
 def main():
-	csvObj =csv.reader(open('freqTokens.csv', 'r'))
-	csvObj =csv.reader(open('freqTokens.csv', 'r'))
+	# csvObj =csv.reader(open('freqTokens.csv', 'r'))
+	csvObj =csv.reader(open('./titles_translation/titleTokens.csv', 'r'))
 	pairs = [[row[1],row[2]] for row in csvObj if row[2].strip()!='']
 	freqTokens = {}
 	for en, te in pairs[1:]:
@@ -31,7 +31,7 @@ def main():
 	for sp in spAcro:
 		freqTokens[sp] =spAcro[sp]
 
-	pickle.dump(freqTokens, open('freqTokens.pkl', 'wb'))
+	pickle.dump(freqTokens, open('./titles_translation/titleTokens.pkl', 'wb'))
 
 if __name__ == '__main__':
 	main()

@@ -18,6 +18,7 @@ def clean(token):
 
 def masterHandleTitle(title):
 	#Pre process
+	title = title.upper()
 	title = re.sub('&', '&amp;', title)
 	title = re.sub(r'(\(\[)', ' \g<1>', title)
 	title = re.sub(r'(\)\])', '\g<1> ', title)
