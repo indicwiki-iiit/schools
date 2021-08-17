@@ -62,7 +62,7 @@ def main():
     consecutive_failures = 0
     for idx, row in url_df.iterrows():
         _id = row["School Code"]
-        print(_id)
+        # print(_id)
         url = row["URL"]
         time.sleep(0.05)
         given_page = bf('<p></p>', "html.parser")
@@ -167,5 +167,6 @@ def main():
     initial_df1 = save_schools_data(initial_df1, schools_data)
     with open(f'./schools_org_data_{start_index}-{end_index}.pkl', 'wb') as f:
         pickle.dump(initial_df1, f)
+        
 if __name__ == '__main__':
 	main()
