@@ -128,6 +128,15 @@ def sha36(page_id):
 	
 	return ''.join(reversed(chars))
 
+# Loads the final dataset
+def load_df():
+    conc = pd.DataFrame()
+    for j in range(1, 4):
+        with open(f'./scrape_new_data/schools_org_data_part_{j}.pkl', 'rb') as f:
+            a = pickle.load(f)
+            conc = pd.concat([conc, a], axis=0)
+    return conc
+
 def writePage(title, wikiText, fobj):
 	global user_id, username
 
@@ -174,7 +183,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	# Load Data
 	global dataFolder, page_id
 	# School Data and the ready codes
-	oneKB =pickle.load(open(dataFolder+'oneKB.pkl', 'rb'))
+	oneKB = load_df()
 	codes =pickle.load(open(dataFolder+'readyCodes.pkl', 'rb'))
 
 	# Get list of codes to generate articles for
@@ -183,7 +192,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	# codes = [28204401308]
 	# # codes =random.sample(codes, 10)
 	codes = [28140100401, 28140100910, 28140103501, 28140104904, 28140309802, 28140800908, 28140800916, 28141700212, 28142190763, 28142990322, 28171590918, 28172600603, 28172500310, 28143500306, 28175201713]
-
+	codes = map(str, codes)
 	#File names:
 	articlePartsFile ='articleParts'+str(start)+'-'+str(end)+'.csv'
 	onePageFile ='onePage'+str(start)+'-'+str(end)+'.xml'
@@ -208,15 +217,14 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	for i, code in enumerate(codes):
 		# try:
 		start = datetime.now()
-		details =oneKB.loc[oneKB['School Code']==code].values.tolist()[0]
-		title, wikiText=getWikiText(details, textTemplate)
-		
-		#Write row to csv file
-		titleWriter.writerow([code, details[4].strip(), title])
-
+		current_df = oneKB.loc[oneKB['School Code']==code]
+		title, wikiText = '', ''
+		for idx, row in current_df.iterrows():
+			title, wikiText = getWikiText(row, textTemplate)
+			#Write row to csv file
+			titleWriter.writerow([code, row['School Title'].strip(), title])
 		# Save intermediate representation to a dataframe, ArticleParts
 		parts = tuple([p.strip(' \n\t\r') for p in wikiText.split('<$>')])
-		
 		# Infobox, Location, Details, Academics, Counts, Ending, References = parts[6], parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
 		
 		# details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox.strip(), 'Location':Location.strip(), 

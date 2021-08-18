@@ -13,32 +13,32 @@ def getGrades(desc):
 	return lo, hi
 
 # For teluguText.j2
-def getData(details, title):
-	enName = details[4].strip()
-	enMgnt =details[6].strip()
+def getData(row, title):
+	enName = row['School Title'].strip()
+	enMgnt =row['SCHMGT_DESC'].strip()
 	teMgnt, extraDesc, schToken =getTeTokens(enName, enMgnt)
 
-	village = transTelugu(details[2].strip().lower())
-	district = transTelugu(details[0].strip().lower())
-	block = transTelugu(details[1].strip().lower())
-	code = str(details[3]).strip()
+	village = transTelugu(row['Village / Town'].strip().lower())
+	district = transTelugu(row['District'].strip().lower())
+	block = transTelugu(row['Block'].strip().lower())
+	code = str(row['School Code']).strip()
 
-	loInt, hiInt = getGrades(details[5].strip())
+	loInt, hiInt = getGrades(row['SCHCAT_DESC'].strip())
 	lo =class_nums[loInt]; hi =class_nums[hiInt]
-	medium = transTelugu(details[7].strip())
+	medium = transTelugu(row['Instruction Medium'].strip())
 
-	sType =details[9].lower()
-	bInt, gInt =details[11], details[12]
-	bCount =numToTelugu(details[11])
-	gCount =numToTelugu(details[12])
-	endBCount =numToTelugu(details[11], 0)
-	endGCount =numToTelugu(details[12], 0)
-	totalStudents =numToTelugu(details[13])
+	sType =row['School Type'].lower()
+	bInt, gInt =row['TotalBoysEnrollment'], row['TotalGirlsEnrollment']
+	bCount =numToTelugu(row['TotalBoysEnrollment'])
+	gCount =numToTelugu(row['TotalGirlsEnrollment'])
+	endBCount =numToTelugu(row['TotalBoysEnrollment'], 0)
+	endGCount =numToTelugu(row['TotalGirlsEnrollment'], 0)
+	totalStudents =numToTelugu(row['Total'])
 
-	fInt =int(details[15])
-	mInt =int(details[14])
-	fCount =numToTelugu(details[15])
-	mCount =numToTelugu(details[14])
+	fInt =int(row['Female Teacher'])
+	mInt =int(row['Male Teachers'])
+	fCount =numToTelugu(row['Female Teacher'])
+	mCount =numToTelugu(row['Male Teachers'])
 	totalTeachers =numToTelugu(fInt+mInt)
 
 	data = {
@@ -75,9 +75,9 @@ def getData(details, title):
 
 	return data
 
-def getWikiText(details, textTemplate):
-	title =masterHandleTitle(details[4].strip())
-	data = getData(details, title)
+def getWikiText(row, textTemplate):
+	title =masterHandleTitle(row['School Title'].strip())
+	data = getData(row, title)
 	wikiText = textTemplate.render(data)
 
 	return title, wikiText
