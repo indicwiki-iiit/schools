@@ -12,6 +12,11 @@ def getGrades(desc):
 
 	return lo, hi
 
+def get_int(value):
+    if value in [None, '', 'nan']:
+        return -1
+    return int(value)
+
 # For teluguText.j2
 def getData(row, title):
 	enName = row['School Title'].strip()
@@ -21,22 +26,22 @@ def getData(row, title):
 	village = transTelugu(row['Village / Town'].strip().lower())
 	district = transTelugu(row['District'].strip().lower())
 	block = transTelugu(row['Block'].strip().lower())
-	code = str(row['School Code']).strip()
+	code = row['School Code'].strip()
 
 	loInt, hiInt = getGrades(row['SCHCAT_DESC'].strip())
 	lo =class_nums[loInt]; hi =class_nums[hiInt]
 	medium = transTelugu(row['Instruction Medium'].strip())
 
 	sType =row['School Type'].lower()
-	bInt, gInt =row['TotalBoysEnrollment'], row['TotalGirlsEnrollment']
+	bInt, gInt = get_int(row['TotalBoysEnrollment']), get_int(row['TotalGirlsEnrollment'])
 	bCount =numToTelugu(row['TotalBoysEnrollment'])
 	gCount =numToTelugu(row['TotalGirlsEnrollment'])
 	endBCount =numToTelugu(row['TotalBoysEnrollment'], 0)
 	endGCount =numToTelugu(row['TotalGirlsEnrollment'], 0)
 	totalStudents =numToTelugu(row['Total'])
 
-	fInt =int(row['Female Teacher'])
-	mInt =int(row['Male Teachers'])
+	fInt = get_int(row['Female Teacher'])
+	mInt = get_int(row['Male Teachers'])
 	fCount =numToTelugu(row['Female Teacher'])
 	mCount =numToTelugu(row['Male Teachers'])
 	totalTeachers =numToTelugu(fInt+mInt)

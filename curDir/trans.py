@@ -1,5 +1,6 @@
 import gc,re, csv, pickle, enchant
 from transNNP import handleNewToken, freqTokens
+import pandas as pd
 
 # from anuvaad import Anuvaad
 # anu =Anuvaad('english-telugu')
@@ -8,6 +9,14 @@ from deeptranslit import DeepTranslit
 translit = DeepTranslit('telugu').transliterate
 
 threshold = 0.6
+
+# Checks if an attribute value is valid
+def is_valid(value):
+    if value == None or pd.isnull(value) or str(value) in ["[]", '', "None", 'Not Applicable', 'nan']:
+        return False
+    if isinstance(value, float) or isinstance(value, int):
+        return value > 0 and str(value) != 'nan'
+    return not value in ['', 'nan', '-1']
 
 def clean(token):
 	cleanToken = ''
@@ -102,6 +111,8 @@ def translate(phrase):
 	return telugu.strip()
 
 def transTelugu(phrase):
+	if not is_valid(phrase):
+		return 'nan'
 	phrase = process(phrase)
 
 	# anuTelugu =translate(phrase)

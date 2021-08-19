@@ -3,26 +3,48 @@
 
 {%- macro infobox(title, village, district, state, country, loInt, hiInt, medium, totalStudents) -%}
 {{'{{Infobox school'}}
+	{%- if is_valid(title) %}
 	| name = {{title}}
+	{%- endif %}
+	{%- if is_valid(village) and is_valid(district) %}
 	| city = {{village}}గ్రామం, {{district}}జిల్లా
+	{%- elif is_valid(village) and not is_valid(district) %}
+	| city = {{village}}గ్రామం
+	{%- elif is_valid(district) and not is_valid(village) %}
+	| city = {{district}}జిల్లా
+	{%- endif %}
+	{%- if is_valid(district) %}
 	| district = {{district}}జిల్లా
+	{%- endif %}
+	{%- if is_valid(state) %}
 	| state = {{state}}
-	| country	 = {{country}}
+	{%- endif %}
+	{%- if is_valid(country) %}
+	| country = {{country}}
+	{%- endif %}
+	{%- if is_valid(loInt) and is_valid(hiInt) %}
     | grades_label = తరగతులు
 	| grades = {{loInt}} - {{hiInt}}
+	{%- endif %}
+	{%- if is_valid(medium) %}
 	| medium = {{medium}} 
+	{%- endif %}
+	{%- if is_valid(totalStudents) %}
 	| students = {{totalStudents}}
+	{%- endif %}
+	{%- if is_valid(teacherCount.info) %}
     | free_label = ఉపాధ్యాయులు
 	| free_text = {{teacherCount.info}}
+	{%- endif %}
 {{'}}\n'}}
 {%- endmacro -%}
 
 {%- macro intro(village, district, block, schToken, teMgnt) -%}
 	{%- set line =[
-			"ఈ "+schToken+village+"గ్రామంలో ఉన్నది. ఈ గ్రామం "+district+"జిల్లాలో "+block+"పరిధిలో ఉన్నది. ",
-			"ఈ "+schToken+village+"గ్రామంలో ఉన్నది. "+district+"జిల్లాలో "+block+"పరిధిలో ఈ గ్రామం ఉన్నది. ",
-			district+"జిల్లాలో "+block+"పరిధిలో "+village+"గ్రామంలో ఈ "+schToken+"ఉన్నది. ",
-			"ఈ "+schToken+district+"జిల్లాలో "+block+"పరిధిలో గల "+village+"గ్రామంలో ఉన్నది. "
+			get_intro_line_1(village, district, block, schToken),
+			get_intro_line_2(village, district, block, schToken),
+			get_intro_line_3(village, district, block, schToken),
+			get_intro_line_4(village, district, block, schToken)
 		]|random
 	-%}
 	{{line}}
@@ -39,16 +61,16 @@
 {%- macro classes(fromStd, lo, hi, medium, extraDesc) -%}
 	{%- if loInt==1 -%}
 		{%- set line =[
-			 'ఇక్కడ విద్యార్థులు '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో విద్యను అభ్యసిస్తారు. ' ,
-			 'ఇక్కడ విద్యార్థులకు '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో బోధన చేస్తారు. ' ,
-			 'ఇక్కడ విద్యార్థులకు '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో చదువు చెప్తారు. '
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'బోధన చేస్తారు. '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'చదువు చెప్తారు. ')
 			]|random
 		-%}
 	{%- else -%}
 		{%- set line =[
-			 'ఇందులో '+lo+' తరగతి నుండి '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో భోదించబడుతుంది. ' ,
-			 'ఇందులో విద్యార్థులు '+lo+' తరగతి నుండి '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో విద్యను అభ్యసిస్తారు. ' ,
-			 'ఇందులో '+lo+' తరగతి నుండి '+hi+' తరగతి వరకు '+medium+'మాధ్యమంలో చదువు చెప్తారు. '
+				get_class_info(lo |string, hi |string, medium, 'ఇందులో ', 'భోదించబడుతుంది. '),
+				get_class_info(lo |string, hi |string, medium, 'ఇందులో విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
+				get_class_info(lo |string, hi |string, medium, 'ఇందులో ', 'చదువు చెప్తారు. ')
 			]|random
 		-%}
 	{%- endif -%}
@@ -66,27 +88,25 @@
 {%- endmacro -%}
 
 {%- macro studentsCount(sType, bInt, gInt, bCount, gCount, totalStudents, spBCount, spGCount) -%}
-==పాఠశాల వివరములు==
 	{{- "\n" -}}
 	{%- set refLine = "2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా " -%}
-	{%- if bInt==1 -%}
+	{%- if not is_valid(bInt) -%}
+		{%-set bToken=''-%}
+	{%- elif bInt==1 -%}
 		{%-set bToken=bCount+' బాలుడు '-%}
 	{%- else -%}
 		{%-set bToken=bCount+' బాలురు '-%}
 	{%- endif -%}
-	{%- if gInt==1 -%}
+	{%- if not is_valid(gInt) -%}
+		{%-set gToken=''-%}
+	{%- elif gInt==1 -%}
 		{%-set gToken=gCount+' బాలిక '-%}
 	{%- else -%}
 		{%-set gToken=gCount+' బాలికలు '-%}
 	{%- endif -%}
 	{%- if sType=='co-educational' -%}
 		{%- set desc='ఇది బాల బాలికల పాఠశాల. ' -%}
-		{%- set counts=[
-				refLine+'ఈ పాఠశాలలో '+bToken+gToken+', మొత్తం '+totalStudents+' విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. ',
-				refLine+'ఈ పాఠశాలలో మొత్తం '+totalStudents+' విద్యార్థులు విద్యని అభ్యసిస్తున్నారు. వీరిలో '+bToken+gToken+'ఉన్నారు. ',
-				refLine+'మొత్తం '+totalStudents+' విద్యార్థులలో '+bToken+gToken+'ఈ పాఠశాల లో విద్యని అభ్యసిస్తున్నారు. '
-			]|random
-		-%}
+		{%- set counts=get_students_info(refLine, bToken + gToken, totalStudents |string) |random -%}
 	{%- elif sType=='boys' -%}
 		{%- set desc=[
 				'ఇది బాలుర పాఠశాల. ' ,
@@ -94,12 +114,7 @@
 				'బాలురకు మాత్రమే ఇక్కడ ప్రవేశం ఉన్నది. '
 			]|random
 		-%}
-		{%- set counts=[
-				refLine+'ఈ పాఠశాలలో విద్యని అభ్యసిస్తున్న బాలుర సంఖ్య '+endBCount+'. ',
-				refLine+'ఈ పాఠశాలలో '+bToken +'అభ్యసిస్తున్నారు. ',
-				refLine+bToken+'ఈ పాఠశాలలో అభ్యసిస్తున్నారు. '
-			]|random
-		-%}
+		{%- set counts=get_gender_info(refLine, bToken, 'బాలుర', endBCount) |random -%}
 	{%- elif sType=='girls' -%}
 		{%- set desc=[
 				'ఇది బాలికల పాఠశాల. ' ,
@@ -107,47 +122,43 @@
 				'బాలికలకు మాత్రమే ఇక్కడ ప్రవేశం ఉన్నది. '
 			]|random
 		-%}
-		{%- set counts=[
-				refLine+'ఈ పాఠశాలలో విద్యని అభ్యసిస్తున్న బాలికల సంఖ్య '+endGCount+'. ',
-				refLine+'ఈ పాఠశాలలో '+gToken +'అభ్యసిస్తున్నారు. ',
-				refLine+gToken+'ఈ పాఠశాలలో అభ్యసిస్తున్నారు. '
-			]|random
-		-%}
+		{%- set counts=get_gender_info(refLine, gToken, 'బాలికల', endGCount) |random -%}
+	{%- else -%}
+		{%- set counts='' -%}		
 	{%- endif -%}
 	{{desc}}{{counts}}
 {%- endmacro -%}
 
 {%- macro teachersCount(mInt, mCount, fInt, fCount, totalTeachers) -%}
-	{%- if mInt==1 and fInt==0 -%}
+	{%- if mInt==1 and (fInt==0 or not is_valid(fInt))-%}
 		{%- set line='ఇది ఏకోపాధ్యాయ పాఠశాల. ఒక ఉపాధ్యాయుడు ఉన్నారు. ' -%}
 		{% if teacherCount.update({'info': 'ఒక ఉపాధ్యాయుడు'}) %} {% endif %}
-	{%- elif mInt>1 and fInt==0 -%}
+	{%- elif mInt>1 and (fInt==0 or not is_valid(fInt)) -%}
 		{%- set line='ఇక్కడ '+mCount+' ఉపాధ్యాయులు ఉన్నారు. ' -%}
 		{% if teacherCount.update({'info':mCount+' ఉపాధ్యాయులు'}) %} {% endif %}
-	{%- elif mInt==0 and fInt==1 -%}
+	{%- elif (mInt==0 or not is_valid(mInt)) and fInt==1 -%}
 		{%- set line='ఇది ఏకోపాధ్యాయ పాఠశాల. ఒక ఉపాధ్యాయిని ఉన్నారు. ' -%}
 		{% if teacherCount.update({'info':'ఒక ఉపాధ్యాయిని'}) %} {% endif %}
-	{%- elif mInt==0 and fInt>1 -%}
+	{%- elif (mInt==0 or not is_valid(mInt)) and fInt>1 -%}
 		{%- set line='ఇక్కడ '+fCount+' ఉపాధ్యాయులు ఉన్నారు, వీరిలో అందరూ ఉపాధ్యాయినులే. ' -%}
 		{% if teacherCount.update({'info':fCount+' ఉపాధ్యాయినులు'}) %} {% endif %}
 	{%- else -%}
-		{%- if mInt==1 -%}
+		{%- if not is_valid(mInt) -%}
+			{%-set mToken=''-%}
+		{%- elif mInt==1 -%}
 			{%-set mToken=mCount+' ఉపాధ్యాయుడు '-%}
 		{%- else -%}
 			{%-set mToken=mCount+' ఉపాధ్యాయులు '-%}
 		{%- endif -%}
-		{%- if fInt==1 -%}
+		{%- if not is_valid(fInt) -%}
+			{%-set fToken=''-%}
+		{%- elif fInt==1 -%}
 			{%-set fToken=fCount+' ఉపాధ్యాయిని'-%}
 		{%- else -%}
 			{%-set fToken=fCount+' ఉపాధ్యాయినులు'-%}
 		{%- endif -%}
 		{% if teacherCount.update({'info':totalTeachers+' ఉపాధ్యాయులు'}) %} {% endif %}
-		{%- set line=[
-				'ఇక్కడ '+mToken+fToken +', మొత్తం '+totalTeachers+' ఉపాధ్యాయులు పని చేస్తున్నారు. ',
-				'ఇక్కడ మొత్తం '+totalTeachers+' ఉపాధ్యాయులు ఉన్నారు. వీరిలో '+mToken+fToken+' . ',
-				'మొత్తం '+totalTeachers+' ఉపాధ్యాయులలో '+mToken+fToken+' ఇక్కడ పని చేస్తున్నారు. '
-			]|random
-		-%}
+		{%- set line=get_teacher_info(mToken + fToken, totalTeachers |string) |random -%}
 	{%- endif -%}
 	{{line}}
 {%- endmacro -%}
@@ -162,16 +173,26 @@
 [[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
 [[వర్గం:పాఠశాలలు]]
 [[వర్గం:విద్యాసంస్థలు]]
+{%- if is_valid(country) %}
 [[వర్గం:{{country}} లో పాఠశాలలు]]
 [[వర్గం:{{country}} లో విద్యాసంస్థలు]]
+{%- endif -%}
+{%- if is_valid(state) %}
 [[వర్గం:{{state}} లో పాఠశాలలు]]
 [[వర్గం:{{state}} విద్యాసంస్థలు]]
+{%- endif -%}
+{%- if is_valid(district) %}
 [[వర్గం:{{district}}జిల్లా పాఠశాలలు]]
 [[వర్గం:{{district}}జిల్లా విద్యాసంస్థలు]]
+{%- endif -%}
+{%- if is_valid(block) %}
 [[వర్గం:{{block}}లో పాఠశాలలు]]
 [[వర్గం:{{block}}లో విద్యాసంస్థలు]]
+{%- endif -%}
+{%- if is_valid(village) %}
 [[వర్గం:{{village}}లో పాఠశాలలు]]
 [[వర్గం:{{village}}లో విద్యాసంస్థలు]]
+{%- endif -%}
 {%- endmacro -%}
 
 {#- Article written from here -#}

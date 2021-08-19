@@ -11,6 +11,7 @@ from hashlib import sha1
 from write import getWikiText
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
+from template_functions import *
 
 ## indicwiki's and tewiki's xml headers ##
 indicwiki = '''<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
@@ -191,8 +192,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	codes = codes[start:end]
 	# codes = [28204401308]
 	# # codes =random.sample(codes, 10)
-	# codes = [28140100401, 28140100910, 28140103501, 28140104904, 28140309802, 28140800908, 28140800916, 28141700212, 28142190763, 28142990322, 28171590918, 28172600603, 28172500310, 28143500306, 28175201713]
-	codes = [28163100119]
+	codes = [28163100119, 28140100401, 28140100910, 28140103501, 28140104904, 28140309802, 28140800908, 28140800916, 28141700212, 28142190763, 28142990322, 28171590918, 28172600603, 28172500310, 28143500306, 28175201713]
 	codes = map(str, codes)
 	#File names:
 	articlePartsFile ='articleParts'+str(start)+'-'+str(end)+'.csv'
@@ -234,6 +234,8 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		# 			'Achievements':'', 'Order':'abcdefghijkl'})
 
 		Overview, Details, Counts, References, Infobox = parts
+		if len(Counts) > 0:
+			Counts = '\n==పాఠశాల వివరములు==\n' + Counts
 		
 		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox, 'Overview':Overview, 
 					'Details':Details, 'Counts':Counts, 'References':References, 'Facilities':'', 'Extracurricular':'', 
@@ -270,7 +272,18 @@ def main():
 	env = Environment(loader=file_loader)
 
 	dfTextTemplate =env.get_template('new_teluguDFtext.j2')
-
+	functions_dict = {
+        "is_valid": is_valid,
+        "get_intro_line_1": get_intro_line_1,
+        "get_intro_line_2": get_intro_line_2,
+        "get_intro_line_3": get_intro_line_3,
+        "get_intro_line_4": get_intro_line_4,
+        "get_class_info": get_class_info,
+        "get_teacher_info": get_teacher_info,
+        "get_students_info": get_students_info,
+        "get_gender_info": get_gender_info
+    }
+	dfTextTemplate.globals.update(functions_dict)
 	print(sys.argv)
 
 	# Generate Dataframe

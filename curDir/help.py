@@ -45,6 +45,8 @@ def getData(dfile,pfile):
 #case 0 (end) - pick ONLY from telugu_nums and NO మంది at the end
 #case 1 (normal) - pick from telugu_nums and add మంది at the end or sp_nums 
 def numToTelugu(Int, case=1):
+	if Int < 0:
+		return 'nan'
 	Int = int(Int)
 	
 	# Flag to denote if picking from sp_nums
