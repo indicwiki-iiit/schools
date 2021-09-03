@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 import time
 import pickle
+import sys
 
 base_url = "https://schools.org.in/"
 
@@ -26,7 +27,12 @@ def main():
     global base_url
     final_dict = {}
     schools_done = 0
-    state_urls = [base_url + "andhra-pradesh", base_url + "telangana"]   
+    state_urls = [base_url + "andhra-pradesh", base_url + "telangana"]
+    if len(sys.argv) == 2:
+        if sys.argv[1] == "AP":
+            state_urls = [base_url + "andhra-pradesh"]
+        elif sys.argv[1] == "TS":
+            state_urls = [base_url + "telangana"]
     for state_url in state_urls:
         district_urls = get_table_urls(state_url)
         for district_url in district_urls:
