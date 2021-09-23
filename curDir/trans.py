@@ -12,7 +12,7 @@ threshold = 0.6
 
 # Checks if an attribute value is valid
 def is_valid(value):
-    if value == None or pd.isnull(value) or str(value) in ["[]", '', "None", 'Not Applicable', 'nan']:
+    if value == None or pd.isnull(value) or str(value) in ["[]", '', "None", 'Not Applicable', 'nan', 'none', 'not applicable']:
         return False
     if isinstance(value, float) or isinstance(value, int):
         return value > 0 and str(value) != 'nan'

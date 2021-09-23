@@ -226,27 +226,19 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 			titleWriter.writerow([code, row['School Title'].strip(), title])
 		# Save intermediate representation to a dataframe, ArticleParts
 		parts = tuple([p.strip(' \n\t\r') for p in wikiText.split('<$>')])
-		# Infobox, Location, Details, Academics, Counts, Ending, References = parts[6], parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
-		
-		# details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox.strip(), 'Location':Location.strip(), 
-		# 			'Details':Details.strip(), 'Academics':Academics.strip(), 'Counts':Counts.strip(), 'Ending':Ending.strip(),
-		# 			'References':References.strip(), 'Facilities':'', 'Extracurricular':'', 'Admissions':'', 'Faculty':'', 'History':'',
-		# 			'Achievements':'', 'Order':'abcdefghijkl'})
-
-		Overview, Details, Counts, References, Infobox = parts
+		Overview, Details, Academics, Counts, Infrastructure, References, Infobox = parts
 		if len(Counts) > 0:
-			Counts = '\n==పాఠశాల వివరములు==\n' + Counts
+			Counts = '\n==విద్యార్థులు, ఉపాధ్యాయులు==\n' + Counts
 		
 		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox, 'Overview':Overview, 
-					'Details':Details, 'Counts':Counts, 'References':References, 'Facilities':'', 'Extracurricular':'', 
+					'Details':Details, 'Counts':Counts, 'References':References, 'Academics': Academics, 'Infrastructure': Infrastructure, 'Facilities':'', 'Extracurricular':'', 
      				'Admissions':'', 'Faculty':'', 'History':'', 'Achievements':'', 'Order':'abcdefghijkl'})		
 
 		articleParts.writerow({'Code':code, 'Details':details})
 		
 		# Format and write the wikitext to an XML file
-		# wikiText =Infobox.strip()+'\n '+Location.strip()+' '+Details.strip()+' '+Academics.strip()+' '+Counts.strip()+' '+Ending.strip()+'\n\n'+References.strip()
 		s = '\n\n'
-		wikiText = Infobox + s + Overview + s + Details + s + Counts + s + References
+		wikiText = Infobox + s + Overview + s + Details + s + Academics + s + Counts + s + Infrastructure + s + References
 		wikiText = wikiText.strip(' \n\t\r')
 		writePage(title, wikiText, fobj)
 
@@ -271,7 +263,7 @@ def main():
 	file_loader = FileSystemLoader('template')
 	env = Environment(loader=file_loader)
 
-	dfTextTemplate =env.get_template('new_teluguDFtext.j2')
+	dfTextTemplate =env.get_template('final_teluguDFtext.j2')
 	functions_dict = {
         "is_valid": is_valid,
         "get_intro_line_1": get_intro_line_1,
