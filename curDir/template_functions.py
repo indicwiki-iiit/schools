@@ -1,5 +1,6 @@
 # Contains all functions used in template generation
 import pandas as pd
+import re
 
 # Checks if an attribute value is valid
 def is_valid(value):
@@ -15,8 +16,16 @@ def get_intro_line_1(village, district, block, schToken):
     if is_valid(village):
         part_1 = "ఈ " + schToken + village + "గ్రామంలో ఉన్నది. "
     part_2 = ''
-    if is_valid(district) and is_valid(block):
+    if is_valid(district) and is_valid(block) and is_valid(cluster):
+        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+    elif is_valid(district) and is_valid(cluster):
+        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+    elif is_valid(district) and is_valid(block):
         part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + block + "పరిధిలో ఉన్నది. "
+    elif is_valid(block) and is_valid(cluster):
+        part_2 = "ఈ గ్రామం " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+    elif is_valid(cluster):
+        part_2 = "ఈ గ్రామం " + cluster + " క్లస్టర్లో ఉన్నది. "        
     elif is_valid(district):
         part_2 = "ఈ గ్రామం " + district + "జిల్లాలో ఉన్నది. "
     elif is_valid(block):
@@ -24,13 +33,21 @@ def get_intro_line_1(village, district, block, schToken):
     return part_1 + part_2
 
 # Obtains second version of intro line
-def get_intro_line_2(village, district, block, schToken):
+def get_intro_line_2(village, district, block, cluster, schToken):
     part_1 = ''
     if is_valid(village):
         part_1 = "ఈ " + schToken + village + "గ్రామంలో ఉన్నది. "
     part_2 = ''
-    if is_valid(district) and is_valid(block):
+    if is_valid(district) and is_valid(block) and is_valid(cluster):
+        part_2 = district + "జిల్లాలో " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+    elif is_valid(district) and is_valid(cluster):
+        part_2 = district + "జిల్లాలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+    elif is_valid(district) and is_valid(block):
         part_2 = district + "జిల్లాలో " + block + "పరిధిలో ఈ గ్రామం ఉన్నది. "
+    elif is_valid(block) and is_valid(cluster):
+        part_2 = block + "పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+    elif is_valid(cluster):
+        part_2 = cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "     
     elif is_valid(district):
         part_2 = district + "జిల్లాలో ఈ గ్రామం ఉన్నది. "
     elif is_valid(block):
@@ -38,14 +55,16 @@ def get_intro_line_2(village, district, block, schToken):
     return part_1 + part_2
 
 # Obtains third version of intro line
-def get_intro_line_3(village, district, block, schToken):
+def get_intro_line_3(village, district, block, cluster, schToken):
     initial_part = ''
+    if is_valid(village):
+        initial_part += (village + "గ్రామంలో ")
     if is_valid(district):
         initial_part += (district + "జిల్లాలో ")
     if is_valid(block):
         initial_part += (block + "పరిధిలో ")
-    if is_valid(village):
-        initial_part += (village + "గ్రామంలో ")
+    if is_valid(cluster):
+        initial_part += (cluster + " క్లస్టర్లో ")
     if len(initial_part) > 0:
         return initial_part +  "ఈ " + schToken + "ఉన్నది. "
     return ''
@@ -125,3 +144,161 @@ def get_gender_info(refLine, token, gender, suffix):
         refLine + token + 'ఈ పాఠశాలలో అభ్యసిస్తున్నారు. '  
     ]
     
+# Describes about school's management and establishment info
+def get_management_info(teMgnt, establishment):
+    if not is_valid(teMgnt) and not is_valid(establishment):
+        return ['']
+    sentence_versions = []
+    if is_valid(teMgnt) and is_valid(establishment):
+        sentence_versions.append(teMgnt + " నిర్వహణలో పని చేస్తున్న ఈ పాఠశాల " + establishment + " లో స్థాపించబడినది.\n")
+        sentence_versions.append("ఈ పాఠశాల " + establishment + " లో స్థాపించబడినది, " + teMgnt + " నిర్వహణలో పని చేస్తుంది.\n")
+        sentence_versions.append(establishment + " లో స్థాపించబడిన ఈ పాఠశాల " + teMgnt + " నిర్వహణలో పని చేస్తుంది.\n")         
+    elif is_valid(establishment):
+        sentence_versions.append("ఈ పాఠశాల " + establishment + " లో స్థాపించబడినది.\n")
+    return sentence_versions
+
+# Obtain names and links of nearby schools
+def get_nearby_schools(nearby_schools):
+    required_list = []
+    for sch in nearby_schools:
+        school, url = tuple(re.split('\s*#$#\s*', sch))
+        required_list.append('[' + url + " " + school + ']')
+    return ', '.join(required_list)
+
+# Describes board followed by school for grades 10 and 10+2
+def get_board_info(board_for_class_10, board_for_class_10_2):
+    if not is_valid(board_for_class_10) and not is_valid(board_for_class_10_2):
+        return ['']
+    if is_valid(board_for_class_10) and is_valid(board_for_class_10_2):
+        return [
+            '10 వ తరగతికి ఈ పాఠశాల ' + board_for_class_10 +' బోర్డ్ సిలబస్ అనుసరిస్తుంది, 10+2 తరగతులకు ' + board_for_class_10_2 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది. ',
+            'ఈ పాఠశాల 10+2 తరగతులకు ' + board_for_class_10_2 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది, 10 వ తరగతి కొరకు ' + board_for_class_10 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది. ',
+            'ఈ పాఠశాల 10 వ తరగతి కొరకు ' + board_for_class_10 + ' బోర్డ్ సిలబస్, 10+2 తరగతుల  కొరకు ' + board_for_class_10_2 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది. '
+        ]
+    elif is_valid(board_for_class_10):
+        return [
+            '10 వ తరగతికి ఈ పాఠశాల ' + board_for_class_10 +' బోర్డ్ సిలబస్ అనుసరిస్తుంది. ',
+            'ఈ పాఠశాల 10 వ తరగతి కొరకు ' + board_for_class_10 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది. '
+        ]
+    return [
+        '10+2 తరగతులకు ఈ పాఠశాల ' + board_for_class_10_2 +' బోర్డ్ సిలబస్ అనుసరిస్తుంది. ',
+        'ఈ పాఠశాల 10+2 తరగతుల కొరకు ' + board_for_class_10_2 + ' బోర్డ్ సిలబస్ అనుసరిస్తుంది. '      
+    ]
+
+# Obtains residential details (like residential type) of school
+def get_residential_details(is_residential, residential_type):
+    if not is_residential:
+        return [
+            'ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ',
+            'ఇది రెసిడెన్షియల్ పాఠశాల కాదు. '
+        ]
+    if not is_valid(residential_type):
+        return [
+            'ఈ పాఠశాల ఒక రెసిడెన్షియల్ పాఠశాల. ',
+            'ఇది ఒక రెసిడెన్షియల్ పాఠశాల. '
+        ]
+    return [
+        'ఈ పాఠశాల ఒక రెసిడెన్షియల్ పాఠశాల, దీని రెసిడెన్షియల్ రకం ' + residential_type + '. ',
+        'ఇది ఒక రెసిడెన్షియల్ పాఠశాల. ఈ పాఠశాల రెసిడెన్షియల్ రకం ' + residential_type + '. '
+    ]
+
+# Obtains pre primary teachers information
+def get_pre_primary_teachers_info(pre_primary_teachers_count):
+    if not is_valid(pre_primary_teachers_count) or pre_primary_teachers_count == 0:
+        return ['']
+    if pre_primary_teachers_count == 1:
+        return [
+            'వీరిలో ఒక ఉపాధ్యాయుడు ప్రీ ప్రైమరీ తరగతులకు పాఠాలు చెప్తారు. '
+        ]
+    return [
+        'వీరిలో ' + str(pre_primary_teachers_count) + ' ప్రీ ప్రైమరీ తరగతులకు పాఠాలు చెప్తారు. ',
+        'వీరిలో ప్రీ ప్రైమరీ తరగతులకు పాఠాలు చెప్పే ఉపాధ్యాయులు ' + str(pre_primary_teachers_count) + '. '
+    ]
+
+# Obtains head teacher info (count and names)
+def get_head_teachers_info(head_teachers_count, head_teachers_name):
+    if (not is_valid(head_teachers_count)) or head_teachers_count == 0:
+        return ['']
+    if is_valid(head_teachers_name):
+        return [
+            'ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు ' + head_teachers_name + '. '
+        ]
+    return [
+        'ఈ పాఠశాలకు ఒక ప్రధాన ఉపాధ్యాయుడు ఉన్నారు. '
+    ]
+
+# Buildings and class rooms information of a school
+def get_building_and_class_rooms_info(building, class_rooms):
+    if not is_valid(building) and not is_valid(class_rooms):
+        return ['']
+    if is_valid(building) and is_valid(class_rooms):
+        class_room_string = str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+        if class_rooms == 1:
+            class_room_string = 'ఒక తరగతి గది ఉంది. '
+        return [
+            'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ఈ పాఠశాలలో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. ',
+            'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+        ]
+    elif is_valid(building):
+        return [
+            'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ',
+            'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది. '
+        ]
+    class_room_string = str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+    if class_rooms == 1:
+        class_room_string = 'ఒక తరగతి గది ఉంది. '
+    return [
+        'ఈ పాఠశాలలో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+    ]
+    
+#  Information about boys and girls toilets of a school
+def get_toilet_info(boys_toilets, girls_toilets):
+    if not is_valid(boys_toilets) and not is_valid(girls_toilets):
+        return ['']
+
+# Get information about electricity and drinking water facilities in school
+def get_electricity_water_info(electricity, drinking_water):
+    if not is_valid(electricity) and not is_valid(drinking_water):
+        return ['']
+
+# Get information about kind of wall in school
+def get_wall_info(wall):
+    if not is_valid(wall):
+        return ['']
+    return [
+        'ఈ పాఠశాల చుట్టూ ' + wall + ' ఉంది. ',
+        'ఈ పాఠశాల చుట్టూ ' + wall + ' నిర్మించబడినది. '
+    ]
+
+# Get information about ramps (for disabled people) in school
+def get_ramps_info(ramps_for_disabled):
+    if not is_valid(ramps_for_disabled) or (not ramps_for_disabled):
+        return ['']
+    return [
+        'ఇక్కడ వికలాంగుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. ',
+        'ఈ పాఠశాలలో వికలాంగుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. '
+    ]
+    
+# Get information about library and books count in school
+def get_library_and_books_info(library, books_count):
+    if not is_valid(library) and not is_valid(books_count):
+        return ['']
+
+# Get information about playground in school
+def get_playground_info(playground):
+    if not is_valid(playground):
+        return ['']
+    if playground:
+        return [
+            'ఈ పాఠశాలలో ఆట స్థలం ఉంది. ',
+            'ఈ పాఠశాలలో ఆట మైదానం ఉంది. '
+        ]
+    return [
+        'ఈ పాఠశాలలో ఆట స్థలం లేదు. ',
+        'ఈ పాఠశాలలో ఆట మైదానం లేదు. '
+    ]
+
+# Get information about computer aided learning facility and computers in school
+def get_computers_info(computer_aided_learning, computers):
+    if not is_valid(computer_aided_learning) and not is_valid(computers):
+        return ['']

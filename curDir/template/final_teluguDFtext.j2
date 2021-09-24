@@ -47,16 +47,18 @@
 
 {%- macro intro(village, district, block, cluster, PIN, schToken, teMgnt) -%}
 	{%- set line =[
-			get_intro_line_1(village, district, block, schToken),
-			get_intro_line_2(village, district, block, schToken),
-			get_intro_line_3(village, district, block, schToken),
-			get_intro_line_4(village, district, block, schToken)
+			get_intro_line_1(village, district, block, cluster, schToken),
+			get_intro_line_2(village, district, block, cluster, schToken),
+			get_intro_line_3(village, district, block, cluster, schToken)
 		]|random
 	-%}
-	{{line}}
+	{{- line -}}
+	{%- if is_valid(PIN) -%}
+		{{- "ఈ పాఠశాల ఉన్న ప్రదేశం పిన్ కోడ్ " + PIN |string + ". " -}}
+	{%- endif -%}
 	{%- if teMgnt|length > 1 -%}
 		{%- set line =[
-				teMgnt+" నిర్వహణలో ఈ పాఠశాల ఉన్నది. ",
+				teMgnt+" నిర్వహణలో ఈ ఈ పాఠశాల పని చేస్తుంది. ",
 				"ఇది "+teMgnt+" నిర్వహణలో పని చేస్తుంది. "
 			]|random
 		-%}
@@ -85,16 +87,61 @@
 	{%- else -%}
 		{{line}}
 	{%- endif -%}
+	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -%}
 ==గుర్తింపు, స్థానం==
     {{- "\n" -}}
-	{{"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ "+code+". "}}
+	{%- set line =[
+			"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ " + code + ". ",
+			"ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ఈ పాఠశాలకు నియమించిన కోడ్ " + code + ". "
+		]|random
+	-%}
+	{{- line -}}
+	{{- get_management_info(teMgnt, establishment) |random -}}
+	{%- if is_valid(area) -%}
+		{{- [
+				"ఈ పాఠశాల " + area + " ప్రాంతానికి చెందినది. ", 
+				area + " ప్రాంతం లో ఈ పాఠశాల ఉన్నది. "
+			] |random -}}
+	{%- endif -%}
+	{%- if shifted_to_new_place -%}
+		{{- [
+				"ఈ పాఠశాల వేరే ప్రదేశానికి మార్చబడింది. ", 
+				"ప్రస్తుతం ఈ పాఠశాల వేరే ప్రదేశానికి మార్చబడింది. "
+			] |random -}}
+	{%- endif -%}
+	{%- if is_valid(nearby_schools) -%}
+		{{- [
+				"ఈ పాఠశాలకు సమీపంలో ఉన్న ఇతర పాఠశాలలు " + get_nearby_schools(nearby_schools) + ". ", 
+				get_nearby_schools(nearby_schools) + " మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి. "
+			]|random -}}
+	{%- endif -%}
+	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro academicInfo(is_primary_section_available, board_for_class_10, board_for_class_10_2, meal, is_residential, residential_type) -%}
 ==విద్యా వివరాలు==
+	{%- if is_primary_section_available -%}
+		{{- [
+				"ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు ఉన్నవి. ", 
+				"ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతుల కలవు. "
+			]|random -}}
+	{%- else -%}
+		{{- "ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. " -}}
+	{%- endif -%}
+	{{- get_board_info(board_for_class_10, board_for_class_10_2) |random -}}
+	{%- if meal -%}
+		{{- [
+				"ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది. ", 
+				"ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు. "
+			]|random -}}
+	{%- else -%}
+		{{- "ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు. " -}}
+	{%- endif -%}
+	{{- get_residential_details(is_residential, residential_type) |random -}}
+	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro studentsCount(sType, bInt, gInt, bCount, gCount, totalStudents, endBCount, endGCount) -%}
@@ -171,14 +218,26 @@
 		{%- set line=get_teacher_info(mToken + fToken, totalTeachers |string) |random -%}
 	{%- endif -%}
 	{{line}}
+	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro teacherPositions(pre_primary_teachers_count, head_teachers_count, head_teachers_name) -%}
-
+	{{- get_pre_primary_teachers_info(pre_primary_teachers_count) |random -}}
+	{{- get_head_teachers_info(head_teachers_count, head_teachers_name) |random -}}
+	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro infrastructure(building, class_rooms, boys_toilets, girls_toilets, electricity, drinking_water, wall, ramps_for_disabled, library, books_count, playground, computer_aided_learning, computers) -%}
 ==మౌలిక సదుపాయాలు==
+{{- get_building_and_class_rooms_info(building, class_rooms) |random -}}
+{{- get_toilet_info(boys_toilets, girls_toilets) |random-}}
+{{- get_electricity_water_info(electricity, drinking_water) |random-}}
+{{- get_wall_info(wall) |random-}}
+{{- get_ramps_info(ramps_for_disabled) |random-}}
+{{- "\n" -}}
+{{- get_library_and_books_info(library, books_count) |random-}}
+{{- get_playground_info(playground) |random-}}
+{{- get_computers_info(computer_aided_learning, computers) |random-}}
 {%- endmacro -%}
 
 {%- macro references(county, state, district, block, village, cluster) -%}
@@ -218,7 +277,7 @@
 {%- endmacro -%}
 
 {#- Article written from here -#}
-{{- intro(state, village, district, block, cluster, PIN, schToken, teMgnt) -}}
+{{- intro(village, district, block, cluster, PIN, schToken, teMgnt) -}}
 {{- classes(lo, hi, medium, extraDesc) -}}
 <$>
 {{- codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -}}

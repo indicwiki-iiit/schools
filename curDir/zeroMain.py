@@ -273,7 +273,21 @@ def main():
         "get_class_info": get_class_info,
         "get_teacher_info": get_teacher_info,
         "get_students_info": get_students_info,
-        "get_gender_info": get_gender_info
+        "get_gender_info": get_gender_info,
+        "get_management_info": get_management_info,
+        "get_nearby_schools": get_nearby_schools,
+        "get_board_info": get_board_info,
+        "get_residential_details": get_residential_details,
+        "get_pre_primary_teachers_info": get_pre_primary_teachers_info,
+        "get_head_teachers_info": get_head_teachers_info,
+        "get_building_and_class_rooms_info": get_building_and_class_rooms_info,
+        "get_toilet_info": get_toilet_info,
+        "get_electricity_water_info": get_electricity_water_info,
+        "get_wall_info": get_wall_info,
+        "get_ramps_info": get_ramps_info,
+        "get_library_and_books_info": get_library_and_books_info,
+        "get_playground_info": get_playground_info,
+        "get_computers_info": get_computers_info
     }
 	dfTextTemplate.globals.update(functions_dict)
 	print(sys.argv)
