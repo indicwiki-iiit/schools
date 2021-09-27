@@ -12,12 +12,15 @@ threshold = 0.6
 
 # Checks if an attribute value is valid
 def is_valid(value):
-    if value == None or pd.isnull(value) or str(value) in ["[]", '', "None", 'Not Applicable', 'nan', 'none', 'not applicable']:
+    if isinstance(value, list):
+        return len(value) > 0
+    if isinstance(value, bool):
+        return True
+    if (value == None) or (pd.isnull(value)) or (str(value) in ["[]", '', "None", 'N/A', 'n/a', 'Not Applicable', 'nan']):
         return False
     if isinstance(value, float) or isinstance(value, int):
         return value > 0 and str(value) != 'nan'
     return not value in ['', 'nan', '-1']
-
 def clean(token):
 	cleanToken = ''
 	for c in token:
@@ -27,6 +30,8 @@ def clean(token):
 
 def masterHandleTitle(title):
 	#Pre process
+	if not is_valid(title):
+		return title
 	title = title.upper()
 	title = re.sub('&', '&amp;', title)
 	title = re.sub(r'(\(\[)', ' \g<1>', title)
@@ -113,6 +118,9 @@ def translate(phrase):
 def transTelugu(phrase):
 	if not is_valid(phrase):
 		return 'nan'
+	if phrase == 'others':
+		return 'nan'
+
 	phrase = process(phrase)
 
 	# anuTelugu =translate(phrase)

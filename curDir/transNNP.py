@@ -91,29 +91,39 @@ def handleNewToken(token, translit):
 def getTeTokens(enName, enMgnt):
 	#teMgnt
 	teMgnt = ''
-	if enMgnt in Mgnts:
-		teMgnt =Mgnts[enMgnt]
-	if teMgnt =='':
-		if 'Govt.Schools' in enMgnt:
-			teMgnt ='ఫ్రభుత్వ పాఠశాలలు'
-		elif 'Pvt.Unaided' in enMgnt:
-			teMgnt ='ప్రైవేట్ అన్‌ఎయిడెడ్'
+	try:
+		if enMgnt in Mgnts:
+			teMgnt =Mgnts[enMgnt]
+		if teMgnt =='':
+			if 'Govt.Schools' in enMgnt:
+				teMgnt ='ఫ్రభుత్వ పాఠశాలలు'
+			elif 'Pvt.Unaided' in enMgnt:
+				teMgnt ='ప్రైవేట్ అన్‌ఎయిడెడ్'
+	except:
+		pass
 
 	# extraDesc
 	extraDesc =''
-	for key in extraDescOf:
-		if key in enMgnt:
-			extraDesc =extraDescOf[key]
+	try:
+		for key in extraDescOf:
+			if key in enMgnt:
+				extraDesc =extraDescOf[key]
+	except:
+		pass
 
 	#schToken
 	schToken = 'పాఠశాల '
-	if enName.split()[0] in spAcro:
-		schToken = spAcro[enName.split()[0]]
-	elif 'Govt.Schools' in enMgnt: 
-		schToken ='ఫ్రభుత్వ పాఠశాల '
-	elif 'Pvt.Unaided' in enMgnt:
-		schToken ='ప్రైవేట్ పాఠశాల '
-	elif 'Pvt.Aided' in enMgnt:
-		schToken ='ప్రైవేట్ ఎయిడెడ్ పాఠశాల '
+	try:
+		if enName.split()[0] in spAcro:
+			schToken = spAcro[enName.split()[0]]
+		elif 'Govt.Schools' in enMgnt: 
+			schToken ='ఫ్రభుత్వ పాఠశాల '
+		elif 'Pvt.Unaided' in enMgnt:
+			schToken ='ప్రైవేట్ పాఠశాల '
+		elif 'Pvt.Aided' in enMgnt:
+			schToken ='ప్రైవేట్ ఎయిడెడ్ పాఠశాల '
+	except:
+		pass
+   
 
 	return teMgnt, extraDesc, schToken

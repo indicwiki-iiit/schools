@@ -1,93 +1,150 @@
 #coding: utf-8
 import re
 import ast
+import pandas as pd
 from transNNP import getTeTokens
 from trans import transTelugu, masterHandleTitle
 from help import getData, class_nums, numToTelugu
 
-#Returns Grades 
-def getGrades(desc):
-	p = re.compile(r'[A-Z]+(\d+)-(\d+)')
-	m =re.match(p, desc)
-	lo =int(m.group(1)); hi =int(m.group(2))
+# Checks if an attribute value is valid
+def is_valid(value):
+    if isinstance(value, list):
+        return len(value) > 0
+    if isinstance(value, bool):
+        return True
+    if (value == None) or (pd.isnull(value)) or (str(value) in ["[]", '', "None", 'N/A', 'n/a', 'Not Applicable', 'nan']):
+        return False
+    if isinstance(value, float) or isinstance(value, int):
+        return value > 0 and str(value) != 'nan'
+    return not value in ['', 'nan', '-1']
 
-	return lo, hi
+# Obtains stripped value for attribute
+def get_stripped_val(val):
+    if not is_valid(val):
+        return val
+    val2 = val
+    if isinstance(val, float):
+        val2 = int(val)
+    val3 = str(val2)
+    return val3.strip()
 
+# Obtains stripped and lower case values for attribute
+def get_stripped_lower_val(val):
+    if not is_valid(val):
+        return val
+    val2 = val
+    if isinstance(val, float):
+        val2 = int(val)
+    val3 = str(val2)
+    return val3.strip().lower()
+
+#Returns Grades - checks both grade attributes
+def getGrades(row):
+    desc = get_stripped_val(row['SCHCAT_DESC'])
+    if is_valid(desc):
+        p = re.compile(r'[A-Z]+(\d+)-(\d+)')
+        m =re.match(p, desc)
+        lo =int(m.group(1)); hi =int(m.group(2))
+        return lo, hi
+    class_info = get_stripped_val(row['Classes'])
+    if not is_valid(class_info):
+        return 0, 0
+    spl = class_info.split()
+    return int(spl[2]), int(spl[5])
+
+# Returns management info - checks both management attributes
+def getManagement(row):
+    mgnt = get_stripped_val(row['SCHMGT_DESC'])
+    if is_valid(mgnt):
+        return mgnt
+    return get_stripped_val(row['Management'])
+
+# Translate management if not hard-coded
+def getTranslatedManagement(row):
+    if not is_valid(row['Management']):
+        return row['Management']
+    return transTelugu(get_stripped_val(row['Management']))
+
+# converts to int
 def get_int(value):
-    if value in [None, '', 'nan']:
+    if not is_valid(value):
         return -1
     return int(value)
 
 # For teluguText.j2
 def getData(row, title):
-	enName = row['School Title'].strip()
-	enMgnt =row['SCHMGT_DESC'].strip()
+    
+    # SCHCAT_DESC -- Classes
+	enName = get_stripped_val(row['School Title'])
+	enMgnt = getManagement(row)
 	teMgnt, extraDesc, schToken =getTeTokens(enName, enMgnt)
+	if is_valid(enMgnt) and not is_valid(teMgnt):
+		teMgnt = getTranslatedManagement(row)
 
-	village = transTelugu(row['Village / Town'].strip().lower())
-	district = transTelugu(row['District'].strip().lower())
-	block = transTelugu(row['Block'].strip().lower())
-	cluster = transTelugu(row['Cluster'].strip().lower())
-	PIN = transTelugu(row['PIN Code'].strip().lower())
+	village = transTelugu(get_stripped_lower_val(row['Village / Town']))
+	district = transTelugu(get_stripped_lower_val(row['District']))
+	block = transTelugu(get_stripped_lower_val(row['Block']))
+	cluster = masterHandleTitle(get_stripped_lower_val(row['Cluster']))
+	PIN = transTelugu(get_stripped_lower_val(row['PIN Code']))
 	state = "ఆంధ్రప్రదేశ్"
-	if row['State'].strip().lower() == 'telangana':
+	if get_stripped_lower_val(row['State'])== 'telangana':
 		state = "తెలంగాణ"
-	code = row['School Code'].strip()
+	code = get_stripped_val(row['School Code'])
 
-	loInt, hiInt = getGrades(row['SCHCAT_DESC'].strip())
+	loInt, hiInt = getGrades(row)
 	lo =class_nums[loInt]; hi =class_nums[hiInt]
-	medium = transTelugu(row['Instruction Medium'].strip())
+	medium = transTelugu(get_stripped_val(row['Instruction Medium']))
  
-	establishment = row['Establishment'].strip()
+	establishment = get_stripped_val(row['Establishment'])
 	area = "పట్టణపు"
-	if row['School Area'].strip().lower() == 'rural':
+	if get_stripped_lower_val(row['School Area']) == 'rural':
 		area = "గ్రామీణ"
-	shifted_to_new_place = row['School Shifted to New Place'].strip().lower() == 'yes'
-	n_schools, nearby_schools = ast.literal_eval(row['Nearby Schools'].strip()), []
+	shifted_to_new_place = get_stripped_lower_val(row['School Shifted to New Place']) == 'yes'
+	n_schools, nearby_schools = ast.literal_eval(get_stripped_val(row['Nearby Schools'])), []
 	for sch in n_schools:
-		school_and_url = re.split('\s*#$#\s*', sch)
-		school_name = transTelugu(school_and_url[0])
+		school_and_url = re.split('\s*\#\$\#\s*', sch)
+		school_name = masterHandleTitle(school_and_url[0])
 		nearby_schools.append(school_name + ' #$# ' + school_and_url[1])
  
-	is_primary_section_available = row['Pre Primary Sectin Avilable'].strip().lower() == 'yes'
-	board_for_class_10 = transTelugu(row['Board for Class 10th'].strip.lower())
-	board_for_class_10_2 = transTelugu(row['Board for Class 10+2'].strip.lower())
-	meal = 'provided' in row['Meal'].strip.lower()
-	is_residential = row['Is School Residential'].strip().lower() == 'yes'
+	is_primary_section_available = get_stripped_lower_val(row['Pre Primary Sectin Avilable']) == 'yes'
+	board_for_class_10 = transTelugu(get_stripped_lower_val(row['Board for Class 10th']))
+	board_for_class_10_2 = transTelugu(get_stripped_lower_val(row['Board for Class 10+2']))
+	meal = is_valid(row['Meal']) and 'provided' in get_stripped_lower_val(row['Meal'])
+	is_residential = get_stripped_lower_val(row['Is School Residential']) == 'yes'
 	residential_type = ''
-	if row['Residential Type'].strip().lower() != 'not applicable':
-		residential_type = transTelugu(row['Residential Type'].strip().lower())
+	if get_stripped_lower_val(row['Residential Type']) != 'not applicable':
+		residential_type = transTelugu(get_stripped_lower_val(row['Residential Type']))
   
-	pre_primary_teachers_count = get_int(row['Pre Primary Teachers'].strip())
-	head_teachers_count = get_int(row['Head Teachers'].strip())
-	head_teachers_name = transTelugu(row['Head Teacher'].strip().lower())
+	pre_primary_teachers_count = get_int(get_stripped_val(row['Pre Primary Teachers']))
+	head_teachers_count = get_int(get_stripped_val(row['Head Teachers']))
+	head_teachers_name = transTelugu(get_stripped_lower_val(row['Head Teacher']))
  
-	buidling = transTelugu(row['Building'].strip().lower())
-	class_rooms = get_int(row['Class Rooms'].strip())
-	boys_toilets = get_int(row['Boys Toilet'].strip())
-	girls_toilets = get_int(row['Girls Toilet'].strip())
-	electricity = row['Electricity'].strip().lower() == 'yes'
-	drinking_water = transTelugu(row['Drinking Water'].strip().lower())
-	wall = transTelugu(row['Wall'].strip().lower())
-	ramps_for_disabled = row['Ramps for Disable'].strip().lower() == 'yes'
-	library = row['Library'].strip().lower() == 'yes'
-	books_count = get_int(row['Books in Library'].strip())
-	playground = row['Playground'].strip().lower() == 'yes'
-	computer_aided_learning = row['Computer Aided Learning'].strip().lower() == 'yes'
-	computers = get_int(row['Computers'].strip())
+	building = transTelugu(get_stripped_lower_val(row['Building']))
+	class_rooms = get_int(get_stripped_lower_val(row['Class Rooms']))
+	boys_toilets = get_int(get_stripped_lower_val(row['Boys Toilet']))
+	girls_toilets = get_int(get_stripped_lower_val(row['Girls Toilet']))
+	electricity = get_stripped_lower_val(row['Electricity']) == 'yes'
+	drinking_water = transTelugu(get_stripped_lower_val(row['Drinking Water']))
+	wall = transTelugu(get_stripped_lower_val(row['Wall']))
+	ramps_for_disabled = get_stripped_lower_val(row['Ramps for Disable']) == 'yes'
+	library = get_stripped_lower_val(row['Library']) == 'yes'
+	books_count = get_int(get_stripped_lower_val(row['Books in Library']))
+	playground = get_stripped_lower_val(row['Playground']) == 'yes'
+	computer_aided_learning = get_stripped_lower_val(row['Computer Aided Learning']) == 'yes'
+	computers = get_int(get_stripped_lower_val(row['Computers']))
    
-	sType =row['School Type'].lower()
+	sType = get_stripped_lower_val(row['School Type'])
 	bInt, gInt = get_int(row['TotalBoysEnrollment']), get_int(row['TotalGirlsEnrollment'])
-	bCount =numToTelugu(row['TotalBoysEnrollment'])
-	gCount =numToTelugu(row['TotalGirlsEnrollment'])
-	endBCount =numToTelugu(row['TotalBoysEnrollment'], 0)
-	endGCount =numToTelugu(row['TotalGirlsEnrollment'], 0)
-	totalStudents =numToTelugu(row['Total'])
+	bCount =numToTelugu(bInt)
+	gCount =numToTelugu(gInt)
+	endBCount =numToTelugu(bInt, 0)
+	endGCount =numToTelugu(gInt, 0)
+	totalStudents =numToTelugu(get_int(row['Total']))
 
 	fInt = get_int(row['Female Teacher'])
 	mInt = get_int(row['Male Teachers'])
-	fCount =numToTelugu(row['Female Teacher'])
-	mCount =numToTelugu(row['Male Teachers'])
+	fCount =numToTelugu(fInt)
+	mCount =numToTelugu(mInt)
 	totalTeachers =numToTelugu(fInt+mInt)
 
 	data = {
@@ -145,7 +202,7 @@ def getData(row, title):
 		"head_teachers_name": head_teachers_name,
   
 		# infrastructure(building, class_rooms, boys_toilets, girls_toilets, electricity, drinking_water, wall, ramps_for_disabled, library, books_count, playground, computer_aided_learning, computers)
-		"building": buidling,
+		"building": building,
 		"class_rooms": class_rooms,
 		"boys_toilets": boys_toilets,
 		"girls_toilets": girls_toilets,
@@ -167,7 +224,7 @@ def getData(row, title):
 	return data
 
 def getWikiText(row, textTemplate):
-	title =masterHandleTitle(row['School Title'].strip())
+	title =masterHandleTitle(get_stripped_val(row['School Title']))
 	data = getData(row, title)
 	wikiText = textTemplate.render(data)
 

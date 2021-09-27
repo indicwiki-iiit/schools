@@ -191,8 +191,12 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	start = startIndex; end = endIndex
 	codes = codes[start:end]
 	# codes = [28204401308]
+	# row with most non-nulls
+	# codes = [36092600625]*20
+	# diverse codes below
+	codes = [28150702403, 28152702205, 28132991224, 28150800720, 28152891108, 28151890852, 28151800909, 28151800602, 28152891111, 28154000849, 36094901603, 36094903204, 36091401902, 36095190241, 36095190908, 36091201625, 36091201303, 36091201608, 36091201624, 36091201804, 36091201604, 36095190221, 36091801119, 36092600625]
 	# # codes =random.sample(codes, 10)
-	codes = [28163100119, 28140100401, 28140100910, 28140103501, 28140104904, 28140309802, 28140800908, 28140800916, 28141700212, 28142190763, 28142990322, 28171590918, 28172600603, 28172500310, 28143500306, 28175201713]
+	# codes = [28163100119, 28140100401, 28140100910, 28140103501, 28140104904, 28140309802, 28140800908, 28140800916, 28141700212, 28142190763, 28142990322, 28171590918, 28172600603, 28172500310, 28143500306, 28175201713]
 	codes = map(str, codes)
 	#File names:
 	articlePartsFile ='articleParts'+str(start)+'-'+str(end)+'.csv'
@@ -229,6 +233,10 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		Overview, Details, Academics, Counts, Infrastructure, References, Infobox = parts
 		if len(Counts) > 0:
 			Counts = '\n==విద్యార్థులు, ఉపాధ్యాయులు==\n' + Counts
+		if len(Infrastructure) > 0:
+			Infrastructure = '\n==మౌలిక సదుపాయాలు==\n' + Infrastructure
+		if len(Academics) > 0:
+			Academics = '\n==విద్యా వివరాలు==\n' + Academics
 		
 		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox, 'Overview':Overview, 
 					'Details':Details, 'Counts':Counts, 'References':References, 'Academics': Academics, 'Infrastructure': Infrastructure, 'Facilities':'', 'Extracurricular':'', 
@@ -281,6 +289,7 @@ def main():
         "get_pre_primary_teachers_info": get_pre_primary_teachers_info,
         "get_head_teachers_info": get_head_teachers_info,
         "get_building_and_class_rooms_info": get_building_and_class_rooms_info,
+        "_t": "_t",
         "get_toilet_info": get_toilet_info,
         "get_electricity_water_info": get_electricity_water_info,
         "get_wall_info": get_wall_info,

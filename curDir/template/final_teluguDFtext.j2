@@ -48,8 +48,7 @@
 {%- macro intro(village, district, block, cluster, PIN, schToken, teMgnt) -%}
 	{%- set line =[
 			get_intro_line_1(village, district, block, cluster, schToken),
-			get_intro_line_2(village, district, block, cluster, schToken),
-			get_intro_line_3(village, district, block, cluster, schToken)
+			get_intro_line_2(village, district, block, cluster, schToken)
 		]|random
 	-%}
 	{{- line -}}
@@ -58,7 +57,7 @@
 	{%- endif -%}
 	{%- if teMgnt|length > 1 -%}
 		{%- set line =[
-				teMgnt+" నిర్వహణలో ఈ ఈ పాఠశాల పని చేస్తుంది. ",
+				teMgnt+" నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ",
 				"ఇది "+teMgnt+" నిర్వహణలో పని చేస్తుంది. "
 			]|random
 		-%}
@@ -66,7 +65,7 @@
 	{%- endif -%}
 {%- endmacro -%}
 
-{%- macro classes(fromStd, lo, hi, medium, extraDesc) -%}
+{%- macro classes(lo, hi, medium, extraDesc) -%}
 	{%- if loInt==1 -%}
 		{%- set line =[
 				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
@@ -122,7 +121,6 @@
 {%- endmacro -%}
 
 {%- macro academicInfo(is_primary_section_available, board_for_class_10, board_for_class_10_2, meal, is_residential, residential_type) -%}
-==విద్యా వివరాలు==
 	{%- if is_primary_section_available -%}
 		{{- [
 				"ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు ఉన్నవి. ", 
@@ -132,6 +130,7 @@
 		{{- "ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. " -}}
 	{%- endif -%}
 	{{- get_board_info(board_for_class_10, board_for_class_10_2) |random -}}
+	{{- "\n\n" -}}
 	{%- if meal -%}
 		{{- [
 				"ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది. ", 
@@ -228,20 +227,19 @@
 {%- endmacro -%}
 
 {%- macro infrastructure(building, class_rooms, boys_toilets, girls_toilets, electricity, drinking_water, wall, ramps_for_disabled, library, books_count, playground, computer_aided_learning, computers) -%}
-==మౌలిక సదుపాయాలు==
 {{- get_building_and_class_rooms_info(building, class_rooms) |random -}}
-{{- get_toilet_info(boys_toilets, girls_toilets) |random-}}
-{{- get_electricity_water_info(electricity, drinking_water) |random-}}
-{{- get_wall_info(wall) |random-}}
-{{- get_ramps_info(ramps_for_disabled) |random-}}
-{{- "\n" -}}
-{{- get_library_and_books_info(library, books_count) |random-}}
-{{- get_playground_info(playground) |random-}}
-{{- get_computers_info(computer_aided_learning, computers) |random-}}
+{{- get_toilet_info(boys_toilets, girls_toilets) |random -}}
+{{- get_electricity_water_info(electricity, drinking_water) |random -}}
+{{- get_wall_info(wall) |random -}}
+{{- get_ramps_info(ramps_for_disabled) |random -}}
+{{- get_library_and_books_info(library, books_count) |random -}}
+{{- get_playground_info(playground) |random -}}
+{{- get_computers_info(computer_aided_learning, computers) |random -}}
 {%- endmacro -%}
 
 {%- macro references(county, state, district, block, village, cluster) -%}
 ==మూలాలు== 
+{{- "\n" -}}
 * {{- " {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}" -}}
 {{- "\n" -}}
 * {{- " {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}" -}}
