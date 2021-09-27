@@ -236,8 +236,8 @@ def get_building_and_class_rooms_info(building, class_rooms):
         if class_rooms == 1:
             class_room_string = 'ఒక తరగతి గది ఉంది. '
         return [
-            'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ఈ పాఠశాలలో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. ',
-            'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+            'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ఈ పాఠశాలలో ' + class_room_string,
+            'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో ' + class_room_string
         ]
     elif is_valid(building):
         return [
@@ -248,18 +248,55 @@ def get_building_and_class_rooms_info(building, class_rooms):
     if class_rooms == 1:
         class_room_string = 'ఒక తరగతి గది ఉంది. '
     return [
-        'ఈ పాఠశాలలో ' + str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
+        'ఈ పాఠశాలలో ' + class_room_string
     ]
+
+# Helper function for toilet info
+def _t(c):
+    if c == 1:
+        return ' మరుగుదొడ్డి'
+    return ' మరుగుదొడ్లు'
     
 #  Information about boys and girls toilets of a school
 def get_toilet_info(boys_toilets, girls_toilets):
     if not is_valid(boys_toilets) and not is_valid(girls_toilets):
         return ['']
+    if is_valid(boys_toilets) and is_valid(girls_toilets):
+        return [
+            'ఇక్కడ బాలుర కొరకు ' + str(boys_toilets) + _t(boys_toilets) + ', బాలికల కొరకు ' + str(girls_toilets) + _t(girls_toilets) + ' ఉన్నాయి. ',
+            'ఇక్కడ ' + str(boys_toilets) + ' బాలుర' + _t(boys_toilets) + ', ' + str(girls_toilets) + ' బాలికల' + _t(girls_toilets) + ' ఉన్నాయి. ',
+            'ఇక్కడ బాలికల కొరకు ' + str(girls_toilets) + _t(girls_toilets) + ', బాలుర కొరకు ' +  str(boys_toilets) + _t(boys_toilets) + ' ఉన్నాయి. '
+        ]
+    if is_valid(boys_toilets):
+        last_str = ' ఉన్నాయి. '
+        if boys_toilets == 1:
+            last_str = ' ఉంది. '
+        return [
+            'ఇక్కడ బాలుర కొరకు ' + str(boys_toilets) + _t(boys_toilets) + last_str,
+            'ఇక్కడ ' + str(boys_toilets) + ' బాలుర' + _t(boys_toilets) + last_str
+        ]
+    last_str = ' ఉన్నాయి. '
+    if girls_toilets == 1:
+        last_str = ' ఉంది. '
+    return [
+        'ఇక్కడ బాలికల కొరకు ' + str(girls_toilets) + _t(girls_toilets) + last_str,
+        'ఇక్కడ ' + str(girls_toilets) + ' బాలికల' + _t(girls_toilets) + last_str
+    ]
 
 # Get information about electricity and drinking water facilities in school
 def get_electricity_water_info(electricity, drinking_water):
     if not is_valid(electricity) and not is_valid(drinking_water):
         return ['']
+    electricity_str = 'విద్యుత్ ఉంది'
+    if not electricity:
+        electricity_str = 'విద్యుత్ లేదు'
+    water_str = 'త్రాగు నీరు దొరుకుతుంది'
+    if not water_str:
+        water_str = 'త్రాగు నీరు దొరకదు'
+    return [
+        'ఈ పాఠశాలలో ' + electricity_str + ', ' + water_str + '. ',
+        'ఈ పాఠశాలలో ' + water_str + ', ' + electricity_str + '. '
+    ]
 
 # Get information about kind of wall in school
 def get_wall_info(wall):
@@ -283,6 +320,17 @@ def get_ramps_info(ramps_for_disabled):
 def get_library_and_books_info(library, books_count):
     if not is_valid(library) and not is_valid(books_count):
         return ['']
+    library_str = 'ఈ పాఠశాలలో లైబ్రరీ ఉంది. '
+    if not library:
+        library_str = 'ఈ పాఠశాలలో లైబ్రరీ లేదు. '
+        return [library_str]
+    if is_valid(books_count) and books_count > 0:
+        books_str_1 = 'ఈ లైబ్రరీలో '+ str(books_count) + ' పుస్తకాలు ఉన్నాయి. '
+        if books_count == 1:
+            books_str_1 = 'ఈ లైబ్రరీలో ఒక పుస్తకం ఉంది. '
+        books_str_2 = 'ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య ' + str(books_count) + '. '
+        return [library_str + books_str_1, library_str + books_str_2]
+    return [library_str]
 
 # Get information about playground in school
 def get_playground_info(playground):
@@ -302,3 +350,15 @@ def get_playground_info(playground):
 def get_computers_info(computer_aided_learning, computers):
     if not is_valid(computer_aided_learning) and not is_valid(computers):
         return ['']
+    cal_str = 'కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ ఉంది. '
+    if not computer_aided_learning:
+        cal_str = 'కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. '
+    if is_valid(computers) and computers > 0:
+        comp_str = str(computers) + ' కంప్యూటర్లు ఉన్నాయి'
+        if computers == 1:
+            comp_str = 'ఒక కంప్యూటర్ ఉంది'
+        return [
+            'ఈ పాఠశాలలో ' + cal_str + 'ఇక్కడ ' + comp_str + '. ',
+            'ఈ పాఠశాలలో ' + comp_str + ', ' + cal_str
+        ]
+    return ['ఈ పాఠశాలలో ' + cal_str]
