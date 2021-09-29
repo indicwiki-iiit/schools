@@ -213,7 +213,9 @@
 		{%- else -%}
 			{%-set fToken=fCount+' ఉపాధ్యాయినులు'-%}
 		{%- endif -%}
-		{% if teacherCount.update({'info':totalTeachers+' ఉపాధ్యాయులు'}) %} {% endif %}
+		{%- if is_valid(totalTeachers) -%}
+			{% if teacherCount.update({'info':totalTeachers+' ఉపాధ్యాయులు'}) %} {% endif %}
+		{%- endif -%}
 		{%- set line=get_teacher_info(mToken + fToken, totalTeachers |string) |random -%}
 	{%- endif -%}
 	{{line}}
@@ -271,6 +273,7 @@
 {%- if is_valid(village) %}
 [[వర్గం:{{village}}లో పాఠశాలలు]]
 [[వర్గం:{{village}}లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
 {%- endif -%}
 {%- endmacro -%}
 
