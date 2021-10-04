@@ -1,0 +1,15 @@
+1. Learning about How to generate Bot articles - Completed
+2. Selecting a Domain - Completed
+3. Datasets availability and shortlisted status - Completed
+4. Structured data usability - Completed
+5. Sample article based on attributes and values from the structured data - Completed
+6. Approval of the data and sample article by PI and CO-PIs in the TDR - Completed
+7. Article template creation, learning about using other templates in the article – Info box, references, adding images etc - Completed
+8. Approval of the article template - Completed
+9. Script for generating the articles – reviewing the available scripts possible to use/with changes incorporated - In Progress
+10. Parallelly translating the key values from English to destination language (Te/Hi) - Completed
+11. Translation/Transliteration review - Not started
+12. Testing the script and data through publishing sample articles - Completed
+13. Reviewing and approval of the sample articles from PI and CO-PIs (this need to happen as an in between step) - need help
+14. Converting the data into XML files for uploading into Sandbox - Not started
+15. Publishing the articles. - Not started
