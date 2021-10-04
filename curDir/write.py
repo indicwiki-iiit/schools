@@ -6,13 +6,23 @@ from transNNP import getTeTokens
 from trans import transTelugu, masterHandleTitle
 from help import getData, class_nums, numToTelugu
 
+# possible values for management
+possible_management_values = {
+	'Pvt. Aided': 'ప్రైవేట్ ఎయిడెడ్', 'Central Govt.': 'కేంద్ర ప్రభుత్వం', 'Department of Education': 'విద్యా శాఖ', 'Local body': 'స్థానిక సంస్థ',
+	'Madarsa Unrecognized': 'మదర్సా (గుర్తించబడలేదు)', 'Tribal/Social Welfare Department': 'గిరిజన/సాంఘిక సంక్షేమ శాఖ', 
+ 	'Pvt. Unaided': 'ప్రైవేట్ అన్‌ఎయిడెడ్', 'Madarsa Recognized (by Wakf Board/Madarsa Board)': 'మదర్సా (వక్ఫ్ బోర్డు/మదర్సా బోర్డు ద్వారా గుర్తించబడినది)', 
+}
+
 # Checks if an attribute value is valid
 def is_valid(value):
     if isinstance(value, list):
         return len(value) > 0
     if isinstance(value, bool):
-        return True
-    if (value == None) or (pd.isnull(value)) or (str(value) in ["[]", '', "None", 'N/A', 'n/a', 'Not Applicable', 'nan']):
+        return value
+    if (value == None) or (pd.isnull(value)) or \
+    (str(value) in ["[]", '', "None", 'none', 'N/A', 'n/a', 'Not Applicable', 'not applicable', 'nan', 
+                    'Others', 'others', 'No Boundary Wall', 'no boundary wall', 'No Building', 'no building',
+                    'Unrecognised', 'unrecognised']):
         return False
     if isinstance(value, float) or isinstance(value, int):
         return value > 0 and str(value) != 'nan'
@@ -61,15 +71,31 @@ def getManagement(row):
 
 # Translate management if not hard-coded
 def getTranslatedManagement(row):
+    global possible_management_values
     if not is_valid(row['Management']):
         return row['Management']
-    return transTelugu(get_stripped_val(row['Management']))
+    mgnt = get_stripped_val(row['Management'])
+    if possible_management_values.get(mgnt) is not None:
+        return possible_management_values[mgnt]
+    return transTelugu(mgnt)
 
 # converts to int
 def get_int(value):
     if not is_valid(value):
         return -1
     return int(value)
+
+# obtains pin code
+def get_pin_code(pin):
+    if not is_valid(pin):
+        return pin
+    b = pin.find('(')
+    if b == -1:
+        return pin
+    zip_code = get_stripped_val(pin[:b])
+    if len(zip_code) != 6:
+        return 'nan'
+    return zip_code
 
 # For teluguText.j2
 def getData(row, title):
@@ -85,7 +111,7 @@ def getData(row, title):
 	district = transTelugu(get_stripped_lower_val(row['District']))
 	block = transTelugu(get_stripped_lower_val(row['Block']))
 	cluster = masterHandleTitle(get_stripped_lower_val(row['Cluster']))
-	PIN = transTelugu(get_stripped_lower_val(row['PIN Code']))
+	PIN = get_pin_code(get_stripped_lower_val(row['PIN Code']))
 	state = "ఆంధ్రప్రదేశ్"
 	if get_stripped_lower_val(row['State'])== 'telangana':
 		state = "తెలంగాణ"
@@ -119,13 +145,13 @@ def getData(row, title):
 	head_teachers_count = get_int(get_stripped_val(row['Head Teachers']))
 	head_teachers_name = transTelugu(get_stripped_lower_val(row['Head Teacher']))
  
-	building = transTelugu(get_stripped_lower_val(row['Building']))
+	building = get_stripped_lower_val(row['Building'])
 	class_rooms = get_int(get_stripped_lower_val(row['Class Rooms']))
 	boys_toilets = get_int(get_stripped_lower_val(row['Boys Toilet']))
 	girls_toilets = get_int(get_stripped_lower_val(row['Girls Toilet']))
 	electricity = get_stripped_lower_val(row['Electricity']) == 'yes'
-	drinking_water = transTelugu(get_stripped_lower_val(row['Drinking Water']))
-	wall = transTelugu(get_stripped_lower_val(row['Wall']))
+	drinking_water = get_stripped_lower_val(row['Drinking Water'])
+	wall = get_stripped_lower_val(row['Wall'])
 	ramps_for_disabled = get_stripped_lower_val(row['Ramps for Disable']) == 'yes'
 	library = get_stripped_lower_val(row['Library']) == 'yes'
 	books_count = get_int(get_stripped_lower_val(row['Books in Library']))

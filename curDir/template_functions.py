@@ -2,13 +2,33 @@
 import pandas as pd
 import re
 
+# walls possible values dictionary
+possible_wall_values = {
+	'hedges': 'హెడ్జ్', 'under construction': 'గోడ నిర్మాణంలో', 'pucca': 'పక్కా గోడ', 
+ 	'partial': 'పాక్షిక గోడ', 'barbed wire fencing': 'ముళ్ల కంచె', 'pucca but broken': 'పక్కా (కానీ విరిగిన) గోడ'
+}
+
+# Water possible values dictionary
+possible_water_values = {
+	'tap water': 'కుళాయిలు', 'well': 'బావి', 'hand pumps': 'హ్యాండ్ పంప్స్'
+}
+
+# Buildings possible values dictionary
+possible_building_values = {
+    'private': 'ప్రైవేట్', 'dilapidated': 'శిథిలావస్థకు చేరిన', 'under construction': 'నిర్మాణంలో ఉన్న', 
+    'rent free building': 'అద్దె లేని', 'rented': 'అద్దె', 'government': 'ప్రభుత్వ'
+}
+
 # Checks if an attribute value is valid
 def is_valid(value):
     if isinstance(value, list):
         return len(value) > 0
     if isinstance(value, bool):
-        return True
-    if (value == None) or (pd.isnull(value)) or (str(value) in ["[]", '', "None", 'N/A', 'n/a', 'Not Applicable', 'nan']):
+        return value
+    if (value == None) or (pd.isnull(value)) or \
+    (str(value) in ["[]", '', "None", 'none', 'N/A', 'n/a', 'Not Applicable', 'not applicable', 'nan', 
+                    'Others', 'others', 'No Boundary Wall', 'no boundary wall', 'No Building', 'no building',
+                    'Unrecognised', 'unrecognised']):
         return False
     if isinstance(value, float) or isinstance(value, int):
         return value > 0 and str(value) != 'nan'
@@ -248,6 +268,7 @@ def get_head_teachers_info(head_teachers_count, head_teachers_name):
 
 # Buildings and class rooms information of a school
 def get_building_and_class_rooms_info(building, class_rooms):
+    global possible_building_values
     if not is_valid(building) and not is_valid(class_rooms):
         return ['']
     if is_valid(building) and is_valid(class_rooms):
@@ -255,13 +276,13 @@ def get_building_and_class_rooms_info(building, class_rooms):
         if class_rooms == 1:
             class_room_string = 'ఒక తరగతి గది ఉంది. '
         return [
-            '* ' + 'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ఈ పాఠశాలలో ' + class_room_string + '\n',
-            '* ' + 'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో ' + class_room_string + '\n'
+            '* ' + 'ఈ పాఠశాల భవనం ఒక ' + possible_building_values[building] + ' భవనం. ఈ పాఠశాలలో ' + class_room_string + '\n',
+            '* ' + 'ఒక ' + possible_building_values[building] + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో ' + class_room_string + '\n'
         ]
     elif is_valid(building):
         return [
-            '* ' + 'ఈ పాఠశాల భవనం ఒక ' + building + ' భవనం. ' + '\n',
-            '* ' + 'ఒక ' + building + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది. ' + '\n'
+            '* ' + 'ఈ పాఠశాల భవనం ఒక ' + possible_building_values[building] + ' భవనం. ' + '\n',
+            '* ' + 'ఒక ' + possible_building_values[building] + ' భవనంలో ఈ పాఠశాల స్థాపించబడినది. ' + '\n'
         ]
     class_room_string = str(class_rooms) + ' తరగతి గదులు ఉన్నాయి. '
     if class_rooms == 1:
@@ -304,6 +325,7 @@ def get_toilet_info(boys_toilets, girls_toilets):
 
 # Get information about electricity and drinking water facilities in school
 def get_electricity_water_info(electricity, drinking_water):
+    global possible_water_values
     if not is_valid(electricity) and not is_valid(drinking_water):
         return ['']
     electricity_str = 'విద్యుత్ ఉంది'
@@ -311,7 +333,10 @@ def get_electricity_water_info(electricity, drinking_water):
         electricity_str = 'విద్యుత్ లేదు'
     water_str = 'త్రాగు నీరు దొరకదు'
     if is_valid(drinking_water):
-        water_str = 'త్రాగు నీరు కొరకు ' + drinking_water + 'ఉన్నాయి'
+        if drinking_water != 'well':
+            water_str = 'త్రాగు నీరు కొరకు ' + possible_water_values[drinking_water] + ' ఉన్నాయి'
+        else:
+            water_str = 'త్రాగు నీరు కొరకు ' + possible_water_values[drinking_water] + ' ఉంది'
     return [
         '* ' + 'ఈ పాఠశాలలో ' + electricity_str + ', ' + water_str + '. ' + '\n',
         '* ' + 'ఈ పాఠశాలలో ' + water_str + ', ' + electricity_str + '. ' + '\n'
@@ -319,12 +344,13 @@ def get_electricity_water_info(electricity, drinking_water):
 
 # Get information about kind of wall in school
 def get_wall_info(wall):
+    global possible_wall_values
     if not is_valid(wall):
         return ['']
-    return [
-        '* ' + 'ఈ పాఠశాల చుట్టూ ' + wall + ' ఉంది. ' + '\n',
-        '* ' + 'ఈ పాఠశాల చుట్టూ ' + wall + ' నిర్మించబడినది. ' + '\n'
-    ]
+    poss = ['* ' + 'ఈ పాఠశాల చుట్టూ ' + possible_wall_values[wall] + ' ఉంది. ' + '\n']
+    if wall != 'under construction':
+        poss.append('* ' + 'ఈ పాఠశాల చుట్టూ ' + possible_wall_values[wall] + ' నిర్మించబడినది. ' + '\n')
+    return poss
 
 # Get information about ramps (for disabled people) in school
 def get_ramps_info(ramps_for_disabled):

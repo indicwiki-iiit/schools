@@ -10,7 +10,10 @@ def is_valid(value):
         return len(value) > 0
     if isinstance(value, bool):
         return value
-    if (value == None) or (pd.isnull(value)) or (str(value) in ["[]", '', "None", 'N/A', 'n/a', 'Not Applicable', 'nan']):
+    if (value == None) or (pd.isnull(value)) or \
+    (str(value) in ["[]", '', "None", 'none', 'N/A', 'n/a', 'Not Applicable', 'not applicable', 'nan', 
+                    'Others', 'others', 'No Boundary Wall', 'no boundary wall', 'No Building', 'no building',
+                    'Unrecognised', 'unrecognised']):
         return False
     if isinstance(value, float) or isinstance(value, int):
         return value > 0 and str(value) != 'nan'
