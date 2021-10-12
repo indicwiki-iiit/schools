@@ -13,6 +13,23 @@ possible_management_values = {
  	'Pvt. Unaided': 'ప్రైవేట్ అన్‌ఎయిడెడ్', 'Madarsa Recognized (by Wakf Board/Madarsa Board)': 'మదర్సా (వక్ఫ్ బోర్డు/మదర్సా బోర్డు ద్వారా గుర్తించబడినది)', 
 }
 
+# walls possible values dictionary
+possible_wall_values = {
+	'hedges': 'హెడ్జ్', 'under construction': 'గోడ నిర్మాణంలో', 'pucca': 'పక్కా గోడ', 
+ 	'partial': 'పాక్షిక గోడ', 'barbed wire fencing': 'ముళ్ల కంచె', 'pucca but broken': 'పక్కా (కానీ విరిగిన) గోడ'
+}
+
+# Water possible values dictionary
+possible_water_values = {
+	'tap water': 'కుళాయిలు', 'well': 'బావి', 'hand pumps': 'హ్యాండ్ పంప్స్'
+}
+
+# Buildings possible values dictionary
+possible_building_values = {
+    'private': 'ప్రైవేట్', 'dilapidated': 'శిథిలావస్థకు చేరిన', 'under construction': 'నిర్మాణంలో ఉన్న', 
+    'rent free building': 'అద్దె లేని', 'rented': 'అద్దె', 'government': 'ప్రభుత్వ'
+}
+
 # Checks if an attribute value is valid
 def is_valid(value):
     if isinstance(value, list):
@@ -36,7 +53,7 @@ def get_stripped_val(val):
     if isinstance(val, float):
         val2 = int(val)
     val3 = str(val2)
-    return val3.strip()
+    return val3.strip(" .-'\n\t")
 
 # Obtains stripped and lower case values for attribute
 def get_stripped_lower_val(val):
@@ -46,7 +63,7 @@ def get_stripped_lower_val(val):
     if isinstance(val, float):
         val2 = int(val)
     val3 = str(val2)
-    return val3.strip().lower()
+    return val3.strip(" .-'\n\t").lower()
 
 #Returns Grades - checks both grade attributes
 def getGrades(row):
@@ -248,6 +265,57 @@ def getData(row, title):
 	}
 
 	return data
+
+def get_attribute_and_translation(val):
+    if not is_valid(val):
+        return ['', '']
+    return [val, transTelugu(get_stripped_lower_val(val))]
+    
+def get_translated_data(row):
+    curr_row = [get_stripped_val(row['School Code'])]
+    for c in ['School Title', 'Cluster']:
+        if not is_valid(row[c]):
+            curr_row += ['', '']
+            continue
+        curr_row += [get_stripped_val(row[c]), masterHandleTitle(get_stripped_val(row[c]))]
+    enMngt = getManagement(row)
+    if not is_valid(enMngt):
+        curr_row += ['', '']
+    else:
+        curr_row.append(enMngt)
+        teMgnt, extraDesc, schToken = getTeTokens(get_stripped_val(row['School Title']), enMngt)
+        if is_valid(enMngt) and not is_valid(teMgnt):
+            teMgnt = getTranslatedManagement(row)
+        curr_row.append(teMgnt)
+    building = get_stripped_lower_val(row['Building'])
+    if not is_valid(building):
+        curr_row += ['', '']
+    else:
+        curr_row += [building, possible_building_values[building]]
+    drinking_water = get_stripped_lower_val(row['Drinking Water'])
+    if not is_valid(drinking_water):
+        curr_row += ['', '']
+    else:
+        curr_row += [drinking_water, possible_water_values[drinking_water]]
+    wall = get_stripped_lower_val(row['Wall'])
+    if not is_valid(wall):
+        curr_row += ['', '']
+    else:
+        curr_row += [wall, possible_wall_values[wall]]
+    n_schools, nearby_schools_eng, nearby_schools_tel = ast.literal_eval(get_stripped_val(row['Nearby Schools'])), [], []
+    if not is_valid(n_schools):
+        curr_row += [[], []]
+    else:
+        for sch in n_schools:
+            school_and_url = re.split('\s*\#\$\#\s*', sch)
+            nearby_schools_eng.append(school_and_url[0])
+            nearby_schools_tel.append(masterHandleTitle(school_and_url[0]))
+        curr_row += [nearby_schools_eng, nearby_schools_tel]
+    cols = ['Village / Town', 'District', 'Block', 'Instruction Medium', 'Board for Class 10th', 'Board for Class 10+2', 'Residential Type', 'Head Teacher']   
+    for c in cols:
+        req_val = get_attribute_and_translation(row[c])
+        curr_row += req_val
+    return curr_row
 
 def getWikiText(row, textTemplate):
 	title =masterHandleTitle(get_stripped_val(row['School Title']))
