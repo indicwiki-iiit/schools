@@ -129,8 +129,8 @@ def sha36(page_id):
 	
 	return ''.join(reversed(chars))
 
-# Loads the final dataset
-def load_df():
+# Loads the final dataset comprising all schools
+def load_all_schools_df():
     conc = pd.DataFrame()
     for j in range(1, 4):
         with open(f'./scrape_new_data/schools_org_data_part_{j}.pkl', 'rb') as f:
@@ -138,6 +138,12 @@ def load_df():
             conc = pd.concat([conc, a], axis=0)
     return conc
 
+# Loads the dataset corresponding to notable schools
+def load_notable_schools_df():
+    a = pd.DataFrame()
+    with open(f'./scrape_new_data/notable_schools_org_data.pkl', 'rb') as f:
+        a = pickle.load(f)
+    return a
 
 # Function to replace possible special characters
 def clean(text):
@@ -189,7 +195,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	# Load Data
 	global dataFolder, page_id
 	# School Data and the ready codes
-	oneKB = load_df()
+	oneKB = load_notable_schools_df()
 	codes =pickle.load(open(dataFolder+'readyCodes.pkl', 'rb'))
 
 	# Get list of codes to generate articles for

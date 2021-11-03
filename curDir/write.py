@@ -122,12 +122,12 @@ def getData(row, title):
 	enMgnt = getManagement(row)
 	teMgnt, extraDesc, schToken =getTeTokens(enName, enMgnt)
 	if is_valid(enMgnt) and not is_valid(teMgnt):
-		teMgnt = getTranslatedManagement(row)
+		teMgnt = get_stripped_val(row['Management_Telugu'])
 
-	village = transTelugu(get_stripped_lower_val(row['Village / Town']))
-	district = transTelugu(get_stripped_lower_val(row['District']))
-	block = transTelugu(get_stripped_lower_val(row['Block']))
-	cluster = masterHandleTitle(get_stripped_lower_val(row['Cluster']))
+	village = get_stripped_lower_val(row['Village / Town_Telugu'])
+	district = get_stripped_lower_val(row['District_Telugu'])
+	block = get_stripped_lower_val(row['Block_Telugu'])
+	cluster = get_stripped_lower_val(row['Cluster_Telugu'])
 	PIN = get_pin_code(get_stripped_lower_val(row['PIN Code']))
 	state = "ఆంధ్రప్రదేశ్"
 	if get_stripped_lower_val(row['State'])== 'telangana':
@@ -136,39 +136,35 @@ def getData(row, title):
 
 	loInt, hiInt = getGrades(row)
 	lo =class_nums[loInt]; hi =class_nums[hiInt]
-	medium = transTelugu(get_stripped_val(row['Instruction Medium']))
+	medium = get_stripped_val(row['Instruction Medium_Telugu'])
  
 	establishment = get_stripped_val(row['Establishment'])
 	area = "పట్టణపు"
 	if get_stripped_lower_val(row['School Area']) == 'rural':
 		area = "గ్రామీణ"
 	shifted_to_new_place = get_stripped_lower_val(row['School Shifted to New Place']) == 'yes'
-	n_schools, nearby_schools = ast.literal_eval(get_stripped_val(row['Nearby Schools'])), []
-	for sch in n_schools:
-		school_and_url = re.split('\s*\#\$\#\s*', sch)
-		school_name = masterHandleTitle(school_and_url[0])
-		nearby_schools.append(school_name + ' #$# ' + school_and_url[1])
+	nearby_schools = ast.literal_eval(get_stripped_val(row['nearby_schools_Telugu']))
  
 	is_primary_section_available = get_stripped_lower_val(row['Pre Primary Sectin Avilable']) == 'yes'
-	board_for_class_10 = transTelugu(get_stripped_lower_val(row['Board for Class 10th']))
-	board_for_class_10_2 = transTelugu(get_stripped_lower_val(row['Board for Class 10+2']))
+	board_for_class_10 = get_stripped_lower_val(row['Board for Class 10th_Telugu'])
+	board_for_class_10_2 = get_stripped_lower_val(row['Board for Class 10+2_Telugu'])
 	meal = is_valid(row['Meal']) and 'provided' in get_stripped_lower_val(row['Meal'])
 	is_residential = get_stripped_lower_val(row['Is School Residential']) == 'yes'
 	residential_type = ''
 	if get_stripped_lower_val(row['Residential Type']) != 'not applicable':
-		residential_type = transTelugu(get_stripped_lower_val(row['Residential Type']))
+		residential_type = get_stripped_lower_val(row['Residential Type_Telugu'])
   
 	pre_primary_teachers_count = get_int(get_stripped_val(row['Pre Primary Teachers']))
 	head_teachers_count = get_int(get_stripped_val(row['Head Teachers']))
-	head_teachers_name = transTelugu(get_stripped_lower_val(row['Head Teacher']))
+	head_teachers_name = get_stripped_lower_val(row['Head Teacher_Telugu'])
  
-	building = get_stripped_lower_val(row['Building'])
+	building = get_stripped_lower_val(row['Building_Telugu'])
 	class_rooms = get_int(get_stripped_lower_val(row['Class Rooms']))
 	boys_toilets = get_int(get_stripped_lower_val(row['Boys Toilet']))
 	girls_toilets = get_int(get_stripped_lower_val(row['Girls Toilet']))
 	electricity = get_stripped_lower_val(row['Electricity']) == 'yes'
-	drinking_water = get_stripped_lower_val(row['Drinking Water'])
-	wall = get_stripped_lower_val(row['Wall'])
+	drinking_water = get_stripped_lower_val(row['Drinking Water_Telugu'])
+	wall = get_stripped_lower_val(row['Wall_Telugu'])
 	ramps_for_disabled = get_stripped_lower_val(row['Ramps for Disable']) == 'yes'
 	library = get_stripped_lower_val(row['Library']) == 'yes'
 	books_count = get_int(get_stripped_lower_val(row['Books in Library']))
@@ -318,7 +314,7 @@ def get_translated_data(row):
     return curr_row
 
 def getWikiText(row, textTemplate):
-	title =masterHandleTitle(get_stripped_val(row['School Title']))
+	title = get_stripped_val(row['School Title_Telugu'])
 	data = getData(row, title)
 	wikiText = textTemplate.render(data)
 
