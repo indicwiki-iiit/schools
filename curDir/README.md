@@ -37,12 +37,18 @@ It can be found [here](https://github.com/indicwiki-iiit/schools/tree/main/curDi
 	- _data\_cleaning.py_ -> This file contains implementation which handles basic data cleaning, such as making missing values uniform, identifying edge cases and removing unwanted attributes.
 	- _extract\_info.py_ -> This file contains the actual scraping implementation for scraping the complete data for all schools in Andhra Pradesh and Telangana. Similar to `zeroMain.py`, this file can be provided with command line arguments for scraping data for a particular subsegment of schools. For example `python3 extract_info.py 30 50` would scrape data for schools in rows 30-50 in intermediate dataframe `schools_id_name_url_dataframe.pkl` (inclusive). By default, data is scraped for all schools (case where no command line arguments are provided, such as `python3 extract_info.py`).
 	- _extract\_urls.py_ -> This file contains implementation for web crawling and obtaining, storing urls for each school from the two states, so as to minimize overhead while actually scraping content from them.
+	- _notability\_check.py_ -> This file filters out non-sparse rows (well populated rows) and stores them separately, as these can be highlighted while generating articles.
 - The pickle files and datasets of this folder are described as follows:
 	- _school\_urls\_dict.pkl_ -> This file consists of a dictionary, where school UDISE codes are the keys and that school's url in the above website is the corresponding value.
 	- _schools\_id\_name\_url\_dataframe.pkl_ -> This pickle file consists of an intermediate dataframe, where each row contains a school's UDISE code, its corresponding name, and its url in schools.org.in. 
 	- _schools\_id\_name\_url\_dataframe.xlsx_ -> This excel file consists of the same intermediate dataframe above, in excel format.
 	- _schools\_org\_data.xlsx_ -> This excel file contains the complete dataset for all the data scraped from all the schools.
 	- _schools\_org\_data\_part\_i.pkl_ -> These 3-part pickle files contain the same information as in excel file above, but have been split to 3 parts due to size constraints.
+	- _notable\_schools\_org\_data.pkl_ -> This pickle file consists of data corresponding to notable schools alone (about 14% of the total data collected - for the states Andhra Pradesh and Telangana).
+	- _notable\_schools\_org\_data.xlsx_ -> This excel file consists of the same dataframe above, in excel format.
+	- _translated\_dataset\_notable\_schools.pkl_ -> This dataset consists of all attributes which require translation while rendering in articles. There are about 15 such attributes and their corresponding english and telugu versions are present here (summing up to 30). Note that these were collected only for notable schools.
+	- _translated\_dataset\_notable\_schools.xlsx_ -> This excel file consists of the same dataframe above, in excel format.
+
 
 ### template
 
@@ -96,6 +102,16 @@ It can be found [here](https://github.com/indicwiki-iiit/schools/tree/main/curDi
 
 > Github file Link: https://github.com/indicwiki-iiit/schools/blob/main/curDir/write.py
 - This file contains implementation which generates an article and its title by rendering the jinja templates, given a particular school's data.
+
+### create\_translated\_dataset.py
+
+> Github file Link: https://github.com/indicwiki-iiit/schools/blob/main/curDir/create_translated_dataset.py
+- This script generates a translated dataset for all notable schools, including all attributes which require translation while rendering in articles (there are about 15 such english attributes).
+
+### merge\_translated\_dataset.py
+
+> Github file Link: https://github.com/indicwiki-iiit/schools/blob/main/curDir/merge_translated_dataset.py
+- This script merges the translated dataset (once its reviewed) with the original dataset, to avoid on-the-fly translation.
 
 ### zeroMain.py
 

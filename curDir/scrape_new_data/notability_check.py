@@ -91,17 +91,17 @@ with open('./notable_schools_org_data.pkl', 'wb') as f:
 
 # Below code corresponds to finding out articles (rows) with different non-null attribute counts
 
-# diverse_codes_list, diverse_codes = [], OrderedDict()
-# req_list = [1, 6, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-# for i, row in a.iterrows():
-#     ctr = 0
-#     for attribute in all_attributes:
-#         if not is_valid(row[attribute]):
-#             continue
-#         ctr += 1
-#     diverse_codes[ctr] = row['School Code']
-# diverse_codes = OrderedDict(sorted(diverse_codes.items(), key=lambda s: s[0]))
-# for _k, _v in diverse_codes.items():
-#     diverse_codes_list.append(_v)
-# with open('diverse_schools_list.txt', 'w') as f:
-#     f.write(str(diverse_codes_list))
+diverse_codes_list, diverse_codes = [], OrderedDict()
+req_list = [1, 6, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+for i, row in a.iterrows():
+    ctr = 0
+    for attribute in all_attributes:
+        if not is_valid(row[attribute]):
+            continue
+        ctr += 1
+    diverse_codes[ctr] = row['School Code']
+diverse_codes = OrderedDict(sorted(diverse_codes.items(), key=lambda s: s[0]))
+for _k, _v in diverse_codes.items():
+    diverse_codes_list.append(_v)
+with open('diverse_schools_list.txt', 'w') as f:
+    f.write(str(diverse_codes_list))
