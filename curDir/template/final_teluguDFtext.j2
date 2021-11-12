@@ -7,14 +7,14 @@
 	| name = {{title}}
 	{%- endif %}
 	{%- if is_valid(village) and is_valid(district) %}
-	| city = {{village}}గ్రామం, {{district}}జిల్లా
+	| city = {{village}} గ్రామం, {{district}} జిల్లా
 	{%- elif is_valid(village) and not is_valid(district) %}
-	| city = {{village}}గ్రామం
+	| city = {{village}} గ్రామం
 	{%- elif is_valid(district) and not is_valid(village) %}
-	| city = {{district}}జిల్లా
+	| city = {{district}} జిల్లా
 	{%- endif %}
 	{%- if is_valid(district) %}
-	| district = {{district}}జిల్లా
+	| district = {{district}} జిల్లా
 	{%- endif %}
 	{%- if is_valid(state) %}
 	| state = {{state}}

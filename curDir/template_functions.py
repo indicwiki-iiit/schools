@@ -21,55 +21,55 @@ def is_valid(value):
 def get_intro_line_1(village, district, block, cluster, schToken):
     part_1 = ''
     if is_valid(village):
-        part_1 = "ఈ " + schToken + village + "గ్రామంలో ఉన్నది. "
+        part_1 = "ఈ " + schToken + village + " గ్రామంలో ఉన్నది. "
     part_2 = ''
     if is_valid(district) and is_valid(block) and is_valid(cluster):
-        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + district + " జిల్లాలో " + block + " పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
     elif is_valid(district) and is_valid(cluster):
-        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + district + " జిల్లాలో " + cluster + " క్లస్టర్లో ఉన్నది. "
     elif is_valid(district) and is_valid(block):
-        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో " + block + "పరిధిలో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + district + " జిల్లాలో " + block + " పరిధిలో ఉన్నది. "
     elif is_valid(block) and is_valid(cluster):
-        part_2 = "ఈ గ్రామం " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + block + " పరిధిలో " + cluster + " క్లస్టర్లో ఉన్నది. "
     elif is_valid(cluster):
         part_2 = "ఈ గ్రామం " + cluster + " క్లస్టర్లో ఉన్నది. "        
     elif is_valid(district):
-        part_2 = "ఈ గ్రామం " + district + "జిల్లాలో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + district + " జిల్లాలో ఉన్నది. "
     elif is_valid(block):
-        part_2 = "ఈ గ్రామం " + block + "పరిధిలో ఉన్నది. "
+        part_2 = "ఈ గ్రామం " + block + " పరిధిలో ఉన్నది. "
     return part_1 + part_2
 
 # Obtains second version of intro line
 def get_intro_line_2(village, district, block, cluster, schToken):
     part_1 = ''
     if is_valid(village):
-        part_1 = "ఈ " + schToken + village + "గ్రామంలో ఉన్నది. "
+        part_1 = "ఈ " + schToken + village + " గ్రామంలో ఉన్నది. "
     part_2 = ''
     if is_valid(district) and is_valid(block) and is_valid(cluster):
-        part_2 = district + "జిల్లాలో " + block + "పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+        part_2 = district + " జిల్లాలో " + block + " పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
     elif is_valid(district) and is_valid(cluster):
-        part_2 = district + "జిల్లాలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+        part_2 = district + " జిల్లాలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
     elif is_valid(district) and is_valid(block):
-        part_2 = district + "జిల్లాలో " + block + "పరిధిలో ఈ గ్రామం ఉన్నది. "
+        part_2 = district + " జిల్లాలో " + block + " పరిధిలో ఈ గ్రామం ఉన్నది. "
     elif is_valid(block) and is_valid(cluster):
-        part_2 = block + "పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
+        part_2 = block + " పరిధిలో " + cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "
     elif is_valid(cluster):
         part_2 = cluster + " క్లస్టర్లో ఈ గ్రామం ఉన్నది. "     
     elif is_valid(district):
-        part_2 = district + "జిల్లాలో ఈ గ్రామం ఉన్నది. "
+        part_2 = district + " జిల్లాలో ఈ గ్రామం ఉన్నది. "
     elif is_valid(block):
-        part_2 = block + "పరిధిలో ఈ గ్రామం ఉన్నది. "
+        part_2 = block + " పరిధిలో ఈ గ్రామం ఉన్నది. "
     return part_1 + part_2
 
 # Obtains third version of intro line
 def get_intro_line_3(village, district, block, cluster, schToken):
     initial_part = ''
     if is_valid(village):
-        initial_part += (village + "గ్రామంలో ")
+        initial_part += (village + " గ్రామంలో ")
     if is_valid(district):
-        initial_part += (district + "జిల్లాలో ")
+        initial_part += (district + " జిల్లాలో ")
     if is_valid(block):
-        initial_part += (block + "పరిధిలో ")
+        initial_part += (block + " పరిధిలో ")
     if is_valid(cluster):
         initial_part += (cluster + " క్లస్టర్లో ")
     if len(initial_part) > 0:
@@ -81,10 +81,10 @@ def get_intro_line_4(village, district, block, schToken):
     part_1 = "ఈ " + schToken
     part_2 = ''
     if is_valid(district):
-        part_2 = (district + "జిల్లాలో ")
+        part_2 = (district + " జిల్లాలో ")
     part_3 = ''
     if is_valid(block):
-        part_3 = (block + "పరిధిలో ")
+        part_3 = (block + " పరిధిలో ")
     if is_valid(village):
         if len(part_3) > 0:
             part_3 += "గల "
@@ -92,7 +92,7 @@ def get_intro_line_4(village, district, block, schToken):
             part_2 += "గల "
     part_4 = ''
     if is_valid(village):
-        part_4 = village + "గ్రామంలో "
+        part_4 = village + " గ్రామంలో "
     if len(part_2) == 0 and len(part_3) == 0 and len(part_4) == 0:
         return ''
     return part_1 + part_2 + part_3 + part_4 + "ఉన్నది. "
@@ -102,7 +102,7 @@ def get_class_info(lo, hi, medium, prefix, suffix):
     if is_valid(lo) and is_valid(hi):
         s2 = ''
         if is_valid(medium):
-            s2 = medium + 'మాధ్యమంలో '
+            s2 = medium + ' మాధ్యమంలో '
         if lo == 0 and hi == 0:
             if is_valid(medium):
                 return prefix + s2 + suffix
@@ -117,7 +117,7 @@ def get_class_info(lo, hi, medium, prefix, suffix):
         part_2 = hi + ' తరగతి వరకు '
     part_3 = ''
     if is_valid(medium):
-        part_3 = medium + 'మాధ్యమంలో '
+        part_3 = medium + ' మాధ్యమంలో '
     if len(part_1) == 0 and len(part_2) == 0 and len(part_3) == 0:
         return ''
     return prefix + part_1 + part_2 + part_3 + suffix
@@ -127,7 +127,7 @@ def get_teacher_info(token, totalTeachers):
     if len(token) == 0:
         if is_valid(totalTeachers):
             return [
-                'ఇక్కడ  మొత్తం ' + totalTeachers + ' ఉపాధ్యాయులు పని చేస్తున్నారు. ', 
+                'ఇక్కడ మొత్తం ' + totalTeachers + ' ఉపాధ్యాయులు పని చేస్తున్నారు. ', 
                 'ఇక్కడ మొత్తం ' + totalTeachers + ' ఉపాధ్యాయులు ఉన్నారు. '
             ]
         return ['']
