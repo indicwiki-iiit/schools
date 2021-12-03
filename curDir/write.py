@@ -123,6 +123,8 @@ def getData(row, title):
 	teMgnt, extraDesc, schToken =getTeTokens(enName, enMgnt)
 	if is_valid(enMgnt) and not is_valid(teMgnt):
 		teMgnt = get_stripped_val(row['Management_Telugu'])
+		if teMgnt == 'విద్యా శాఖ':
+			teMgnt = 'ప్రభుత్వ విద్యా శాఖ'
 
 	village = get_stripped_lower_val(row['Village / Town_Telugu'])
 	district = get_stripped_lower_val(row['District_Telugu'])
@@ -165,6 +167,8 @@ def getData(row, title):
 	electricity = get_stripped_lower_val(row['Electricity']) == 'yes'
 	drinking_water = get_stripped_lower_val(row['Drinking Water_Telugu'])
 	wall = get_stripped_lower_val(row['Wall_Telugu'])
+	if wall == 'పక్కా గోడ':
+		wall = 'పక్కా ప్రహరీ గోడ'
 	ramps_for_disabled = get_stripped_lower_val(row['Ramps for Disable']) == 'yes'
 	library = get_stripped_lower_val(row['Library']) == 'yes'
 	books_count = get_int(get_stripped_lower_val(row['Books in Library']))

@@ -220,8 +220,8 @@ def get_residential_details(is_residential, residential_type):
             'ఇది ఒక రెసిడెన్షియల్ పాఠశాల. '
         ]
     return [
-        'ఈ పాఠశాల ఒక రెసిడెన్షియల్ పాఠశాల, దీని రెసిడెన్షియల్ రకం ' + residential_type + '. ',
-        'ఇది ఒక రెసిడెన్షియల్ పాఠశాల. ఈ పాఠశాల రెసిడెన్షియల్ రకం ' + residential_type + '. '
+        'ఈ పాఠశాల ఒక రెసిడెన్షియల్ ' + residential_type + '. ',
+        'ఇది ఒక రెసిడెన్షియల్ ' + residential_type + '. '
     ]
 
 # Obtains pre primary teachers information
@@ -309,9 +309,9 @@ def get_toilet_info(boys_toilets, girls_toilets):
 def get_electricity_water_info(electricity, drinking_water):
     if not is_valid(electricity) and not is_valid(drinking_water):
         return ['']
-    electricity_str = 'విద్యుత్ ఉంది'
+    electricity_str = 'విద్యుత్ సౌకర్యము ఉంది'
     if not electricity:
-        electricity_str = 'విద్యుత్ లేదు'
+        electricity_str = 'విద్యుత్ సౌకర్యము లేదు'
     water_str = 'త్రాగు నీరు దొరకదు'
     if is_valid(drinking_water):
         if drinking_water != 'బావి':
@@ -319,7 +319,7 @@ def get_electricity_water_info(electricity, drinking_water):
         else:
             water_str = 'త్రాగు నీరు కొరకు ' + drinking_water + ' ఉంది'
     return [
-        '* ' + 'ఈ పాఠశాలలో ' + electricity_str + ', ' + water_str + '. ' + '\n',
+        '* ' + 'ఈ పాఠశాలకు ' + electricity_str + ', ' + water_str + '. ' + '\n',
         '* ' + 'ఈ పాఠశాలలో ' + water_str + ', ' + electricity_str + '. ' + '\n'
     ]
 
@@ -337,8 +337,8 @@ def get_ramps_info(ramps_for_disabled):
     if not is_valid(ramps_for_disabled) or (not ramps_for_disabled):
         return ['']
     return [
-        '* ' + 'ఇక్కడ వికలాంగుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. ' + '\n',
-        '* ' + 'ఈ పాఠశాలలో వికలాంగుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. ' + '\n'
+        '* ' + 'వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. ' + '\n',
+        '* ' + 'వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. ' + '\n'
     ]
     
 # Get information about library and books count in school
