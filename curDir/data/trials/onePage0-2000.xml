@@ -1,0 +1,1639 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
+	<siteinfo>
+		<sitename>tewiki</sitename>
+		<dbname>indicwiki</dbname>
+		<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<generator>MediaWiki 1.34.0</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">మీడియా</namespace>
+			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">చర్చ</namespace>
+			<namespace key="2" case="first-letter">వాడుకరి</namespace>
+			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
+			<namespace key="4" case="first-letter">Project</namespace>
+			<namespace key="5" case="first-letter">Project చర్చ</namespace>
+			<namespace key="6" case="first-letter">దస్త్రం</namespace>
+			<namespace key="7" case="first-letter">దస్త్రంపై చర్చ</namespace>
+			<namespace key="8" case="first-letter">మీడియావికీ</namespace>
+			<namespace key="9" case="first-letter">మీడియావికీ చర్చ</namespace>
+			<namespace key="10" case="first-letter">మూస</namespace>
+			<namespace key="11" case="first-letter">మూస చర్చ</namespace>
+			<namespace key="12" case="first-letter">సహాయం</namespace>
+			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
+			<namespace key="14" case="first-letter">వర్గం</namespace>
+			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="120" case="first-letter">Item</namespace>
+			<namespace key="121" case="first-letter">Item talk</namespace>
+			<namespace key="122" case="first-letter">Property</namespace>
+			<namespace key="123" case="first-letter">Property talk</namespace>
+			<namespace key="482" case="first-letter">Config</namespace>
+			<namespace key="483" case="first-letter">Config talk</namespace>
+			<namespace key="710" case="first-letter">TimedText</namespace>
+			<namespace key="711" case="first-letter">TimedText talk</namespace>
+			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
+			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
+			<namespace key="2300" case="first-letter">Gadget</namespace>
+			<namespace key="2301" case="first-letter">Gadget talk</namespace>
+			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+			<namespace key="2600" case="first-letter">Topic</namespace>
+			<namespace key="3022" case="first-letter">Tewiki</namespace>
+			<namespace key="3023" case="first-letter">Tewiki talk</namespace>
+		</namespaces>
+	</siteinfo>
+
+
+
+
+	<page>
+		<title>కేతన టాలెంట్ పాఠశాల</title>
+		<ns>0</ns>
+		<id>300000</id>
+		<revision>
+			<id>300000</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3293">{{Infobox school
+	| name = కేతన టాలెంట్ పాఠశాల
+	| city = సన్వాలి గ్రామం, అదిలాబాద్ జిల్లా
+	| district = అదిలాబాద్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 504103
+	| established = 2011
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = తొమ్మిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల సన్వాలి గ్రామంలో ఉన్నది. ఈ గ్రామం అదిలాబాద్ జిల్లాలోని కుబీర్ మండల పరిధిలోని 36011502803 జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నిగ్వా క్లస్టర్లో ఉన్నది. ఇక్కడ ఐదవ తరగతి వరకు తెలుగు మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 504103.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2011 వ సంవత్సరం లో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36011503203. [https://schools.org.in/adilabad/36011502804/sri-saraswathi-shish.html శ్రీ సరస్వతి శిష్], [https://schools.org.in/adilabad/36011502501/mpups-sonari.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) సొనరి], [https://schools.org.in/adilabad/36011503201/mpps-nayabadi-sanvli.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నయాబడి (సంవ్లి)], [https://schools.org.in/adilabad/36011503801/mpps-sowna.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) సౌన], [https://schools.org.in/adilabad/36011503001/mpps-lingi.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) లింగి], [https://schools.org.in/adilabad/36011503701/mpps-bakot.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) బాకాట్], [https://schools.org.in/adilabad/36011503402/zphs-malegaon.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) మల్గాలన్], [https://schools.org.in/adilabad/36011502701/mpups-godapur.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) గోడాపూర్], [https://schools.org.in/adilabad/36011502803/zphs-nighwa.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) నిఘ్వా], [https://schools.org.in/adilabad/36011502601/mpps-hampoli-buzurg.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) హంపోలీ (బజ్జర్గ్)] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం తొమ్మిది మంది ఉపాధ్యాయులలో ఐదుగురు ఉపాధ్యాయులు , నలుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక అద్దె భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 5 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 1 మరుగుదొడ్డి, బాలుర కొరకు 1 మరుగుదొడ్డి ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:అదిలాబాద్జిల్లా పాఠశాలలు]]
+[[వర్గం:అదిలాబాద్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:కుబీర్లో పాఠశాలలు]]
+[[వర్గం:కుబీర్లో విద్యాసంస్థలు]]
+[[వర్గం:36011502803 జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నిగ్వాలో పాఠశాలలు]]
+[[వర్గం:36011502803 జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నిగ్వాలో విద్యాసంస్థలు]]
+[[వర్గం:సన్వాలిలో పాఠశాలలు]]
+[[వర్గం:సన్వాలిలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>t0ln9fxstr6xarzgn9wrrymf3r6ng54</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ప్రభుత్వ ఎయిడెడ్ ఉన్నత పాఠశాల వాణి నికేతన్</title>
+		<ns>0</ns>
+		<id>300001</id>
+		<revision>
+			<id>300001</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3284">{{Infobox school
+	| name = ప్రభుత్వ ఎయిడెడ్ ఉన్నత పాఠశాల వాణి నికేతన్
+	| city = వరంగల్-3 గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506013
+	| established = 1953
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఆరుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల వరంగల్-3 గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వరంగల్ మండల పరిధిలో ఉన్నది. ఈ పాఠశాల ప్రైవేట్ ఎయిడెడ్ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506013.
+
+==గుర్తింపు, స్థానం==
+1953 వ సంవత్సరం లో పట్టణపు ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల ప్రైవేట్ ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36095190748. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36095190703/kakatiya-tilakroad.html కాకతీయ టిలక్రోడ్], [https://schools.org.in/warangal/36095190797/sri-saraswathi-gir-pet.html శ్రీ సరస్వతి జి.అయి.అర్. పేట], [https://schools.org.in/warangal/36095190923/vignan-public-school.html విజ్ఞాన్ పబ్లిక్ పాఠశాల], [https://schools.org.in/warangal/36095190836/sai-sri-vignan-ups-kothawada.html సాయి శ్రీ విజ్ఞాన్ ప్రాథమికోన్నత పాఠశాల కొత్తవాడ], [https://schools.org.in/warangal/36095190240/govt-aided-vani-nikethan-ps.html ప్రభుత్వ ఎయిడెడ్ వాణి నికేతన్ ప్రాథమిక పాఠశాల], [https://schools.org.in/warangal/36095190766/unique-hs-chr-colony.html యూనిక్ ఉన్నత పాఠశాల సి.హెచ్.అర్. కాలనీ], [https://schools.org.in/warangal/36095190241/bharathi-vishwaided-ps.html భారతి విశ్వైడ్వద్ ప్రాథమిక పాఠశాల], [https://schools.org.in/warangal/36095190919/assisi-school.html అస్సిసి పాఠశాల], [https://schools.org.in/warangal/36095190865/vedavyasa-hs-kirtingr.html వేదవ్యాస ఉన్నత పాఠశాల కిర్టింజర్], [https://schools.org.in/warangal/36095190793/pauls-christian-colony.html పాల్స్ క్రిస్టియన్ కాలనీ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఆరుగురు ఉపాధ్యాయులలో ముగ్గురు ఉపాధ్యాయులు , ముగ్గురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* అద్దె భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 8 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 4 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు దొరకదు. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 480. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్లో పాఠశాలలు]]
+[[వర్గం:వరంగల్లో విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్-3లో పాఠశాలలు]]
+[[వర్గం:వరంగల్-3లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>kvox1rlpryx7nvib5boamcwdzj9gh7g</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>శ్రీ విజ్ఞాన్ పాఠశాల</title>
+		<ns>0</ns>
+		<id>300002</id>
+		<revision>
+			<id>300002</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3438">{{Infobox school
+	| name = శ్రీ విజ్ఞాన్ పాఠశాల
+	| city = రెలకుంట గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506349
+	| established = 2014
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల రెలకుంట గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నాల్లబెల్లి మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నందిగామ క్లస్టర్లో ఉన్నది. ఇక్కడ ఐదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506349.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2014 వ సంవత్సరం లో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36093400204. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36093400103/oxford-school.html ఆక్స్ ఫర్డ్ పాఠశాల], [https://schools.org.in/warangal/36093401304/zphs-muchimpula.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) ముచ్చింపుల], [https://schools.org.in/warangal/36093400302/mpps-rangapuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) రంగాపురం], [https://schools.org.in/warangal/36093401401/mpups-lenkala-pally.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) లెంకల పల్లి], [https://schools.org.in/warangal/36093400101/mpps-nandi-gama.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నంది గామా], [https://schools.org.in/warangal/36093400301/mpps-dharmaraopeta.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ధర్మరావోపేట], [https://schools.org.in/warangal/36093401302/mpps-muchilmpula-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ముచిలంపుల తండ], [https://schools.org.in/warangal/36093401303/mpps-muchimpula.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ముచ్చింపుల], [https://schools.org.in/warangal/36093401301/mpps-dasthagiri-pally.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) దస్తగిరి పల్లి], [https://schools.org.in/warangal/36093400303/zphs-rangapuram.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) రంగాపురం] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ పాఠశాల. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఏడుగురు ఉపాధ్యాయులు ఉన్నారు. వీరిలో నలుగురు ఉపాధ్యాయులు , ముగ్గురు ఉపాధ్యాయినులు.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రైవేట్ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 7 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 2 మరుగుదొడ్లు, బాలుర కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ ముళ్ల కంచె నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నాల్లబెల్లిలో పాఠశాలలు]]
+[[వర్గం:నాల్లబెల్లిలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నందిగామలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నందిగామలో విద్యాసంస్థలు]]
+[[వర్గం:రెలకుంటలో పాఠశాలలు]]
+[[వర్గం:రెలకుంటలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>g2c42h64h8j6z1nsm4j76qrt2owgxd7</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>సిద్ధార్థ పాఠశాల</title>
+		<ns>0</ns>
+		<id>300003</id>
+		<revision>
+			<id>300003</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3581">{{Infobox school
+	| name = సిద్ధార్థ పాఠశాల
+	| city = నర్మేత్త గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506167
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 7
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఎనిమిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నర్మేత్త గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నర్మేత్త మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నర్మేత్త క్లస్టర్లో ఈ గ్రామం కలదు. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఏడవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506167.
+
+==గుర్తింపు, స్థానం==
+2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36090301120. [https://schools.org.in/warangal/36090300601/mpups-akkaraju-pally.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) అక్కరాజు పల్లి], [https://schools.org.in/warangal/36090301107/rcm-aided-ps-gunturpally-narmetta.html ఆర్. సిఎమ్ ఎయిడెడ్ ప్రాథమిక పాఠశాల గుంతుర్పల్లి నర్మేత్త], [https://schools.org.in/warangal/36090301101/mpps-narmetta.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నర్మేత్త], [https://schools.org.in/warangal/36090301119/tsms-narmetta.html టి.ఎస్.ఎం.ఎస్. నర్మేత్త], [https://schools.org.in/warangal/36090301201/mpps-ammapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) అమ్మపూర్], [https://schools.org.in/warangal/36090301118/bhargavi-vocational-jr-college.html భార్గవి వోకేషనల్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36090301108/mpups-agapeta.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) అగపేట], [https://schools.org.in/warangal/36090301111/st-marys-ups-narmetta.html ఎస్.టి. మేరీస్ ప్రాథమికోన్నత పాఠశాల నర్మేత్త], [https://schools.org.in/warangal/36090301202/zphs-ammapur.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అమ్మపూర్], [https://schools.org.in/warangal/36090300501/mpups-potharam.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) పోతారం] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఎనిమిది మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో నలుగురు ఉపాధ్యాయులు , నలుగురు ఉపాధ్యాయినులు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక అద్దె భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 7 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 2 మరుగుదొడ్లు, బాలికల కొరకు 2 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు దొరకదు. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 300 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నర్మేత్తలో పాఠశాలలు]]
+[[వర్గం:నర్మేత్తలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నర్మేత్తలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నర్మేత్తలో విద్యాసంస్థలు]]
+[[వర్గం:నర్మేత్తలో పాఠశాలలు]]
+[[వర్గం:నర్మేత్తలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>54lolbj2thrnkp5w75xmz19v4mgat42</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>విజ్ఞాన్ పబ్లిక్ పాఠశాల</title>
+		<ns>0</ns>
+		<id>300004</id>
+		<revision>
+			<id>300004</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3307">{{Infobox school
+	| name = విజ్ఞాన్ పబ్లిక్ పాఠశాల
+	| city = వరంగల్-5 గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506001
+	| established = 1999
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఆరుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల వరంగల్-5 గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని వరంగల్మండల పరిధిలో ఈ గ్రామం కలదు. ఈ పాఠశాల ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506001.
+
+==గుర్తింపు, స్థానం==
+1999 వ సంవత్సరం లో పట్టణపు ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36095190923. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36095190766/unique-hs-chr-colony.html యూనిక్ ఉన్నత పాఠశాల సి.హెచ్.అర్. కాలనీ], [https://schools.org.in/warangal/36095190919/assisi-school.html అస్సిసి పాఠశాల], [https://schools.org.in/warangal/36095190835/st-thomas-hs-bharkathpura.html ఎస్.టి. థామస్ ఉన్నత పాఠశాల భరకత్పుర], [https://schools.org.in/warangal/36095190836/sai-sri-vignan-ups-kothawada.html సాయి శ్రీ విజ్ఞాన్ ప్రాథమికోన్నత పాఠశాల కొత్తవాడ], [https://schools.org.in/warangal/36095190793/pauls-christian-colony.html పాల్స్ క్రిస్టియన్ కాలనీ], [https://schools.org.in/warangal/36095190703/kakatiya-tilakroad.html కాకతీయ టిలక్రోడ్], [https://schools.org.in/warangal/36095190865/vedavyasa-hs-kirtingr.html వేదవ్యాస ఉన్నత పాఠశాల కిర్టింజర్], [https://schools.org.in/warangal/36095190802/bharateeya-hs-girmajipet.html భారతీయ ఉన్నత పాఠశాల గిర్మజైపెట్], [https://schools.org.in/warangal/36095190748/govt-aided-hs-vani-nikethan.html ప్రభుత్వ ఎయిడెడ్ ఉన్నత పాఠశాల వాణి నికేతన్], [https://schools.org.in/warangal/36095190678/nandini-ups-laxmipur.html నందిని ప్రాథమికోన్నత పాఠశాల లక్ష్మీపూర్] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10 వ తరగతి కొరకు స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఆరుగురు ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు , ఇద్దరు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రైవేట్ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 8 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 1 మరుగుదొడ్డి, బాలికల కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్లో పాఠశాలలు]]
+[[వర్గం:వరంగల్లో విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్-5లో పాఠశాలలు]]
+[[వర్గం:వరంగల్-5లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>kkoxqnpk0mx0r2f1sijxppdnpv237eg</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>మొథర్లాండ్ ఎలిమెంటరీ ప్రాథమికోన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)</title>
+		<ns>0</ns>
+		<id>300005</id>
+		<revision>
+			<id>300005</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3536">{{Infobox school
+	| name = మొథర్లాండ్ ఎలిమెంటరీ ప్రాథమికోన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)
+	| city = తొర్రర్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506163
+	| established = 2011
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 7
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల తొర్రర్ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని తొర్రర్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) గుర్తూర్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో పని చేస్తుంది. ఇక్కడ విద్యార్థులు ఏడవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506163.
+
+==గుర్తింపు, స్థానం==
+ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2011 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36091801140. [https://schools.org.in/warangal/36091800502/mpps-g-k-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) జి. కె. తండ], [https://schools.org.in/warangal/36091801402/govt-dnt-ps-skthanda.html ప్రభుత్వ డి.ఎన్.టి. ప్రాథమిక పాఠశాల సక్తండ], [https://schools.org.in/warangal/36091800505/zphs-ammapur.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అమ్మపూర్], [https://schools.org.in/warangal/36091800503/mpps-ammapuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) అమ్మపురం], [https://schools.org.in/warangal/36091800401/mpps-khanapuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఖనాపురం], [https://schools.org.in/warangal/36091800302/zphs-gurthur.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) గుర్తూర్], [https://schools.org.in/warangal/36091800303/tsms-torrur-@gurthur.html టి.ఎస్.ఎం.ఎస్. టార్రర్ గుర్తూర్], [https://schools.org.in/warangal/36091800201/mpups-somaram.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) సోమరం], [https://schools.org.in/warangal/36091800101/mpps-jamsathanpuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) జాంశతంపురం], [https://schools.org.in/warangal/36091800301/mpps-gurthur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గుర్తూర్] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఏడుగురు ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు , ముగ్గురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రైవేట్ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 5 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 1 మరుగుదొడ్డి, బాలికల కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:తొర్రర్లో పాఠశాలలు]]
+[[వర్గం:తొర్రర్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) గుర్తూర్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) గుర్తూర్లో విద్యాసంస్థలు]]
+[[వర్గం:తొర్రర్లో పాఠశాలలు]]
+[[వర్గం:తొర్రర్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>l0utxd6t2z3aaldhuc7ihcl5w6oaxf9</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) బందౌతాపురం</title>
+		<ns>0</ns>
+		<id>300006</id>
+		<revision>
+			<id>300006</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3695">{{Infobox school
+	| name = మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) బందౌతాపురం
+	| city = బందౌతాపురం గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506313
+	| established = 1962
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 7
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ మండల ప్రజా పరిషత్ ప్రాథమికోన్నత పాఠశాల బందౌతాపురం గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. స్థానిక సంస్థ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఏడవ తరగతి వరకు తెలుగు మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506313.
+
+==గుర్తింపు, స్థానం==
+1962 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల స్థానిక సంస్థ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091201202. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36091201630/tw-ashram-ups-g-wardhannap.html టి. డబ్ల్యు. ఆశ్రమ ప్రాథమికోన్నత పాఠశాల (జి.) వర్ధన్నప్], [https://schools.org.in/warangal/36091201625/bharathi-jr-college-wardhannapet.html భారతి జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201619/fuscos-hs-e-m-wardhannapet.html ఫస్కాస్ ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం) వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201303/sri-narendra-vidyalayam.html శ్రీ నరేంద్ర విద్యాలయం], [https://schools.org.in/warangal/36091201301/mpps-dammannapet.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) దమ్మన్నపేట], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201804/zphs-layberthy.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) లేబర్తి], [https://schools.org.in/warangal/36091201608/chethana-ps-wardhannapet.html చేతన ప్రాథమిక పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201502/zphs-ramavaram.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) రామవరం], [https://schools.org.in/warangal/36091201614/sri-aurobindo-hs-wardhannapet.html శ్రీ ఆరోబిండో ఉన్నత పాఠశాల వర్ధన్నపేట్] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఏడుగురు ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఐదుగురు ఉపాధ్యాయులు , ఇద్దరు ఉపాధ్యాయినులు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 4 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 1 మరుగుదొడ్డి, బాలికల కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు దొరకదు, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా (కానీ విరిగిన) గోడ ఉంది. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 315 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:బందౌతాపురంలో పాఠశాలలు]]
+[[వర్గం:బందౌతాపురంలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>l9kef9q08uiedd9mdbrj3mm3bztgfu3</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>శ్రీ నరేంద్ర విద్యాలయం</title>
+		<ns>0</ns>
+		<id>300007</id>
+		<revision>
+			<id>300007</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3600">{{Infobox school
+	| name = శ్రీ నరేంద్ర విద్యాలయం
+	| city = దమ్మన్నపేట గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506313
+	| established = 2012
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 7
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఎనిమిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల దమ్మన్నపేట గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ విద్యార్థులు ఏడవ తరగతి వరకు తెలుగు మాధ్యమంలో విద్యను అభ్యసిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506313.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2012 లో స్థాపించబడి, ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091201303. [https://schools.org.in/warangal/36091201804/zphs-layberthy.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) లేబర్తి], [https://schools.org.in/warangal/36091201606/mpps-vamsharaj-nagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వంశరాజ్ నగర్], [https://schools.org.in/warangal/36091201613/zphs-wardhannapet.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201605/mpps-ns-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఎన్.ఎస్ తండ], [https://schools.org.in/warangal/36091201607/mpps-firangigadh.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఫిరంగిగద్గద్], [https://schools.org.in/warangal/36091201615/sri-venkateshwara-hs-wardhannapet.html శ్రీ వెంకటేశ్వర ఉన్నత పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201619/fuscos-hs-e-m-wardhannapet.html ఫస్కాస్ ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం) వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201202/mpups-bandouthapuram.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) బందౌతాపురం], [https://schools.org.in/warangal/36091201608/chethana-ps-wardhannapet.html చేతన ప్రాథమిక పాఠశాల వర్ధన్నపేట్] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ నలుగురు ఉపాధ్యాయులు , నలుగురు ఉపాధ్యాయినులు, మొత్తం ఎనిమిది మంది ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* అద్దె భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 8 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 2 బాలుర మరుగుదొడ్లు, 2 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు బావి ఉంది, విద్యుత్ సౌకర్యము లేదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా (కానీ విరిగిన) గోడ ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:దమ్మన్నపేటలో పాఠశాలలు]]
+[[వర్గం:దమ్మన్నపేటలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>nykjxjv1kuqipizjutkd1nkccdj6ock</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>చేతన ప్రాథమిక పాఠశాల వర్ధన్నపేట్</title>
+		<ns>0</ns>
+		<id>300008</id>
+		<revision>
+			<id>300008</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3765">{{Infobox school
+	| name = చేతన ప్రాథమిక పాఠశాల వర్ధన్నపేట్
+	| city = వర్ధన్నపేట్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506313
+	| established = 1991
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల వర్ధన్నపేట్ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ విద్యార్థులకు ఐదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506313.
+
+==గుర్తింపు, స్థానం==
+ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 1991 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091201608. [https://schools.org.in/warangal/36091201801/mpps-lyabarthy.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ల్యాబర్థి], [https://schools.org.in/warangal/36091201628/shivani-techno-hs-wardhannapet.html శివాని టెక్నో ఉన్నత పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201606/mpps-vamsharaj-nagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వంశరాజ్ నగర్], [https://schools.org.in/warangal/36091201625/bharathi-jr-college-wardhannapet.html భారతి జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201630/tw-ashram-ups-g-wardhannap.html టి. డబ్ల్యు. ఆశ్రమ ప్రాథమికోన్నత పాఠశాల (జి.) వర్ధన్నప్], [https://schools.org.in/warangal/36091201501/mpps-ramavaram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) రామవరం], [https://schools.org.in/warangal/36091201603/mpps-gubbedi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గుబ్బెదీ తండ], [https://schools.org.in/warangal/36091201201/mpps-ambetkarnagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) అంబెట్కార్నార్నార్], [https://schools.org.in/warangal/36091201303/sri-narendra-vidyalayam.html శ్రీ నరేంద్ర విద్యాలయం] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఏడుగురు ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఇద్దరు ఉపాధ్యాయులు , ఐదుగురు ఉపాధ్యాయినులు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రైవేట్ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 7 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 2 బాలుర మరుగుదొడ్లు, 2 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 150 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>26zd4kq3rqiz0wbk0mivvw0sj2yfhqs</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>శ్రీ ఆరోబిండో ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)</title>
+		<ns>0</ns>
+		<id>300009</id>
+		<revision>
+			<id>300009</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3860">{{Infobox school
+	| name = శ్రీ ఆరోబిండో ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)
+	| city = వర్ధన్నపేట్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506313
+	| established = 2007
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 10
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పన్నెండు మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల వర్ధన్నపేట్ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో పని చేస్తుంది. ఇక్కడ పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506313.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2007 లో స్థాపించబడి, ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36091201629. [https://schools.org.in/warangal/36091201201/mpps-ambetkarnagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) అంబెట్కార్నార్నార్], [https://schools.org.in/warangal/36091201621/brahmam-elementary-ps-wardhannapet.html బ్రహ్మం ఎలిమెంటరీ ప్రాథమిక పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201602/mpps-konapuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) కొనపురం], [https://schools.org.in/warangal/36091201614/sri-aurobindo-hs-wardhannapet.html శ్రీ ఆరోబిండో ఉన్నత పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201302/zphs-dammannapet.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) దమ్మన్నపేట], [https://schools.org.in/warangal/36091201625/bharathi-jr-college-wardhannapet.html భారతి జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201624/takshashila-jr-college-wardhannapet.html తక్షశిల జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201609/sri-venkateshwara-ps-wardhannapet.html శ్రీ వెంకటేశ్వర ప్రాథమిక పాఠశాల వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201803/gandi-vidya-mandir-ups-layberthy.html గండి విద్యా మందిర్ ప్రాథమికోన్నత పాఠశాల లేబర్తి], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10 వ తరగతి కొరకు స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం పన్నెండు మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో తొమ్మిది మంది ఉపాధ్యాయులు , ముగ్గురు ఉపాధ్యాయినులు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రైవేట్ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 14 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 3 బాలుర మరుగుదొడ్లు, 3 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 10 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>q7n5k222d1rhi8x3vdjr55mwxrbhz6x</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) రామవరం</title>
+		<ns>0</ns>
+		<id>300010</id>
+		<revision>
+			<id>300010</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3840">{{Infobox school
+	| name = జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) రామవరం
+	| city = రామావరం గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506314
+	| established = 1963
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఏడుగురు ఉపాధ్యాయులు
+}}
+
+ఈ జిల్లా పరిషత్ ఉన్నత పాఠశాల రామావరం గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల స్థానిక సంస్థ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506314.
+
+==గుర్తింపు, స్థానం==
+1963 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల స్థానిక సంస్థ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091201502. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36091201801/mpps-lyabarthy.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ల్యాబర్థి], [https://schools.org.in/warangal/36091201629/sri-aurobindo-hs-em.html శ్రీ ఆరోబిండో ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201606/mpps-vamsharaj-nagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వంశరాజ్ నగర్], [https://schools.org.in/warangal/36091201604/mpps-bhavanikunta-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) భావనికుంట తండ], [https://schools.org.in/warangal/36091201301/mpps-dammannapet.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) దమ్మన్నపేట], [https://schools.org.in/warangal/36091201202/mpups-bandouthapuram.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) బందౌతాపురం], [https://schools.org.in/warangal/36091201302/zphs-dammannapet.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) దమ్మన్నపేట], [https://schools.org.in/warangal/36091201201/mpps-ambetkarnagar.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) అంబెట్కార్నార్నార్], [https://schools.org.in/warangal/36091201803/gandi-vidya-mandir-ups-layberthy.html గండి విద్యా మందిర్ ప్రాథమికోన్నత పాఠశాల లేబర్తి] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 10 వ తరగతికి ఈ పాఠశాల లో స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఐదుగురు ఉపాధ్యాయులు , ఇద్దరు ఉపాధ్యాయినులు, మొత్తం ఏడుగురు ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రభుత్వ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 4 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 2 మరుగుదొడ్లు, బాలుర కొరకు 2 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా (కానీ విరిగిన) గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 450.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:రామావరంలో పాఠశాలలు]]
+[[వర్గం:రామావరంలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>4ucve2q5du3srm7wkcb3z05b0lry441</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) లేబర్తి</title>
+		<ns>0</ns>
+		<id>300011</id>
+		<revision>
+			<id>300011</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3899">{{Infobox school
+	| name = జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) లేబర్తి
+	| city = లేబర్తి గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506313
+	| established = 1956
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 10
+	| medium = తెలుగు
+    | free_label = ఉపాధ్యాయులు
+	| free_text = తొమ్మిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ జిల్లా పరిషత్ ఉన్నత పాఠశాల లేబర్తి గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల స్థానిక సంస్థ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పదవ తరగతి వరకు తెలుగు మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506313.
+
+==గుర్తింపు, స్థానం==
+1956 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల స్థానిక సంస్థ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091201804. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36091201301/mpps-dammannapet.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) దమ్మన్నపేట], [https://schools.org.in/warangal/36091201605/mpps-ns-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఎన్.ఎస్ తండ], [https://schools.org.in/warangal/36091201303/sri-narendra-vidyalayam.html శ్రీ నరేంద్ర విద్యాలయం], [https://schools.org.in/warangal/36091201602/mpps-konapuram.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) కొనపురం], [https://schools.org.in/warangal/36091201623/govt-jr-college-wardhannapet.html ప్రభుత్వ జె.ఆర్. కాలేజ్ వర్ధన్నపేట్], [https://schools.org.in/warangal/36091201401/mpps-divitipally.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) డివిటిపల్లి], [https://schools.org.in/warangal/36091201611/mpups-dc-thanda.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) డి.సి. తండ], [https://schools.org.in/warangal/36091201502/zphs-ramavaram.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) రామవరం], [https://schools.org.in/warangal/36091201629/sri-aurobindo-hs-em.html శ్రీ ఆరోబిండో ఉన్నత పాఠశాల (ఇంగ్లీష్ మీడియం)], [https://schools.org.in/warangal/36091201607/mpps-firangigadh.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఫిరంగిగద్గద్] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. 10 వ తరగతికి ఈ పాఠశాల లో స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం తొమ్మిది మంది ఉపాధ్యాయులలో ఆరుగురు ఉపాధ్యాయులు , ముగ్గురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 3 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 2 మరుగుదొడ్లు, బాలికల కొరకు 2 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా (కానీ విరిగిన) గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 1000. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 11 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:లేబర్తిలో పాఠశాలలు]]
+[[వర్గం:లేబర్తిలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>cp76dvngc38doe4vc3f1lp1f8yyrj3e</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ట్స్రీస్ ఉన్నత పాఠశాల (మైనారిటీ) బాలురు (ఇంగ్లీష్ మీడియం)</title>
+		<ns>0</ns>
+		<id>300012</id>
+		<revision>
+			<id>300012</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3880">{{Infobox school
+	| name = ట్స్రీస్ ఉన్నత పాఠశాల (మైనారిటీ) బాలురు (ఇంగ్లీష్ మీడియం)
+	| city = వరంగల్-4 గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506002
+	| established = 2008
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 5 - 10
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పన్నెండు మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల వరంగల్-4 గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని వరంగల్ మండల పరిధిలోని బాలికల ఉన్నత పాఠశాల గ్రైన్ మార్కెట్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ విద్యార్థులు ఐదవ తరగతి నుండి పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506002.
+
+==గుర్తింపు, స్థానం==
+పట్టణపు ప్రాంతానికి చెందిన ఈ పాఠశాల 2008 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36095190859. [https://schools.org.in/warangal/36095190837/tstwreis-hs-abbanikunta.html ట్స్ట్రీస్ ఉన్నత పాఠశాల అబ్బనికుంట], [https://schools.org.in/warangal/36095190806/ghs-christian-colony.html బాలికల ఉన్నత పాఠశాల క్రిస్టియన్ కాలనీ], [https://schools.org.in/warangal/36095190237/gps-shanti-ngr.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) శాంతినికేతన్ ఎన్.జి.ఆర్.], [https://schools.org.in/warangal/36095190731/ghs-grainmarket.html బాలికల ఉన్నత పాఠశాల గ్రైన్‌మారికెట్], [https://schools.org.in/warangal/36095190604/gps-christian-colony.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) క్రిస్టియన్ కాలనీ], [https://schools.org.in/warangal/36095190219/gps-masoomali-t-m.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) మసూమలి టి. ఎం.], [https://schools.org.in/warangal/36095190646/gups-dnt-balajinagar.html గుప్స్ డి.ఎన్.టి. బాలజీనగర్], [https://schools.org.in/warangal/36095190229/gps-sr-nagar.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) ఎస్.ఆర్. నగర్], [https://schools.org.in/warangal/36095190720/gps-pratap-nagar.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) ప్రతాప్ నగర్], [https://schools.org.in/warangal/36095190603/gps-keerthi-ngr.html ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) కీర్తి ఎన్.జి.ఆర్.] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ నాన్-ఆశ్రం టైప్ ( గోట్.). ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+బాలురకు మాత్రమే ఇక్కడ ప్రవేశం ఉన్నది. మొత్తం పన్నెండు మంది ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు , ఎనిమిది మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక అద్దె భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 4 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 1 మరుగుదొడ్డి, బాలుర కొరకు 18 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 500. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 2 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్లో పాఠశాలలు]]
+[[వర్గం:వరంగల్లో విద్యాసంస్థలు]]
+[[వర్గం:బాలికల ఉన్నత పాఠశాల గ్రైన్ మార్కెట్లో పాఠశాలలు]]
+[[వర్గం:బాలికల ఉన్నత పాఠశాల గ్రైన్ మార్కెట్లో విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్-4లో పాఠశాలలు]]
+[[వర్గం:వరంగల్-4లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>jckv17it6jjgn16h1sqsv8a1qklthdl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>శ్రీ రిషి విద్యాలయం కత్రియాల</title>
+		<ns>0</ns>
+		<id>300013</id>
+		<revision>
+			<id>300013</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3840">{{Infobox school
+	| name = శ్రీ రిషి విద్యాలయం కత్రియాల
+	| city = కత్రియల గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506310
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 10
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పది మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల కత్రియల గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని వర్ధన్నపేట్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) ఎల్లందా క్లస్టర్లో ఈ గ్రామం కలదు. ప్రైవేట్ అన్‌ఎయిడెడ్ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ పదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506310.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, ప్రైవేట్ అన్‌ఎయిడెడ్ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091200810. [https://schools.org.in/warangal/36091201103/mpps-ligamarigudem.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) లిగమరిగూడెం], [https://schools.org.in/warangal/36091200801/mpps-kummarigudem.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) కుమ్మరిగూడెం], [https://schools.org.in/warangal/36091200904/kakathiya-ups-ellanda.html కాకతీయ ప్రాథమికోన్నత పాఠశాల ఎల్లందా], [https://schools.org.in/warangal/36091200902/mpps-kadarigudam.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) కదరిగుడం], [https://schools.org.in/warangal/36091201102/mpps-uduthagudem.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఉడుతగూడెం], [https://schools.org.in/warangal/36091201111/sri-vidya-jyothi-ups-nandanam.html శ్రీ విద్యా జ్యోతి ప్రాథమికోన్నత పాఠశాల నందనం], [https://schools.org.in/warangal/36091200901/mpps-ellanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) ఎల్లందా], [https://schools.org.in/warangal/36091200803/vishvashanthi-ps-katriyala.html విశ్వశాంతి ప్రాథమిక పాఠశాల కత్రియల], [https://schools.org.in/warangal/36091200805/vishwashanthi-hs-upparapally.html విశ్వశాంతి ఉన్నత పాఠశాల ఉప్పరపల్లి], [https://schools.org.in/warangal/36091201105/st-anns-ps-reddipalem.html ఎస్.టి. ఆన్స్ ప్రాథమిక పాఠశాల రెడ్డిపాలెం] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ ప్రైవేట్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10 వ తరగతి కొరకు స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం పది మంది ఉపాధ్యాయులలో ఆరుగురు ఉపాధ్యాయులు , నలుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక అద్దె భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 10 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 6 మరుగుదొడ్లు, బాలికల కొరకు 6 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు బావి ఉంది. 
+* ఈ పాఠశాల చుట్టూ ముళ్ల కంచె ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 5 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వర్ధన్నపేట్లో పాఠశాలలు]]
+[[వర్గం:వర్ధన్నపేట్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) ఎల్లందాలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) ఎల్లందాలో విద్యాసంస్థలు]]
+[[వర్గం:కత్రియలలో పాఠశాలలు]]
+[[వర్గం:కత్రియలలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>7jiof9pfz0tw5d4urzmbidq925tvjzl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) డెసిపెట్</title>
+		<ns>0</ns>
+		<id>300014</id>
+		<revision>
+			<id>300014</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3850">{{Infobox school
+	| name = ప్రభుత్వ ప్రాథమిక పాఠశాల (గిరిజన సంక్షేమ) (GPS) డెసిపెట్
+	| city = వరంగల్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506006
+	| established = 2001
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 1 - 5
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = తొమ్మిది మంది ఉపాధ్యాయులు
+}}
+
+ఈ ప్రభుత్వ ప్రాథమిక పాఠశాల వరంగల్ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని వరంగల్ మండల పరిధిలోని బాలికల ఉన్నత పాఠశాల నరేంద్రనగర్గర్ క్లస్టర్లో ఈ గ్రామం కలదు. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఐదవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506006.
+
+==గుర్తింపు, స్థానం==
+పట్టణపు ప్రాంతానికి చెందిన ఈ పాఠశాల 2001 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36095190221. [https://schools.org.in/warangal/36095190786/standard-hs-kasibugga.html స్టాండార్డ్ ఉన్నత పాఠశాల కసిబుగ్గ], [https://schools.org.in/warangal/36095190874/padmavathi-jrcollege-for-women-kothawada.html పద్మావతి జ్కాజలేజ్ ఫోర్ వోమెన్ కొత్తవాడ], [https://schools.org.in/warangal/36095190683/new-indira-nizampura.html కొత్త ఇందిరా నిజంపుర], [https://schools.org.in/warangal/36095190762/nagarjuna-hs-desaipet.html నాగార్జున ఉన్నత పాఠశాల డెసిపెట్], [https://schools.org.in/warangal/36095190838/balajyothy-hs-v-colony.html బలజయోతి ఉన్నత పాఠశాల వి. కాలనీ], [https://schools.org.in/warangal/36095190746/govt-aided-hs-nehrumemorial.html ప్రభుత్వ ఎయిడెడ్ ఉన్నత పాఠశాల నెహ్రుమేమోరియల్], [https://schools.org.in/warangal/36095190875/lalbahadur-college-warangal-post.html లాల్బహాదూర్ కాలేజ్ వరంగల్ పాస్ట్], [https://schools.org.in/warangal/36095100102/rao-s-my-techno-school-hs.html రావు ఎస్. ఎం.వై. టెక్నో పాఠశాల ఉన్నత పాఠశాల], [https://schools.org.in/warangal/36095190728/ghs-narendranagar.html బాలికల ఉన్నత పాఠశాల నరేంద్రనగర్గర్], [https://schools.org.in/warangal/36095100709/sri-bhargavi-global-concept-school.html శ్రీ భార్గవి గ్లోబల్ కాన్సెప్ట్ పాఠశాల] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది రెసిడెన్షియల్ పాఠశాల కాదు. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు ఉన్నవి. ఇక్కడ 10 వ తరగతి కొరకు స్టేట్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం తొమ్మిది మంది ఉపాధ్యాయులలో నలుగురు ఉపాధ్యాయులు , ఐదుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+వీరిలో ఒక ఉపాధ్యాయుడు ప్రీ ప్రైమరీ తరగతులకు పాఠాలు చెప్తారు. ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు జ్ అహల్య.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 1 బాలుర మరుగుదొడ్డి, 1 బాలికల మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు కుళాయిలు ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పాక్షిక గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 300.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్లో పాఠశాలలు]]
+[[వర్గం:వరంగల్లో విద్యాసంస్థలు]]
+[[వర్గం:బాలికల ఉన్నత పాఠశాల నరేంద్రనగర్గర్లో పాఠశాలలు]]
+[[వర్గం:బాలికల ఉన్నత పాఠశాల నరేంద్రనగర్గర్లో విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్లో పాఠశాలలు]]
+[[వర్గం:వరంగల్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>iairn0q49ig9j8hsfbb2dfkhi1xqs3i</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ట్స్వ్రిస్ ఉన్నత పాఠశాల జెసి పార్కల్</title>
+		<ns>0</ns>
+		<id>300015</id>
+		<revision>
+			<id>300015</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3900">{{Infobox school
+	| name = ట్స్వ్రిస్ ఉన్నత పాఠశాల జెసి పార్కల్
+	| city = పార్కల్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506164
+	| established = 1984
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 5 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మూడు మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల పార్కల్ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని పార్కల్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) రాయపర్తి క్లస్టర్లో ఉన్నది. గిరిజన/సాంఘిక సంక్షేమ శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఐదవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506164.
+
+==గుర్తింపు, స్థానం==
+1984 వ సంవత్సరం లో పట్టణపు ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల గిరిజన/సాంఘిక సంక్షేమ శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36093901829. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36093900802/mpps-narsakkapally-d-w.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నర్సక్కపల్లి డి. వాడ], [https://schools.org.in/warangal/36093900202/mpps-varikole.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వారికోల్], [https://schools.org.in/warangal/36093900901/mpups-puligilla.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) పులిగిల్ల], [https://schools.org.in/warangal/36093901866/samatha-ps-parkal.html సమతా ప్రాథమిక పాఠశాల పార్కల్], [https://schools.org.in/warangal/36093901002/zphs-cherlapally.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) చెర్లపల్లి], [https://schools.org.in/warangal/36093900102/mpups-venkateswarlapally.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) వెంకటేశ్వర్లార్లపాల్లి], [https://schools.org.in/warangal/36093900804/mpups-narsakkapally.html మండల పరిషత్ ప్రాథమికోన్నత పాఠశాల (MPUPS) నర్సక్కపల్లి], [https://schools.org.in/warangal/36093900805/sv-public-school-rayaparthy.html ఎస్.వి. పబ్లిక్ పాఠశాల రాయపర్తి], [https://schools.org.in/warangal/36093901837/chaitanya-model-hs-v-puri.html చైతన్య మోడల్ ఉన్నత పాఠశాల వి. పూరి], [https://schools.org.in/warangal/36093900101/mpps-narlapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నర్లాపూర్] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ నాన్-ఆశ్రం టైప్ ( గోట్.). ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇక్కడ బాలికలకు మాత్రమే ప్రవేశం ఉన్నది. ఇక్కడ నలుగురు ఉపాధ్యాయులు , పందొమ్మిది మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మూడు మంది ఉపాధ్యాయులు పని చేస్తున్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* అద్దె లేని భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 1 మరుగుదొడ్డి, బాలికల కొరకు 6 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 50 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 11 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:పార్కల్లో పాఠశాలలు]]
+[[వర్గం:పార్కల్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) రాయపర్తిలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) రాయపర్తిలో విద్యాసంస్థలు]]
+[[వర్గం:పార్కల్లో పాఠశాలలు]]
+[[వర్గం:పార్కల్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>f06wbaaffnp1i2xzs7jaeej8neqcjlq</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>ట్స్వ్రిస్ ఉన్నత పాఠశాల (జి.) తొర్రర్</title>
+		<ns>0</ns>
+		<id>300016</id>
+		<revision>
+			<id>300016</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3880">{{Infobox school
+	| name = ట్స్వ్రిస్ ఉన్నత పాఠశాల (జి.) తొర్రర్
+	| city = తొర్రర్ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506163
+	| established = 2000
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 5 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = పదిహేను మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల తొర్రర్ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని తొర్రర్ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) తొర్రర్ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల గిరిజన/సాంఘిక సంక్షేమ శాఖ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఐదవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506163.
+
+==గుర్తింపు, స్థానం==
+గిరిజన/సాంఘిక సంక్షేమ శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2000 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36091801119. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36091801122/little-flower-hs-trr.html చిన్న ఫ్లవర్ ఉన్నత పాఠశాల టి.అర్.అర్.], [https://schools.org.in/warangal/36091801146/vidyabhivardhini-jrcollege-thorrur.html విద్యాభివర్థిని జ్కాజలేజ్ తొర్రర్], [https://schools.org.in/warangal/36091801134/kgbv-thorrur.html కస్తూర్బా గాంధీ బాలికా విద్యాలయం తొర్రర్], [https://schools.org.in/warangal/36091801152/bhargavi-voc-jr-college.html భార్గవి వి.ఓ.సి. జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36091802007/zphs-bommakal.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) బొమ్మకల్], [https://schools.org.in/warangal/36091801142/vaagdevi-jr-college-thorrur.html వాగ్దేవి జె.ఆర్. కాలేజ్ తొర్రర్], [https://schools.org.in/warangal/36091801124/sharada-hs-thorrur.html శారద ఉన్నత పాఠశాల తొర్రర్], [https://schools.org.in/warangal/36091801139/ratna-techno-hs-thorrur.html రత్నా టెక్నో ఉన్నత పాఠశాల తొర్రర్], [https://schools.org.in/warangal/36091801133/little-angels-ps-thorrur.html చిన్న ఏంజెల్స్ ప్రాథమిక పాఠశాల తొర్రర్], [https://schools.org.in/warangal/36091801117/st-saviour-ups-trr.html ఎస్.టి. సేవియూర్ ప్రాథమికోన్నత పాఠశాల టి.అర్.అర్.] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ ఆశ్రం ( గోట్.). ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+బాలికలకు మాత్రమే ఇక్కడ ప్రవేశం ఉన్నది. ఇక్కడ ఇద్దరు ఉపాధ్యాయులు , పదమూడు మంది ఉపాధ్యాయినులు, మొత్తం పదిహేను మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాలకు ఒక ప్రధాన ఉపాధ్యాయుడు ఉన్నారు.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 10 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 4 మరుగుదొడ్లు, బాలుర కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు బావి ఉంది, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 500. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 2 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:తొర్రర్లో పాఠశాలలు]]
+[[వర్గం:తొర్రర్లో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) తొర్రర్లో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) తొర్రర్లో విద్యాసంస్థలు]]
+[[వర్గం:తొర్రర్లో పాఠశాలలు]]
+[[వర్గం:తొర్రర్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>ay2gc9qzdxczegepsurytv6zg8xzy75</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ గిరిజన సంక్షేమ గురుకుల పాఠశాల (బాలురు), మన్ననూర్</title>
+		<ns>0</ns>
+		<id>300017</id>
+		<revision>
+			<id>300017</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3981">{{Infobox school
+	| name = తెలంగాణ గిరిజన సంక్షేమ గురుకుల పాఠశాల (బాలురు), మన్ననూర్
+	| city = మన్ననూర్ గ్రామం, మహబ్యుబ్నగర్ జిల్లా
+	| district = మహబ్యుబ్నగర్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 509201
+	| established = 1986
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 3 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై అయిదు మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల మన్ననూర్ గ్రామంలో ఉన్నది. ఈ గ్రామం మహబ్యుబ్నగర్ జిల్లాలోని అమరాబాద్ మండల పరిధిలోని జి.టి.డబల్యు.హెచ్.ఎస్. మన్ననూర్ 28074500108 క్లస్టర్లో ఉన్నది. ఈ పాఠశాల గిరిజన/సాంఘిక సంక్షేమ శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ మూడవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 509201.
+
+==గుర్తింపు, స్థానం==
+గిరిజన/సాంఘిక సంక్షేమ శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 1986 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36074500110. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/mahbubnagar/36074500105/govt-ps-mannanur.html ప్రభుత్వ ప్రాథమిక పాఠశాల మన్ననూర్], [https://schools.org.in/mahbubnagar/36074500104/mpps-mannanur-um.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) మన్ననూర్ (యు.ఎం.)], [https://schools.org.in/mahbubnagar/36074500202/govt-tw-ps-chouta-gudam.html ప్రభుత్వ టి. డబ్ల్యు. ప్రాథమిక పాఠశాల చౌత గూడం], [https://schools.org.in/mahbubnagar/36074500302/tw-govt-ps-macharam.html టి. డబ్ల్యు. ప్రభుత్వ ప్రాథమిక పాఠశాల మచ్చరం], [https://schools.org.in/mahbubnagar/36074500441/ps-akshara-concept-mannanur.html ప్రాథమిక పాఠశాల అక్షర కాన్సెప్ట్ మన్ననూర్], [https://schools.org.in/mahbubnagar/36074500301/mpps-macharam.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) మచ్చరం], [https://schools.org.in/mahbubnagar/36074500114/hs-margadarshi-mannanur.html ఉన్నత పాఠశాల మార్గదర్శి మన్ననూర్], [https://schools.org.in/mahbubnagar/36074500112/govt-ps-tw-mannanur.html ప్రభుత్వ ప్రాథమిక పాఠశాల టి. డబ్ల్యు. మన్ననూర్], [https://schools.org.in/mahbubnagar/36074500103/mpps-mannanoor.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) మన్ననూర్], [https://schools.org.in/mahbubnagar/36074500101/mpps-mannanoor.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) మన్ననూర్] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ నాన్-ఆశ్రం టైప్ ( గోట్.). ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10 వ తరగతి కొరకు స్టేట్ బోర్డ్ సిలబస్, 10+2 తరగతుల కొరకు ఇంటర్నేషనల్ బోర్డ్ సిలబస్ అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇక్కడ బాలురకు మాత్రమే ప్రవేశం ఉన్నది. మొత్తం ఇరవై అయిదు మంది ఉపాధ్యాయులలో ఇరవై ఒకటి మంది ఉపాధ్యాయులు , నలుగురు ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు క్.చిన్నయ్య.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 13 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 2 మరుగుదొడ్లు, బాలికల కొరకు 1 మరుగుదొడ్డి ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 1300 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:మహబ్యుబ్నగర్జిల్లా పాఠశాలలు]]
+[[వర్గం:మహబ్యుబ్నగర్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:అమరాబాద్లో పాఠశాలలు]]
+[[వర్గం:అమరాబాద్లో విద్యాసంస్థలు]]
+[[వర్గం:జి.టి.డబల్యు.హెచ్.ఎస్. మన్ననూర్ 28074500108లో పాఠశాలలు]]
+[[వర్గం:జి.టి.డబల్యు.హెచ్.ఎస్. మన్ననూర్ 28074500108లో విద్యాసంస్థలు]]
+[[వర్గం:మన్ననూర్లో పాఠశాలలు]]
+[[వర్గం:మన్ననూర్లో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>j2i0x2ftps368vbtttzp4cpvv26dwjb</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ</title>
+		<ns>0</ns>
+		<id>300018</id>
+		<revision>
+			<id>300018</id>
+			<timestamp>2021-12-23T21-50-44Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3967">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: రాండమైజేషన్ కోసం బహుళ పాఠశాలలు]]
+			</text>
+			<sha1>t60tpv1d0lktqpee1nayswp9c5fv8c6</sha1>
+		</revision>
+	</page>
+	
+
+
+</mediawiki>

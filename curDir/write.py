@@ -27,7 +27,7 @@ possible_water_values = {
 # Buildings possible values dictionary
 possible_building_values = {
     'private': 'ప్రైవేట్', 'dilapidated': 'శిథిలావస్థకు చేరిన', 'under construction': 'నిర్మాణంలో ఉన్న', 
-    'rent free building': 'అద్దె లేని', 'rented': 'అద్దె', 'government': 'ప్రభుత్వ'
+    'rent free building': 'సొంత', 'rented': 'అద్దె', 'government': 'ప్రభుత్వ'
 }
 
 # Checks if an attribute value is valid
@@ -124,7 +124,10 @@ def getData(row, title):
 	if is_valid(enMgnt) and not is_valid(teMgnt):
 		teMgnt = get_stripped_val(row['Management_Telugu'])
 		if teMgnt == 'విద్యా శాఖ':
-			teMgnt = 'ప్రభుత్వ విద్యా శాఖ'
+			if get_stripped_lower_val(row['State']) == 'telangana':
+				teMgnt = 'తెలంగాణ ప్రభుత్వ విద్యా శాఖ'
+			else:
+				teMgnt = 'ఆంధ్రప్రదేశ్ ప్రభుత్వ విద్యా శాఖ'
 
 	village = get_stripped_lower_val(row['Village / Town_Telugu'])
 	district = get_stripped_lower_val(row['District_Telugu'])
@@ -132,7 +135,7 @@ def getData(row, title):
 	cluster = get_stripped_lower_val(row['Cluster_Telugu'])
 	PIN = get_pin_code(get_stripped_lower_val(row['PIN Code']))
 	state = "ఆంధ్రప్రదేశ్"
-	if get_stripped_lower_val(row['State'])== 'telangana':
+	if get_stripped_lower_val(row['State']) == 'telangana':
 		state = "తెలంగాణ"
 	code = get_stripped_val(row['School Code'])
 
@@ -321,7 +324,7 @@ def getWikiText(row, textTemplate):
 	title = get_stripped_val(row['School Title_Telugu'])
 	data = getData(row, title)
 	wikiText = textTemplate.render(data)
-
+	print(title)
 	return title, wikiText
 
 if __name__ == '__main__':

@@ -12,7 +12,7 @@ base_url = "https://schools.org.in/"
 def get_table_urls(url):
     global base_url
     url_list = []
-    time.sleep(0.02)
+    time.sleep(2)
     given_url_output = requests.get(url)
     given_page = bf(given_url_output.text, "html.parser")
     anchor_tags_list = given_page.find('table', class_='table table-striped').find_all('a')

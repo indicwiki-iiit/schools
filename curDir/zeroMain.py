@@ -138,11 +138,27 @@ def load_all_schools_df():
             conc = pd.concat([conc, a], axis=0)
     return conc
 
+# Incorportate translated titles into dataset
+def include_translated_titles():
+    a = pd.DataFrame()
+    with open(f'./scrape_new_data/notable_schools_org_data.pkl', 'rb') as f:
+        a = pickle.load(f)
+    print(a.shape)
+    titles = pd.read_csv('./scrape_new_data/School-titles.csv')
+    titles['School Code'] = titles['School Code'].astype(int)
+    titles.drop(columns=['Unnamed: 0'], inplace=True)
+    a = pd.merge(left=a, right=titles, how="left", on="School Code")
+    a = a.drop_duplicates('School Code')
+    with open(f'./scrape_new_data/notable_schools_org_data.pkl', 'wb') as f:
+        print(a.shape)
+        pickle.dump(a, f)  
+
 # Loads the dataset corresponding to notable schools
 def load_notable_schools_df():
     a = pd.DataFrame()
     with open(f'./scrape_new_data/notable_schools_org_data.pkl', 'rb') as f:
         a = pickle.load(f)
+    print(a.shape)
     return a
 
 # Function to replace possible special characters
@@ -202,10 +218,10 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	start = startIndex; end = endIndex
 	codes = codes[start:end]
 	# codes = [28204401308]
-	# row with most non-nulls
-	# codes = [36092600625] * 20
-	# notable schools diverse codes below
-	codes = [36011503203, 36095190748, 36093400204, 36090301120, 36095190923, 36091801140, 36091201202, 36091201303, 36091201608, 36091201629, 36091201502, 36091201804, 36095190859, 36091200810, 36095190221, 36093901829, 36091801119, 36074500110, 36092600625]
+	# row with most non-nulls - id:1000
+	codes = [36092600625] * 20
+	# notable schools diverse codes below - id:2000
+	# codes = [36011503203, 36095190748, 36093400204, 36090301120, 36095190923, 36091801140, 36091201202, 36091201303, 36091201608, 36091201629, 36091201502, 36091201804, 36095190859, 36091200810, 36095190221, 36093901829, 36091801119, 36074500110, 36092600625]
 	# overall diverse codes below
 	# codes = [28150702403, 28152702205, 28132991224, 28150800720, 28152891108, 28151890852, 28151800909, 28151800602, 28152891111, 28154000849, 36094901603, 36094903204, 36091401902, 36095190241, 36095190908, 36091201625, 36091201303, 36091201608, 36091201624, 36091201804, 36091201604, 36095190221, 36091801119, 36092600625]
 	# # codes =random.sample(codes, 10)
@@ -238,6 +254,10 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		current_df = oneKB.loc[oneKB['School Code']==code]
 		title, wikiText = '', ''
 		for idx, row in current_df.iterrows():
+			# print(row['School Title_Telugu'])
+			# print(row['telugu_corrected_title'])
+			if not (row['telugu_corrected_title'] == None or pd.isnull(row['telugu_corrected_title']) or str(row['telugu_corrected_title']) == ''):
+				row['School Title_Telugu'] = row['telugu_corrected_title']
 			title, wikiText = getWikiText(row, textTemplate)
 			#Write row to csv file
 			titleWriter.writerow([code, row['School Title'].strip(), title])
@@ -261,7 +281,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		s = '\n\n'
 		wikiText = Infobox + s + Overview + s + Details + s + Academics + s + Counts + s + Infrastructure + s + References
 		wikiText = wikiText.strip(' \n\t\r')
-		writePage(f'{title}', wikiText, fobj)
+		writePage(f'{title}-{i}', wikiText, fobj)
 
 		# Performance check
 		end = datetime.now()
@@ -295,7 +315,7 @@ def main():
         "get_teacher_info": get_teacher_info,
         "get_students_info": get_students_info,
         "get_gender_info": get_gender_info,
-        "get_management_info": get_management_info,
+        "get_management_area_info": get_management_area_info,
         "get_nearby_schools": get_nearby_schools,
         "get_board_info": get_board_info,
         "get_residential_details": get_residential_details,

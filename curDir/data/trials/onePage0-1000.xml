@@ -1,0 +1,1788 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="te">
+	<siteinfo>
+		<sitename>tewiki</sitename>
+		<dbname>indicwiki</dbname>
+		<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+		<generator>MediaWiki 1.34.0</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">మీడియా</namespace>
+			<namespace key="-1" case="first-letter">ప్రత్యేక</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">చర్చ</namespace>
+			<namespace key="2" case="first-letter">వాడుకరి</namespace>
+			<namespace key="3" case="first-letter">వాడుకరి చర్చ</namespace>
+			<namespace key="4" case="first-letter">Project</namespace>
+			<namespace key="5" case="first-letter">Project చర్చ</namespace>
+			<namespace key="6" case="first-letter">దస్త్రం</namespace>
+			<namespace key="7" case="first-letter">దస్త్రంపై చర్చ</namespace>
+			<namespace key="8" case="first-letter">మీడియావికీ</namespace>
+			<namespace key="9" case="first-letter">మీడియావికీ చర్చ</namespace>
+			<namespace key="10" case="first-letter">మూస</namespace>
+			<namespace key="11" case="first-letter">మూస చర్చ</namespace>
+			<namespace key="12" case="first-letter">సహాయం</namespace>
+			<namespace key="13" case="first-letter">సహాయం చర్చ</namespace>
+			<namespace key="14" case="first-letter">వర్గం</namespace>
+			<namespace key="15" case="first-letter">వర్గం చర్చ</namespace>
+			<namespace key="120" case="first-letter">Item</namespace>
+			<namespace key="121" case="first-letter">Item talk</namespace>
+			<namespace key="122" case="first-letter">Property</namespace>
+			<namespace key="123" case="first-letter">Property talk</namespace>
+			<namespace key="482" case="first-letter">Config</namespace>
+			<namespace key="483" case="first-letter">Config talk</namespace>
+			<namespace key="710" case="first-letter">TimedText</namespace>
+			<namespace key="711" case="first-letter">TimedText talk</namespace>
+			<namespace key="828" case="first-letter">మాడ్యూల్</namespace>
+			<namespace key="829" case="first-letter">మాడ్యూల్ చర్చ</namespace>
+			<namespace key="2300" case="first-letter">Gadget</namespace>
+			<namespace key="2301" case="first-letter">Gadget talk</namespace>
+			<namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+			<namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+			<namespace key="2600" case="first-letter">Topic</namespace>
+			<namespace key="3022" case="first-letter">Tewiki</namespace>
+			<namespace key="3023" case="first-letter">Tewiki talk</namespace>
+		</namespaces>
+	</siteinfo>
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-0</title>
+		<ns>0</ns>
+		<id>300000</id>
+		<revision>
+			<id>300000</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3931">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 10 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>t0ln9fxstr6xarzgn9wrrymf3r6ng54</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-1</title>
+		<ns>0</ns>
+		<id>300001</id>
+		<revision>
+			<id>300001</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3926">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>kvox1rlpryx7nvib5boamcwdzj9gh7g</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-2</title>
+		<ns>0</ns>
+		<id>300002</id>
+		<revision>
+			<id>300002</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3917">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రభుత్వ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 10 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>g2c42h64h8j6z1nsm4j76qrt2owgxd7</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-3</title>
+		<ns>0</ns>
+		<id>300003</id>
+		<revision>
+			<id>300003</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3902">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రభుత్వ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>54lolbj2thrnkp5w75xmz19v4mgat42</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-4</title>
+		<ns>0</ns>
+		<id>300004</id>
+		<revision>
+			<id>300004</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3938">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>kkoxqnpk0mx0r2f1sijxppdnpv237eg</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-5</title>
+		<ns>0</ns>
+		<id>300005</id>
+		<revision>
+			<id>300005</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3917">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 10 మరుగుదొడ్లు, బాలుర కొరకు 4 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>l0utxd6t2z3aaldhuc7ihcl5w6oaxf9</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-6</title>
+		<ns>0</ns>
+		<id>300006</id>
+		<revision>
+			<id>300006</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3936">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ విద్యార్థులు ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 10 మరుగుదొడ్లు, బాలుర కొరకు 4 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>l9kef9q08uiedd9mdbrj3mm3bztgfu3</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-7</title>
+		<ns>0</ns>
+		<id>300007</id>
+		<revision>
+			<id>300007</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3872">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రభుత్వ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 10 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>nykjxjv1kuqipizjutkd1nkccdj6ock</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-8</title>
+		<ns>0</ns>
+		<id>300008</id>
+		<revision>
+			<id>300008</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3910">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 10 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>26zd4kq3rqiz0wbk0mivvw0sj2yfhqs</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-9</title>
+		<ns>0</ns>
+		<id>300009</id>
+		<revision>
+			<id>300009</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3955">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ విద్యార్థులు ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యను అభ్యసిస్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>q7n5k222d1rhi8x3vdjr55mwxrbhz6x</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-10</title>
+		<ns>0</ns>
+		<id>300010</id>
+		<revision>
+			<id>300010</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3932">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>4ucve2q5du3srm7wkcb3z05b0lry441</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-11</title>
+		<ns>0</ns>
+		<id>300011</id>
+		<revision>
+			<id>300011</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3913">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>cp76dvngc38doe4vc3f1lp1f8yyrj3e</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-12</title>
+		<ns>0</ns>
+		<id>300012</id>
+		<revision>
+			<id>300012</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3898">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పనిచేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు, మొత్తం ఇరవై మంది ఉపాధ్యాయులు పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ 4 బాలుర మరుగుదొడ్లు, 10 బాలికల మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>jckv17it6jjgn16h1sqsv8a1qklthdl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-13</title>
+		<ns>0</ns>
+		<id>300013</id>
+		<revision>
+			<id>300013</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3912">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 10 మరుగుదొడ్లు, బాలుర కొరకు 4 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, వీటికి ల్యాబ్ సౌకర్యం లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>7jiof9pfz0tw5d4urzmbidq925tvjzl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-14</title>
+		<ns>0</ns>
+		<id>300014</id>
+		<revision>
+			<id>300014</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3939">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. మొత్తం ఇరవై మంది ఉపాధ్యాయులలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు ఇక్కడ పని చేస్తున్నారు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ప్రభుత్వ భవనంలో స్థాపించబడిన ఈ పాఠశాలలో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. దీనిలో 350 పుస్తకాలు ఉన్నాయి. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>iairn0q49ig9j8hsfbb2dfkhi1xqs3i</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-15</title>
+		<ns>0</ns>
+		<id>300015</id>
+		<revision>
+			<id>300015</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3911">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలికల కొరకు 10 మరుగుదొడ్లు, బాలుర కొరకు 4 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>f06wbaaffnp1i2xzs7jaeej8neqcjlq</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-16</title>
+		<ns>0</ns>
+		<id>300016</id>
+		<revision>
+			<id>300016</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3926">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో బోధిస్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలలో త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి, విద్యుత్ సౌకర్యము కలదు. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట స్థలం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>ay2gc9qzdxczegepsurytv6zg8xzy75</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-17</title>
+		<ns>0</ns>
+		<id>300017</id>
+		<revision>
+			<id>300017</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3960">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+గ్రామీణ ప్రాంతానికి చెందిన ఈ పాఠశాల 2013 లో స్థాపించబడి, తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఇది ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కొరకు ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>j2i0x2ftps368vbtttzp4cpvv26dwjb</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-18</title>
+		<ns>0</ns>
+		<id>300018</id>
+		<revision>
+			<id>300018</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3956">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. ఈ గ్రామం వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఉన్నది. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో విద్యా బోధన జరుగుతుంది. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తున్న ఈ పాఠశాల 2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడినది.
+ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఇక్కడ 10, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ నిర్మించబడినది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో 8 కంప్యూటర్లు ఉన్నాయి, కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>t60tpv1d0lktqpee1nayswp9c5fv8c6</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	<page>
+		<title>తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ-19</title>
+		<ns>0</ns>
+		<id>300019</id>
+		<revision>
+			<id>300019</id>
+			<timestamp>2021-12-23T22-02-43Z</timestamp>
+			<contributor>
+				<username>TeWikiSchoolBot</username>
+				<id>57</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3931">{{Infobox school
+	| name = తెలంగాణ మోడల్ పాఠశాల, నెక్కొండ
+	| city = నెక్కొండ గ్రామం, వరంగల్ జిల్లా
+	| district = వరంగల్ జిల్లా
+	| state = తెలంగాణ
+	| zipcode = 506122
+	| established = 2013
+	| country = భారతదేశము
+    | grades_label = తరగతులు
+	| grades = 6 - 12
+	| medium = ఇంగ్లీష్
+    | free_label = ఉపాధ్యాయులు
+	| free_text = ఇరవై మంది ఉపాధ్యాయులు
+}}
+
+ఈ పాఠశాల నెక్కొండ గ్రామంలో ఉన్నది. వరంగల్ జిల్లాలోని నెక్కొండ మండల పరిధిలోని జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండ క్లస్టర్లో ఈ గ్రామం కలదు. తెలంగాణ ప్రభుత్వ విద్యా శాఖ నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ఇక్కడ ఆరవ తరగతి నుండి పన్నెండవ తరగతి వరకు ఇంగ్లీష్ మాధ్యమంలో చదువు చెప్తారు. ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ 506122.
+
+==గుర్తింపు, స్థానం==
+2013 వ సంవత్సరం లో గ్రామీణ ప్రాంతంలో స్థాపించబడిన ఈ పాఠశాల తెలంగాణ ప్రభుత్వ విద్యా శాఖ ఆధ్వర్యంలో పని చేస్తుంది.
+ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ 36092600625. ఈ పాఠశాలకు సమీపంలో [https://schools.org.in/warangal/36092600702/mpps-pathipaka-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) పత్తిపాక తండ], [https://schools.org.in/warangal/36092600621/harshavardhan-jr-college.html హర్షవర్ధన్ జె.ఆర్. కాలేజ్], [https://schools.org.in/warangal/36092601302/mpps-gangadevi-thanda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) గంగాదేవి తండ], [https://schools.org.in/warangal/36092601406/zphs-appalraopeta.html జిల్లా పరిషత్ ఉన్నత పాఠశాల (ZPHS) అప్పల్రావోపేట], [https://schools.org.in/warangal/36092600626/father-colombo-memorial-ups.html ఫతర్ కొలంబో మెమోరియల్ ప్రాథమికోన్నత పాఠశాల], [https://schools.org.in/warangal/36092600618/sneha-hs-nekkonda.html స్నేహ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600614/montessori-hs-nekkonda.html మాంటిస్సోరి ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092600611/tsreis-hs-nekkonda.html ట్స్రీస్ ఉన్నత పాఠశాల నెక్కొండ], [https://schools.org.in/warangal/36092601301/mpps-venkatapur.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) వెంకటాపూర్], [https://schools.org.in/warangal/36092600601/mpps-nekkonda.html మండల పరిషత్ ప్రాథమిక పాఠశాల (MPPS) నెక్కొండ] మొదలైన పాఠశాలలు కలవు.
+
+
+==విద్యా వివరాలు==
+ఈ పాఠశాల ఒక రెసిడెన్షియల్ మోడల్ స్కూల్. ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు లేవు. ఈ పాఠశాల లో 10 వ తరగతి, 10+2 తరగతులకు స్టేట్ బోర్డ్ సిలబస్ ను అనుసరిస్తారు. 
+
+ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది.
+
+
+==విద్యార్థులు, ఉపాధ్యాయులు==
+ఇది బాల బాలికల పాఠశాల. ఇక్కడ మొత్తం ఇరవై మంది ఉపాధ్యాయులు ఉన్నారు. వీరిలో ఎనిమిది మంది ఉపాధ్యాయులు , పన్నెండు మంది ఉపాధ్యాయినులు. 
+ఈ పాఠశాల ప్రధాన ఉపాధ్యాయుడి పేరు వ్యూ.కిరణ్ క్వార్.
+
+
+==మౌలిక సదుపాయాలు==
+* ఒక ప్రభుత్వ భవనంలో ఈ పాఠశాల స్థాపించబడినది, ఇందులో 6 తరగతి గదులు ఉన్నాయి. 
+* ఇక్కడ బాలుర కొరకు 4 మరుగుదొడ్లు, బాలికల కొరకు 10 మరుగుదొడ్లు ఉన్నాయి. 
+* ఈ పాఠశాలకు విద్యుత్ సౌకర్యము కలదు, త్రాగు నీరు కొరకు హ్యాండ్ పంప్స్ ఉన్నాయి. 
+* ఈ పాఠశాల చుట్టూ పక్కా ప్రహరీ గోడ ఉంది. 
+* వికలాంగ విద్యార్థుల కోసం ర్యాంప్‌లు ఏర్పాటు చేయబడ్డాయి. 
+* ఈ పాఠశాలలో లైబ్రరీ ఉంది. ఈ లైబ్రరీలో ఉన్న పుస్తకాల సంఖ్య 350. 
+* ఈ పాఠశాలలో ఆట మైదానం ఉంది. 
+* ఈ పాఠశాలలో కంప్యూటర్ ఎయిడెడ్ లెర్నింగ్ ల్యాబ్ లేదు. ఇక్కడ 8 కంప్యూటర్లు ఉన్నాయి.
+
+==మూలాలు==
+* {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}
+* {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}
+
+[[వర్గం:తెవికి పాఠశాలలు]]
+[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:పాఠశాలలు]]
+[[వర్గం:విద్యాసంస్థలు]]
+[[వర్గం:భారతదేశము లో పాఠశాలలు]]
+[[వర్గం:భారతదేశము లో విద్యాసంస్థలు]]
+[[వర్గం:తెలంగాణ లో పాఠశాలలు]]
+[[వర్గం:తెలంగాణ విద్యాసంస్థలు]]
+[[వర్గం:వరంగల్జిల్లా పాఠశాలలు]]
+[[వర్గం:వరంగల్జిల్లా విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:జిల్లా పరిషత్ ఉన్నత పాఠశాల (zphs) నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం:నెక్కొండలో పాఠశాలలు]]
+[[వర్గం:నెక్కొండలో విద్యాసంస్థలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
+			</text>
+			<sha1>3xxx2wnq2yfc2lua090ikvpr099cprz</sha1>
+		</revision>
+	</page>
+	
+
+
+</mediawiki>

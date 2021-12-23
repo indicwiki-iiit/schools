@@ -45,39 +45,39 @@
 {{'}}\n'}}
 {%- endmacro -%}
 
-{%- macro intro(village, district, block, cluster, PIN, schToken, teMgnt) -%}
+{%- macro intro(village, district, block, cluster, schToken, teMgnt) -%}
 	{%- set line =[
 			get_intro_line_1(village, district, block, cluster, schToken),
 			get_intro_line_2(village, district, block, cluster, schToken)
 		]|random
 	-%}
 	{{- line -}}
-	{%- if is_valid(PIN) -%}
-		{{- "ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ " + PIN |string + ". " -}}
-	{%- endif -%}
 	{%- if teMgnt|length > 1 -%}
 		{%- set line =[
-				teMgnt+" నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ",
-				"ఇది "+teMgnt+" నిర్వహణలో పని చేస్తుంది. "
+				teMgnt + " నిర్వహణలో ఈ పాఠశాల పని చేస్తుంది. ",
+				"ఈ పాఠశాల " + teMgnt + " నిర్వహణలో పని చేస్తుంది. ",
+				"ఈ పాఠశాల " + teMgnt + " ఆధ్వర్యంలో పనిచేస్తుంది. "
 			]|random
 		-%}
 		{{line}}
 	{%- endif -%}
 {%- endmacro -%}
 
-{%- macro classes(lo, hi, medium, extraDesc) -%}
+{%- macro classes(lo, hi, medium, extraDesc, PIN) -%}
 	{%- if loInt==1 -%}
 		{%- set line =[
 				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
-				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'బోధన చేస్తారు. '),
-				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'చదువు చెప్తారు. ')
+				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు. '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'చదువు చెప్తారు. '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది. ')
 			]|random
 		-%}
 	{%- else -%}
 		{%- set line =[
-				get_class_info(lo |string, hi |string, medium, 'ఇందులో ', 'భోదించబడుతుంది. '),
-				get_class_info(lo |string, hi |string, medium, 'ఇందులో విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
-				get_class_info(lo |string, hi |string, medium, 'ఇందులో ', 'చదువు చెప్తారు. ')
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది. '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు. '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'చదువు చెప్తారు. ')
 			]|random
 		-%}
 	{%- endif -%}
@@ -86,34 +86,34 @@
 	{%- else -%}
 		{{line}}
 	{%- endif -%}
+	{%- if is_valid(PIN) -%}
+		{{- [
+				"ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ " + PIN |string + ". ", 
+				"ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ " + PIN |string + ". "
+			] |random -}}
+	{%- endif -%}
 	{{- "\n" -}}
 {%- endmacro -%}
 
 {%- macro codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -%}
 ==గుర్తింపు, స్థానం==
     {{- "\n" -}}
-	{%- set line =[
-			"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ " + code + ". ",
-			"ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ఈ పాఠశాలకు నియమించిన కోడ్ " + code + ". "
-		]|random
-	-%}
-	{{- line -}}
-	{{- get_management_info(teMgnt, establishment) |random -}}
-	{%- if is_valid(area) -%}
-		{{- [
-				"ఈ పాఠశాల " + area + " ప్రాంతానికి చెందినది. ", 
-				area + " ప్రాంతంలో ఈ పాఠశాల ఉన్నది. "
-			] |random -}}
-	{%- endif -%}
+	{{- get_management_area_info(teMgnt, establishment, area) |random -}}
 	{%- if shifted_to_new_place -%}
 		{{- [
 				"ఈ పాఠశాల వేరే ప్రదేశానికి మార్చబడింది. ", 
 				"ప్రస్తుతం ఈ పాఠశాల వేరే ప్రదేశానికి మార్చబడింది. "
 			] |random -}}
 	{%- endif -%}
+	{%- set line =[
+			"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ " + code + ". ",
+			"ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ " + code + ". "
+		]|random
+	-%}
+	{{- line -}}
 	{%- if is_valid(nearby_schools) -%}
 		{{- [
-				"ఈ పాఠశాలకు సమీపంలో ఉన్న ఇతర పాఠశాలలు " + get_nearby_schools(nearby_schools) + ". ", 
+				"ఈ పాఠశాలకు సమీపంలో " + get_nearby_schools(nearby_schools) + " మొదలైన పాఠశాలలు కలవు. ", 
 				get_nearby_schools(nearby_schools) + " మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి. "
 			]|random -}}
 	{%- endif -%}
@@ -121,6 +121,7 @@
 {%- endmacro -%}
 
 {%- macro academicInfo(is_primary_section_available, board_for_class_10, board_for_class_10_2, meal, is_residential, residential_type) -%}
+	{{- get_residential_details(is_residential, residential_type) |random -}}
 	{%- if is_primary_section_available -%}
 		{{- [
 				"ఈ పాఠశాల లో ప్రీ ప్రైమరీ తరగతులు ఉన్నవి. ", 
@@ -134,12 +135,12 @@
 	{%- if meal -%}
 		{{- [
 				"ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడుతుంది. ", 
-				"ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు. "
+				"ఈ పాఠశాలలో విద్యార్థులకు మధ్యాహ్నం భోజన సౌకర్యము కలదు. ",
+				"ఈ పాఠశాలలో మధ్యాహ్నం భోజన పథకం అమలులో ఉంది. "
 			]|random -}}
 	{%- else -%}
 		{{- "ఈ పాఠశాలలో మధ్యాహ్నం భోజనం అందించబడదు. " -}}
 	{%- endif -%}
-	{{- get_residential_details(is_residential, residential_type) |random -}}
 	{{- "\n" -}}
 {%- endmacro -%}
 
@@ -216,7 +217,12 @@
 		{%- if is_valid(totalTeachers) -%}
 			{% if teacherCount.update({'info':totalTeachers+' ఉపాధ్యాయులు'}) %} {% endif %}
 		{%- endif -%}
-		{%- set line=get_teacher_info(mToken + fToken, totalTeachers |string) |random -%}
+		{%- if mToken == '' -%}
+			{%- set token = fToken -%}
+		{%- else -%}
+			{%- set token = mToken + ', ' + fToken -%}
+		{%- endif -%}		
+		{%- set line=get_teacher_info(token, totalTeachers |string) |random -%}
 	{%- endif -%}
 	{{line}}
 	{{- "\n" -}}
@@ -273,13 +279,13 @@
 {%- if is_valid(village) %}
 [[వర్గం:{{village}}లో పాఠశాలలు]]
 [[వర్గం:{{village}}లో విద్యాసంస్థలు]]
-[[వర్గం: రాండమైజేషన్ కొరకు బహుళ పాఠశాలలు]]
+[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
 {%- endif -%}
 {%- endmacro -%}
 
 {#- Article written from here -#}
-{{- intro(village, district, block, cluster, PIN, schToken, teMgnt) -}}
-{{- classes(lo, hi, medium, extraDesc) -}}
+{{- intro(village, district, block, cluster, schToken, teMgnt) -}}
+{{- classes(lo, hi, medium, extraDesc, PIN) -}}
 <$>
 {{- codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -}}
 <$>
