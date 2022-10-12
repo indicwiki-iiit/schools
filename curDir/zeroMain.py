@@ -159,11 +159,17 @@ def load_notable_schools_df():
     with open(f'./scrape_new_data/notable_schools_org_data.pkl', 'rb') as f:
         a = pickle.load(f)
     print(a.shape)
-    return a
+    b = {}
+    with open(f'./scrape_new_data/school_urls_dict.pkl', 'rb') as f:
+        b = pickle.load(f)
+    return a, b
 
 # Function to replace possible special characters
-def clean(text):
-	return text.replace('&',"&amp;").replace('<',"&lt;").replace('>',"&gt;").replace('"',"&quot;").replace("'","&apos;").replace("^", "&circ;").replace('~', '&tilde;')
+def clean(text, isTitle):
+    cleaned_text = text.replace('&',"&amp;").replace('<',"&lt;").replace('>',"&gt;").replace('"',"&quot;").replace("'","&apos;").replace("^", "&circ;").replace('~', '&tilde;')
+    if not isTitle:
+        return cleaned_text
+    return cleaned_text.replace('_'," ")
 
 def writePage(title, wikiText, fobj):
 	global user_id, username
@@ -173,7 +179,7 @@ def writePage(title, wikiText, fobj):
 	
 	curPage ='''\n\n
 	<page>
-		<title>''' +clean(title) +'''</title>
+		<title>''' +clean(title, True) +'''</title>
 		<ns>0</ns>
 		<id>''' +str(page_id) +'''</id>
 		<revision>
@@ -186,7 +192,7 @@ def writePage(title, wikiText, fobj):
 			<comment>xmlpage created</comment>
 			<model>wikitext</model>
 			<format>text/x-wiki</format>
-			<text xml:space="preserve" bytes="''' +str(pglen) +'''">''' +clean(wikiText) +'''
+			<text xml:space="preserve" bytes="''' +str(pglen) +'''">''' +clean(wikiText, False) +'''
 			</text>
 			<sha1>''' +sha36(page_id) +'''</sha1>
 		</revision>
@@ -211,15 +217,18 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 	# Load Data
 	global dataFolder, page_id
 	# School Data and the ready codes
-	oneKB = load_notable_schools_df()
-	codes =pickle.load(open(dataFolder+'readyCodes.pkl', 'rb'))
+	oneKB, urls_dict = load_notable_schools_df()
+	# codes =pickle.load(open(dataFolder+'readyCodes.pkl', 'rb'))
 
 	# Get list of codes to generate articles for
 	start = startIndex; end = endIndex
-	codes = codes[start:end]
+	# codes = oneKB['School Code'].astype(int).tolist()
+	with open('./scrape_new_data/important_schools.json', 'r') as _f:
+		codes = json.load(_f)
+	# codes = codes[start:end]
 	# codes = [28204401308]
 	# row with most non-nulls - id:1000
-	codes = [36092600625] * 20
+	# codes = [36092600625] * 1
 	# notable schools diverse codes below - id:2000
 	# codes = [36011503203, 36095190748, 36093400204, 36090301120, 36095190923, 36091801140, 36091201202, 36091201303, 36091201608, 36091201629, 36091201502, 36091201804, 36095190859, 36091200810, 36095190221, 36093901829, 36091801119, 36074500110, 36092600625]
 	# overall diverse codes below
@@ -258,18 +267,18 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 			# print(row['telugu_corrected_title'])
 			if not (row['telugu_corrected_title'] == None or pd.isnull(row['telugu_corrected_title']) or str(row['telugu_corrected_title']) == ''):
 				row['School Title_Telugu'] = row['telugu_corrected_title']
-			title, wikiText = getWikiText(row, textTemplate)
+			title, wikiText = getWikiText(row, textTemplate, urls_dict[str(row['School Code'])])
 			#Write row to csv file
 			titleWriter.writerow([code, row['School Title'].strip(), title])
 		# Save intermediate representation to a dataframe, ArticleParts
 		parts = tuple([p.strip(' \n\t\r') for p in wikiText.split('<$>')])
 		Overview, Details, Academics, Counts, Infrastructure, References, Infobox = parts
 		if len(Counts) > 0:
-			Counts = '\n==విద్యార్థులు, ఉపాధ్యాయులు==\n' + Counts
+			Counts = '\n===బోధనా సిబ్బంది===\n' + Counts
 		if len(Infrastructure) > 0:
-			Infrastructure = '\n==మౌలిక సదుపాయాలు==\n' + Infrastructure
+			Infrastructure = '\n===మౌలిక సదుపాయాలు===\n' + Infrastructure
 		if len(Academics) > 0:
-			Academics = '\n==విద్యా వివరాలు==\n' + Academics
+			Academics = '\n==విద్యాలయ వివరాలు==\n' + Academics
 		
 		details =json.dumps({'PageID':page_id, 'Code':code, 'Title':title.strip(), 'Infobox':Infobox, 'Overview':Overview, 
 					'Details':Details, 'Counts':Counts, 'References':References, 'Academics': Academics, 'Infrastructure': Infrastructure, 'Facilities':'', 'Extracurricular':'', 
@@ -281,7 +290,7 @@ def generateXmlAndSaveDF(wikiSiteInfo, textTemplate, startIndex=int(sys.argv[1])
 		s = '\n\n'
 		wikiText = Infobox + s + Overview + s + Details + s + Academics + s + Counts + s + Infrastructure + s + References
 		wikiText = wikiText.strip(' \n\t\r')
-		writePage(f'{title}-{i}', wikiText, fobj)
+		writePage(f'{title}', wikiText, fobj)
 
 		# Performance check
 		end = datetime.now()

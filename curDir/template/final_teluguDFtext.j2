@@ -63,21 +63,21 @@
 	{%- endif -%}
 {%- endmacro -%}
 
-{%- macro classes(lo, hi, medium, extraDesc, PIN) -%}
+{%- macro classes(lo, hi, medium, extraDesc) -%}
 	{%- if loInt==1 -%}
 		{%- set line =[
-				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
-				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు. '),
-				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'చదువు చెప్తారు. '),
-				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది. ')
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు, '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు, '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ విద్యార్థులకు ', 'బోధన ఉంటుంది, '),
+				get_class_info(None, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది, ')
 			]|random
 		-%}
 	{%- else -%}
 		{%- set line =[
-				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది. '),
-				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు. '),
-				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు. '),
-				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'చదువు చెప్తారు. ')
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'విద్యా బోధన జరుగుతుంది, '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'బోధిస్తారు, '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ విద్యార్థులు ', 'విద్యను అభ్యసిస్తారు, '),
+				get_class_info(lo |string, hi |string, medium, 'ఇక్కడ ', 'బోధన ఉంటుంది, ')
 			]|random
 		-%}
 	{%- endif -%}
@@ -86,17 +86,20 @@
 	{%- else -%}
 		{{line}}
 	{%- endif -%}
-	{%- if is_valid(PIN) -%}
-		{{- [
-				"ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ " + PIN |string + ". ", 
-				"ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ " + PIN |string + ". "
-			] |random -}}
-	{%- endif -%}
+{%- endmacro -%}
+
+{%- macro schoolCode(code) -%}
+	{%- set line =[
+			"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ " + code + ". ",
+			"ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ " + code + ". "
+		]|random
+	-%}
+	{{- line -}}
 	{{- "\n" -}}
 {%- endmacro -%}
 
-{%- macro codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -%}
-==గుర్తింపు, స్థానం==
+{%- macro locality(teMgnt, establishment, area, shifted_to_new_place, nearby_schools, PIN) -%}
+==గుర్తింపు==
     {{- "\n" -}}
 	{{- get_management_area_info(teMgnt, establishment, area) |random -}}
 	{%- if shifted_to_new_place -%}
@@ -105,16 +108,16 @@
 				"ప్రస్తుతం ఈ పాఠశాల వేరే ప్రదేశానికి మార్చబడింది. "
 			] |random -}}
 	{%- endif -%}
-	{%- set line =[
-			"ఈ పాఠశాల ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) కోడ్ " + code + ". ",
-			"ఏకీకృత జిల్లా సమాచార విద్యా వ్యవస్థ ([http://udise.in/ U-DISE]) ఈ పాఠశాలకు నియమించిన కోడ్ " + code + ". "
-		]|random
-	-%}
-	{{- line -}}
-	{%- if is_valid(nearby_schools) -%}
+	{%- if is_valid(PIN) -%}
 		{{- [
-				"ఈ పాఠశాలకు సమీపంలో " + get_nearby_schools(nearby_schools) + " మొదలైన పాఠశాలలు కలవు. ", 
-				get_nearby_schools(nearby_schools) + " మొదలైన పాఠశాలలు ఈ పాఠశాలకు సమీపంలో ఉన్నవి. "
+				"ఈ పాఠశాల ఉన్న ప్రాంతం పిన్ కోడ్ " + PIN |string + ". ", 
+				"ఈ పాఠశాల ఉన్న గ్రామం పిన్ కోడ్ " + PIN |string + ". "
+			] |random -}}
+	{%- endif -%}
+	{%- if is_valid(nearby_schools) -%}
+	{{- "\n===సమీప పాఠశాల వివరాలు===\n" -}}
+		{{- [
+				"ఈ పాఠశాల కు సమీపంలో ఈ విద్యాసంస్థలు కలవు: " + get_nearby_schools(nearby_schools) + ". ", 
 			]|random -}}
 	{%- endif -%}
 	{{- "\n" -}}
@@ -145,7 +148,6 @@
 {%- endmacro -%}
 
 {%- macro studentsCount(sType, bInt, gInt, bCount, gCount, totalStudents, endBCount, endGCount) -%}
-	{{- "\n" -}}
 	{%- set refLine = "2017-18 విద్యా సంవత్సరములొ నేషనల్ యూనివర్శిటీ ఆఫ్ ఎడ్యుకేషనల్ ప్లానింగ్ అండ్ అడ్మినిస్ట్రేషన్ ([https://www.indiaeducation.net/apexbodies/nuepa/ NUEPA]) జరిపిన సర్వే ఆధారముగా " -%}
 	{%- if not is_valid(bInt) -%}
 		{%-set bToken=''-%}
@@ -203,9 +205,9 @@
 		{%- if not is_valid(mInt) -%}
 			{%-set mToken=''-%}
 		{%- elif mInt==1 -%}
-			{%-set mToken=mCount+' ఉపాధ్యాయుడు '-%}
+			{%-set mToken=mCount+' ఉపాధ్యాయుడు'-%}
 		{%- else -%}
-			{%-set mToken=mCount+' ఉపాధ్యాయులు '-%}
+			{%-set mToken=mCount+' ఉపాధ్యాయులు'-%}
 		{%- endif -%}
 		{%- if not is_valid(fInt) -%}
 			{%-set fToken=''-%}
@@ -247,13 +249,10 @@
 
 {%- macro references(county, state, district, block, village, cluster) -%}
 ==మూలాలు== 
+{{'{{reflist}}'}} 
 {{- "\n" -}}
-* {{- " {{cite web |title =School Directory |url = http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx |website = schoolreportcards.in }}" -}}
-{{- "\n" -}}
-* {{- " {{cite web|title=Mid Day Meals| url=https://apmdm.apcfss.in/MIDDAYMEALS17/mdmSchoolAttendanceMonthwise.htm| website=apmdm.apcfss.in}}" -}}
-{{- "\n\n" -}}
 [[వర్గం:తెవికి పాఠశాలలు]]
-[[వర్గం:తెవికి పాఠశాలల నమూనాలు]]
+[[వర్గం:తెవికి నమూనా పాఠశాలలు]]
 [[వర్గం:పాఠశాలలు]]
 [[వర్గం:విద్యాసంస్థలు]]
 {%- if is_valid(country) %}
@@ -279,21 +278,21 @@
 {%- if is_valid(village) %}
 [[వర్గం:{{village}}లో పాఠశాలలు]]
 [[వర్గం:{{village}}లో విద్యాసంస్థలు]]
-[[వర్గం: ఒక పాఠశాల బహుళ వెర్షన్లు]]
 {%- endif -%}
 {%- endmacro -%}
 
 {#- Article written from here -#}
 {{- intro(village, district, block, cluster, schToken, teMgnt) -}}
-{{- classes(lo, hi, medium, extraDesc, PIN) -}}
+{{- classes(lo, hi, medium, extraDesc) -}}
+{{- studentsCount(sType, bInt, gInt, bCount, gCount, totalStudents, endBCount, endGCount) -}}
+{{- schoolCode(code) -}}{{- "<ref>[" + school_url + " " + title + "]</ref>" -}}
 <$>
-{{- codeAndLocality(code, teMgnt, establishment, area, shifted_to_new_place, nearby_schools) -}}
+{{- locality(teMgnt, establishment, area, shifted_to_new_place, nearby_schools, PIN) -}}
 <$>
 {{- academicInfo(is_primary_section_available, board_for_class_10, board_for_class_10_2, meal, is_residential, residential_type) -}}
 <$>
-{{- studentsCount(sType, bInt, gInt, bCount, gCount, totalStudents, endBCount, endGCount) -}}
 {{- teachersCount(mInt, mCount, fInt, fCount, totalTeachers) -}}
-{{- teacherPositions(pre_primary_teachers_count, head_teachers_count, head_teachers_name) -}}
+{{- teacherPositions(pre_primary_teachers_count, head_teachers_count, head_teachers_name) -}}{{- "<ref>[http://schoolreportcards.in/SRC-New/SchoolDirectory/Directory.aspx School Directory]</ref>" -}}
 <$>
 {{- infrastructure(building, class_rooms, boys_toilets, girls_toilets, electricity, drinking_water, wall, ramps_for_disabled, library, books_count, playground, computer_aided_learning, computers) -}}
 <$>

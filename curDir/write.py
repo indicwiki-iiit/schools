@@ -115,7 +115,7 @@ def get_pin_code(pin):
     return zip_code
 
 # For teluguText.j2
-def getData(row, title):
+def getData(row, title, school_url):
     
     # SCHCAT_DESC -- Classes
 	enName = get_stripped_val(row['School Title'])
@@ -148,8 +148,10 @@ def getData(row, title):
 	if get_stripped_lower_val(row['School Area']) == 'rural':
 		area = "గ్రామీణ"
 	shifted_to_new_place = get_stripped_lower_val(row['School Shifted to New Place']) == 'yes'
-	nearby_schools = ast.literal_eval(get_stripped_val(row['nearby_schools_Telugu']))
- 
+	try:
+		nearby_schools = ast.literal_eval(get_stripped_val(row['nearby_schools_Telugu']))
+	except:
+		nearby_schools = []
 	is_primary_section_available = get_stripped_lower_val(row['Pre Primary Sectin Avilable']) == 'yes'
 	board_for_class_10 = get_stripped_lower_val(row['Board for Class 10th_Telugu'])
 	board_for_class_10_2 = get_stripped_lower_val(row['Board for Class 10+2_Telugu'])
@@ -195,6 +197,7 @@ def getData(row, title):
 
 	data = {
 		# intro(village, district, block, cluster, PIN, schToken, teMgnt)
+		"school_url": school_url,
 		"title": title,
 		"village": village,
 		"district": district,
@@ -305,7 +308,11 @@ def get_translated_data(row):
         curr_row += ['', '']
     else:
         curr_row += [wall, possible_wall_values[wall]]
-    n_schools, nearby_schools_eng, nearby_schools_tel = ast.literal_eval(get_stripped_val(row['Nearby Schools'])), [], []
+    nearby_schools_eng, nearby_schools_tel = [], []
+    try:
+    	n_schools = ast.literal_eval(get_stripped_val(row['Nearby Schools']))
+    except:
+        n_schools = []
     if not is_valid(n_schools):
         curr_row += [[], []]
     else:
@@ -320,9 +327,9 @@ def get_translated_data(row):
         curr_row += req_val
     return curr_row
 
-def getWikiText(row, textTemplate):
+def getWikiText(row, textTemplate, school_url):
 	title = get_stripped_val(row['School Title_Telugu'])
-	data = getData(row, title)
+	data = getData(row, title, school_url)
 	wikiText = textTemplate.render(data)
 	print(title)
 	return title, wikiText
